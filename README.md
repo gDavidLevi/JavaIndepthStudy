@@ -33,7 +33,7 @@ CREATE UNIQUE INDEX Users_uuid_uindex ON flask.Users (uuid);
 INSERT INTO flask.Users (id, login, password, nickname, email, uuid) VALUES (1, 'admin', 'admin', 'I''am admin', 'gDavidLevy@gmail.com', '1000');
 ```
 
-2. Настройка подключения к БД находятся в файле "{Server}/resources/hibernate.cfg.xml":
+2. Настройка подключения к БД находятся в модуле {Server} в файле "resources/hibernate.cfg.xml":
 ```xml
 <?xml version='1.0' encoding='utf-8'?>
 <!DOCTYPE hibernate-configuration PUBLIC
