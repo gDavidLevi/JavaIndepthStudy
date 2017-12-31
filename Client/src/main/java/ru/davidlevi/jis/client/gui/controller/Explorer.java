@@ -84,6 +84,20 @@ public class Explorer {
         clientInterface.changeDir("/");
         lblCurrentRemoteFolder.setText("/");
 
+        /* Tooltip */
+        final Tooltip tooltipImgHome = new Tooltip();
+        final Tooltip tooltipImgBack = new Tooltip();
+        final Tooltip tooltipImgPath = new Tooltip();
+        final Tooltip tooltipImgInfo = new Tooltip();
+        tooltipImgHome.setText("Ноme");
+        tooltipImgBack.setText("Back");
+        tooltipImgPath.setText("Path");
+        tooltipImgInfo.setText("Information about data transmission or reception.");
+        Tooltip.install(imgHome, tooltipImgHome);
+        Tooltip.install(imgBack, tooltipImgBack);
+        lblCurrentRemoteFolder.setTooltip(tooltipImgPath);
+        labelLineInfo.setTooltip(tooltipImgInfo);
+
         /* CSS */
         lblCurrentRemoteFolder.getStyleClass().add("label-path");
 

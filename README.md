@@ -75,6 +75,8 @@ INSERT INTO flask.Users (id, login, password, nickname, email, uuid) VALUES (1, 
 - "backlog" - максимальное количество подключений к соккет-серверу 
 Если файл "server_settings.json" отсутствует, то он создается автоматически с настройками по умолчанию.
 
+4. После запуска серверного приложения, нажать на кнопку "Start socket". Поле этого клиенту смогут подключаться и регистрироваться.
+
 ### Настрока клиентской части:
 
 1. Файл настроек "сlient_settings.json":
@@ -90,4 +92,9 @@ INSERT INTO flask.Users (id, login, password, nickname, email, uuid) VALUES (1, 
 - "port" - порт
 Если файл "сlient_settings.json" отсутствует, то он создается автоматически с настройками по умолчанию.
 
+### Логин и пароль:
+По умолчанию логин: **admin**, пароль: **admin**.
 
+### Скриншоты:
+
+![Alt text](/home/david/IdeaProjects/JavaIndepthStudy/00.png)

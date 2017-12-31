@@ -14,7 +14,7 @@
 <AnchorPane stylesheets="@DarkTheme.css" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1"
             fx:controller="ru.davidlevi.jis.client.gui.controller.Explorer">
     <HBox AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
-        <ImageView fx:id="imgHome" fitHeight="22.0" fitWidth="22.0" pickOnBounds="true" preserveRatio="true">
+        <ImageView fx:id="imgHome"  fitHeight="22.0" fitWidth="22.0" pickOnBounds="true" preserveRatio="true">
             <image>
                 <Image url="@../images/home.png"/>
             </image>

@@ -3,10 +3,7 @@ package ru.davidlevi.jis.client.gui.controller;
 import javafx.event.ActionEvent;
 import javafx.event.EventHandler;
 import javafx.fxml.FXML;
-import javafx.scene.control.Button;
-import javafx.scene.control.Label;
-import javafx.scene.control.PasswordField;
-import javafx.scene.control.TextField;
+import javafx.scene.control.*;
 import ru.davidlevi.jis.client.FxContext;
 import ru.davidlevi.jis.client.core.Client;
 import ru.davidlevi.jis.client.core.interfaces.ClientInterface;
@@ -69,10 +66,20 @@ public class Registration {
     private EventHandler<ActionEvent> eventCheckIn = new EventHandler<ActionEvent>() {
         @Override
         public void handle(ActionEvent actionEvent) {
-            clientInterface.registrationRequest(loginField.getText(),
-                    passwordField.getText(),
-                    nicknameField.getText(),
-                    emailField.getText());
+            if (loginField == null &
+                    passwordField == null &
+                    nicknameField == null &
+                    emailField == null) {
+                clientInterface.registrationRequest(loginField.getText(),
+                        passwordField.getText(),
+                        nicknameField.getText(),
+                        emailField.getText());
+            } else {
+                Alert alert = new Alert(Alert.AlertType.INFORMATION);
+                alert.setTitle("Registration");
+                alert.setHeaderText("Important");
+                alert.setContentText("All fields are required");
+            }
         }
     };
 
