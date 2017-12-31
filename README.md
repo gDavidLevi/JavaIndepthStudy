@@ -99,13 +99,13 @@ INSERT INTO flask.Users (id, login, password, nickname, email, uuid) VALUES (1, 
 
 Клиент:
 
-![Alt text](00.png)
+![Alt text](screen01.png)
 
-![Alt text](01.png)
+![Alt text](screen02.png)
 
-![Alt text](02.png)
+![Alt text](screen03.png)
 
 Сервер:
 
-![Alt text](03.png)
+![Alt text](screen04.png)
 
