@@ -1,0 +1,25 @@
+<component name="ArtifactManager">
+  <artifact type="javafx" name="Client">
+    <output-path>$PROJECT_DIR$/target/artifacts/Client</output-path>
+    <properties id="javafx-properties">
+      <options>
+        <option name="appClass" value="ClientMainClass" />
+        <option name="description" value="descriptionClient" />
+        <option name="htmlPlaceholderId" value="" />
+        <option name="title" value="titleClient" />
+        <option name="vendor" value="vendorClient" />
+        <option name="version" value="versionClient" />
+      </options>
+    </properties>
+    <root id="root">
+      <element id="archive" name="Client.jar">
+        <element id="module-output" name="Client" />
+        <element id="module-output" name="Common" />
+      </element>
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/commons-codec/commons-codec/1.10/commons-codec-1.10.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/apache/logging/log4j/log4j-api/2.4.1/log4j-api-2.4.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/apache/logging/log4j/log4j-core/2.4.1/log4j-core-2.4.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/json/json/20171018/json-20171018.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

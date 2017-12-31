@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane stylesheets="@DarkTheme.css" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="ru.davidlevi.jis.client.gui.controller.Explorer">
+    <HBox AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+        <ImageView fx:id="imgHome" fitHeight="22.0" fitWidth="22.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../images/home.png"/>
+            </image>
+            <HBox.margin>
+                <Insets left="2.0"/>
+            </HBox.margin>
+        </ImageView>
+        <ImageView fx:id="imgBack" fitHeight="22.0" fitWidth="22.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../images/back.png"/>
+            </image>
+            <HBox.margin>
+                <Insets left="2.0"/>
+            </HBox.margin>
+        </ImageView>
+        <Label fx:id="lblCurrentRemoteFolder" maxHeight="1.7976931348623157E308">
+            <HBox.margin>
+                <Insets left="2.0"/>
+            </HBox.margin>
+        </Label>
+    </HBox>
+    <TableView fx:id="listTable" layoutY="44.0" tableMenuButtonVisible="true" AnchorPane.bottomAnchor="17.0"
+               AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="24.0">
+        <columns>
+            <TableColumn fx:id="columnType" maxWidth="30" resizable="false"/>
+            <TableColumn fx:id="columnName" minWidth="350" text="Name"/>
+            <TableColumn fx:id="columnSize" prefWidth="102.0" text="Size"/>
+            <TableColumn fx:id="columnDate" prefWidth="102.0" text="Date"/>
+        </columns>
+    </TableView>
+    <Label fx:id="labelLineInfo" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+        <font>
+            <Font size="13.0"/>
+        </font>
+    </Label>
+</AnchorPane>

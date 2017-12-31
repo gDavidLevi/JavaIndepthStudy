@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+    <properties>
+        <property name="log-path">logs</property>
+        <property name="this-module">Server</property>
+    </properties>
+
+
+    <appenders>
+        <console name="Console" target="SYSTEM_OUT">
+            <PatternLayout pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"/>
+        </console>
+
+        <RollingFile name="Console-log" fileName="${log-path}/Console.log"
+                     filePattern="${log-path}/Console-%d{yyyy-MM-dd}.log">
+            <PatternLayout>
+                <pattern>[%-5level] %d{yyyy-MM-dd HH:mm:ss.SSS} [%t] %c{1} - %msg%n</pattern>
+            </PatternLayout>
+            <policies>
+                <TimeBasedTriggeringPolicy interval="1" modulate="true"/>
+            </policies>
+        </RollingFile>
+
+        <RollingFile name="${this-module}-log" fileName="${log-path}/${this-module}.log"
+                     filePattern="${log-path}/${this-module}-%d{yyyy-MM-dd}.log">
+            <PatternLayout>
+                <pattern>[%-5level] %d{yyyy-MM-dd HH:mm:ss.SSS} [%t] %c{1} - %msg%n</pattern>
+            </PatternLayout>
+            <policies>
+                <TimeBasedTriggeringPolicy interval="1" modulate="true"/>
+            </policies>
+        </RollingFile>
+    </appenders>
+
+
+    <loggers>
+        <root level="info">
+            <AppenderRef ref="Console"/>
+            <AppenderRef ref="Console-log" level="all"/>
+        </root>
+
+        <logger level="all" name="ru.davidlevi.jis.server.core.Server" additivity="true">
+            <AppenderRef ref="${this-module}-log" level="all"/>
+        </logger>
+
+        <logger level="all" name="ru.davidlevi.jis.server.core.ServerMessageHandler" additivity="true">
+            <AppenderRef ref="${this-module}-log" level="all"/>
+        </logger>
+
+        <logger level="all" name="ru.davidlevi.jis.server.core.Settings" additivity="true">
+            <AppenderRef ref="${this-module}-log" level="all"/>
+        </logger>
+
+        <logger level="all" name="ru.davidlevi.jis.server.database.Database" additivity="true">
+            <AppenderRef ref="${this-module}-log" level="all"/>
+        </logger>
+
+        <logger level="all" name="ru.davidlevi.jis.server.database.HibernateFactory" additivity="true">
+            <AppenderRef ref="${this-module}-log" level="all"/>
+        </logger>
+    </loggers>
+</configuration>

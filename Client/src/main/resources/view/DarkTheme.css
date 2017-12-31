@@ -1,0 +1,55 @@
+.label {
+    -fx-font-size: 10pt;
+    -fx-font-family: "Droid Sans", Helvetica, Arial, sans-serif;
+    -fx-text-fill: black;
+    -fx-opacity: 1;
+}
+
+.label-path {
+    -fx-font-size: 12pt;
+    -fx-font-family: "Droid Sans", Helvetica, Arial, sans-serif;
+    -fx-text-fill: black;
+    -fx-opacity: 1;
+}
+
+.label-header {
+    -fx-font-size: 22pt;
+    -fx-font-family: "Droid Sans", Helvetica, Arial, sans-serif;
+    -fx-text-fill: black;
+    -fx-opacity: 1;
+}
+
+.button {
+    -fx-font-family: "Droid Sans", Helvetica, Arial, sans-serif;
+    -fx-font-size: 10pt;
+    -fx-text-fill: white;
+    -fx-padding: 5 22 5 22;
+    -fx-border-color: whitesmoke;
+    -fx-border-width: 2;
+    -fx-background-radius: 0;
+    -fx-background-color: black;
+    -fx-background-insets: 0 0 0 0, 0, 1, 2;
+}
+
+.button:hover {
+    -fx-background-color: darkslategray;
+}
+
+.context-menu {
+    -fx-background-color: derive(black, 20%);
+}
+
+.context-menu .label {
+    -fx-font-size: 10pt;
+    -fx-font-family: "Droid Sans", Helvetica, Arial, sans-serif;
+    -fx-text-fill: white;
+    -fx-opacity: 1;
+}
+
+.text-field {
+    -fx-font-size: 10pt;
+    -fx-font-family: "Droid Sans", Helvetica, Arial, sans-serif;
+    -fx-text-fill: black;
+}
+
+

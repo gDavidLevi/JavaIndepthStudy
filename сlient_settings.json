@@ -1,0 +1,6 @@
+{
+  "client": {
+    "hostname": "capricorn",
+    "port": 8189
+  }
+}

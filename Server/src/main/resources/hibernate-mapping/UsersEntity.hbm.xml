@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+    <class name="ru.davidlevi.jis.server.database.entities.UsersEntity" table="Users" schema="flask">
+        <id name="id">
+            <column name="id" sql-type="int(11)"/>
+        </id>
+        <property name="login">
+            <column name="login" sql-type="varchar(20)" length="20"/>
+        </property>
+        <property name="password">
+            <column name="password" sql-type="varchar(20)" length="20"/>
+        </property>
+        <property name="nickname">
+            <column name="nickname" sql-type="varchar(20)" length="20"/>
+        </property>
+        <property name="email">
+            <column name="email" sql-type="varchar(320)" length="320"/>
+        </property>
+        <property name="uuid">
+            <column name="uuid" sql-type="varchar(37)" length="37"/>
+        </property>
+    </class>
+
+    <query name="getNickname">
+        <![CDATA[from UsersEntity ce where ce.login = :login and ce.password = :password]]>
+    </query>
+
+    <query name="findLogin">
+        <![CDATA[from UsersEntity ce where ce.login = :login]]>
+    </query>
+
+    <query name="getUuid">
+        <![CDATA[from UsersEntity ce where ce.nickname = :nickname]]>
+    </query>
+</hibernate-mapping>

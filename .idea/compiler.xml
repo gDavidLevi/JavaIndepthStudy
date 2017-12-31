@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="Client" />
+        <module name="Common" />
+        <module name="Lessons" />
+        <module name="Server" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="1.8">
+      <module name="Client" target="1.8" />
+      <module name="Common" target="1.8" />
+      <module name="jisclient" target="1.5" />
+      <module name="JisServer" target="1.5" />
+      <module name="Lessons" target="1.8" />
+      <module name="Server" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
