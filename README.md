@@ -97,4 +97,15 @@ INSERT INTO flask.Users (id, login, password, nickname, email, uuid) VALUES (1, 
 
 ### Скриншоты:
 
-![Alt text](/home/david/IdeaProjects/JavaIndepthStudy/00.png)
+Клиент:
+
+![Alt text](00.png)
+
+![Alt text](01.png)
+
+![Alt text](02.png)
+
+Сервер:
+
+![Alt text](03.png)
+
