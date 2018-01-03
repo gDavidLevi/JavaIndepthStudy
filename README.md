@@ -97,6 +97,10 @@ INSERT INTO flask.Users (id, login, password, nickname, email, uuid) VALUES (1, 
 
 ### Скриншоты:
 
+Структура:
+
+![Alt text](screen00.png)
+
 Клиент:
 
 ![Alt text](screen01.png)
