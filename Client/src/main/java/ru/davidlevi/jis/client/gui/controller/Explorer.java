@@ -12,6 +12,7 @@ import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
 import javafx.scene.input.MouseEvent;
 import javafx.stage.FileChooser;
+import javafx.stage.WindowEvent;
 import javafx.util.Callback;
 import ru.davidlevi.jis.client.FxContext;
 import ru.davidlevi.jis.client.core.Client;
@@ -34,7 +35,7 @@ public class Explorer {
     @FXML
     private ImageView imgHome;
     @FXML
-    private Label lblCurrentRemoteFolder;
+    private Label labelCurrentPath;
     @FXML
     private TableView<Record> listTable;
     @FXML
@@ -55,6 +56,7 @@ public class Explorer {
     private ObservableList<Record> data;
     private ContextMenu contextMenu;
     private MenuItem menuItemDownload;
+    private Tooltip tooltipImgPath;
 
     {
         clientInterface = new Client();
@@ -82,24 +84,23 @@ public class Explorer {
         clientInterface = new Client();
         clientInterface.setFxContext(fxContext);
         clientInterface.changeDir("/");
-        lblCurrentRemoteFolder.setText("/");
+        labelCurrentPath.setText("/");
 
         /* Tooltip */
-        final Tooltip tooltipImgHome = new Tooltip();
-        final Tooltip tooltipImgBack = new Tooltip();
-        final Tooltip tooltipImgPath = new Tooltip();
-        final Tooltip tooltipImgInfo = new Tooltip();
+        Tooltip tooltipImgHome = new Tooltip();
+        Tooltip tooltipImgBack = new Tooltip();
+        tooltipImgPath = new Tooltip();
+        Tooltip tooltipImgInfo = new Tooltip();
         tooltipImgHome.setText("Ноme");
         tooltipImgBack.setText("Back");
-        tooltipImgPath.setText("Path");
         tooltipImgInfo.setText("Information about data transmission or reception.");
         Tooltip.install(imgHome, tooltipImgHome);
         Tooltip.install(imgBack, tooltipImgBack);
-        lblCurrentRemoteFolder.setTooltip(tooltipImgPath);
+        labelCurrentPath.setTooltip(tooltipImgPath);
         labelLineInfo.setTooltip(tooltipImgInfo);
 
         /* CSS */
-        lblCurrentRemoteFolder.getStyleClass().add("label-path");
+        labelCurrentPath.getStyleClass().add("label-path");
 
         /* Настройка таблицы */
         listTable.setEditable(false);
@@ -134,6 +135,7 @@ public class Explorer {
         imgHome.setOnMouseClicked(eventChangeDirRoot);
         imgBack.setOnMouseClicked(eventChangeDirBack);
         listTable.setOnMousePressed(eventMouseOnListTable);
+        tooltipImgPath.setOnShowing(eventTooltipPathShowing);
     }
 
     /**
@@ -204,7 +206,17 @@ public class Explorer {
      * @return String
      */
     public String getCurrentRemoteFolder() {
-        return lblCurrentRemoteFolder.getText();
+        return labelCurrentPath.getText();
+    }
+
+    /**
+     * Это файл или каталог?
+     *
+     * @param type String
+     * @return boolean
+     */
+    private boolean isFileOrDir(String type) {
+        return type.equals("file") || type.equals("dir");
     }
 
     /**
@@ -223,7 +235,7 @@ public class Explorer {
     private EventHandler<MouseEvent> eventChangeDirBack = new EventHandler<MouseEvent>() {
         @Override
         public void handle(MouseEvent event) {
-            changeDir(Paths.get(lblCurrentRemoteFolder.getText(), "..").normalize().toAbsolutePath()
+            changeDir(Paths.get(labelCurrentPath.getText(), "..").normalize().toAbsolutePath()
                     .toString());
         }
     };
@@ -262,7 +274,7 @@ public class Explorer {
             File localFilename = fileOpenChooser.showOpenDialog(fxContext.getStage());
 
             /* Формирование пути для сохранения на сервере */
-            String remoteFilename = Paths.get(lblCurrentRemoteFolder.getText(),
+            String remoteFilename = Paths.get(labelCurrentPath.getText(),
                     localFilename.getName()).toString();
 
             /* Сохраняем в список отправки */
@@ -279,8 +291,14 @@ public class Explorer {
     private EventHandler<MouseEvent> eventMouseOnListTable = new EventHandler<MouseEvent>() {
         @Override
         public void handle(MouseEvent e) {
-            String type = listTable.getSelectionModel().getSelectedItem().getType();
-            String name = listTable.getSelectionModel().getSelectedItem().getName();
+            String name;
+            String type;
+            try {
+                name = listTable.getSelectionModel().getSelectedItem().getName();
+                type = listTable.getSelectionModel().getSelectedItem().getType();
+            } catch (NullPointerException exception) {
+                return;
+            }
 
             /* Клик правой кнопкой мыши: */
             // Не показывать Download, если кликнули по папке
@@ -289,7 +307,7 @@ public class Explorer {
             else
                 menuItemDownload.setVisible(true);
 
-            // Не показывать контекстное меню, если кликнули по ".." или "."
+            /* Не показывать контекстное меню, если кликнули по ".." или "." */
             if (e.isSecondaryButtonDown() && (name.equals("..") || name.equals(".")))
                 listTable.setContextMenu(null);
             else
@@ -299,7 +317,7 @@ public class Explorer {
             /* Переход в каталог */
             if (e.isPrimaryButtonDown() && e.getClickCount() == 2) {
                 if (type.equals("dir"))
-                    changeDir(Paths.get(lblCurrentRemoteFolder.getText(), name).toString());
+                    changeDir(Paths.get(labelCurrentPath.getText(), name).toString());
             }
         }
     };
@@ -307,7 +325,7 @@ public class Explorer {
     /* Change directory */
     private void changeDir(String path) {
         clientInterface.changeDir(path);
-        lblCurrentRemoteFolder.setText(path);
+        labelCurrentPath.setText(path);
     }
 
     /**
@@ -332,7 +350,7 @@ public class Explorer {
     private EventHandler<ActionEvent> eventDelete = new EventHandler<ActionEvent>() {
         @Override
         public void handle(ActionEvent actionEvent) {
-            Path path = Paths.get(lblCurrentRemoteFolder.getText(),
+            Path path = Paths.get(labelCurrentPath.getText(),
                     listTable.getSelectionModel().getSelectedItem().getName());
             String type = listTable.getSelectionModel().getSelectedItem().getType();
             //
@@ -361,9 +379,9 @@ public class Explorer {
             //
             Optional<String> result = dialog.showAndWait();
             result.ifPresent(newName -> {
-                Path oldPathName = Paths.get(lblCurrentRemoteFolder.getText(),
+                Path oldPathName = Paths.get(labelCurrentPath.getText(),
                         listTable.getSelectionModel().getSelectedItem().getName());
-                Path newPathName = Paths.get(lblCurrentRemoteFolder.getText(),
+                Path newPathName = Paths.get(labelCurrentPath.getText(),
                         newName);
                 String type = listTable.getSelectionModel().getSelectedItem().getType();
                 if (isFileOrDir(type))
@@ -373,14 +391,14 @@ public class Explorer {
     };
 
     /**
-     * Это файл или каталог?
-     *
-     * @param type String
-     * @return boolean
+     * Событие: TooltipPathShowing
      */
-    private boolean isFileOrDir(String type) {
-        return type.equals("file") || type.equals("dir");
-    }
+    private EventHandler<WindowEvent> eventTooltipPathShowing = new EventHandler<WindowEvent>() {
+        @Override
+        public void handle(WindowEvent event) {
+            tooltipImgPath.setText(labelCurrentPath.getText());
+        }
+    };
 
     //--
 }

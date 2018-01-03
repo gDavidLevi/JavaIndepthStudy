@@ -6,12 +6,12 @@
     <session-factory>
         <!-- datasource config -->
         <property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
-        <!--<property name="hibernate.connection.url">jdbc:mysql://localhost:3306/flask?useSSL=false</property>-->
-        <!-- <property name="hibernate.connection.username">root</property>-->
-        <!-- <property name="hibernate.connection.password">password</property>-->
-        <property name="hibernate.connection.url">jdbc:mysql://localhost:3306/flask?useSSL=false</property>
-        <property name="hibernate.connection.username">root</property>
-        <property name="hibernate.connection.password">password</property>
+        <!--<property name="hibernate.connection.url">jdbc:mysql://localhost:3306/jis?useSSL=false</property>-->
+        <!-- <property name="hibernate.connection.username">jis</property>-->
+        <!-- <property name="hibernate.connection.password">jis</property>-->
+        <property name="hibernate.connection.url">jdbc:mysql://localhost:3306/jis?useSSL=false</property>
+        <property name="hibernate.connection.username">jis</property>
+        <property name="hibernate.connection.password">jis</property>
         <property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>
 
         <!-- entities -->

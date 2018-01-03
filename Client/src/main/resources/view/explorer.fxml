@@ -30,7 +30,7 @@
                 <Insets left="2.0"/>
             </HBox.margin>
         </ImageView>
-        <Label fx:id="lblCurrentRemoteFolder" maxHeight="1.7976931348623157E308">
+        <Label fx:id="labelCurrentPath" maxHeight="1.7976931348623157E308">
             <HBox.margin>
                 <Insets left="2.0"/>
             </HBox.margin>

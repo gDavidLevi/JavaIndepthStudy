@@ -11,12 +11,13 @@
 Другое:
 - Модуль "Lessons" - конспекты уроков и домашние работы (лекции не все законспектированы)
 
-
 ### Настрока серверной части:
 
-1. Создать на MySQL-сервере БД:
+1. Создать на MySQL-сервере схему jis.
+Создать пользователя jis с паролем jis. Привязать схему jis к пользователю jis.
+В схеме jis под пользователем root создать таблицу:
 ```sql
-CREATE TABLE flask.Users
+CREATE TABLE jis.Users
 (
   id int(11) PRIMARY KEY NOT NULL AUTO_INCREMENT,
   login varchar(20) NOT NULL,
@@ -25,12 +26,12 @@ CREATE TABLE flask.Users
   email varchar(320) NOT NULL,
   uuid varchar(37) NOT NULL
 );
-CREATE UNIQUE INDEX Users_id_uindex ON flask.Users (id);
-CREATE UNIQUE INDEX Users_login_uindex ON flask.Users (login);
-CREATE UNIQUE INDEX Users_nickname_uindex ON flask.Users (nickname);
-CREATE UNIQUE INDEX Users_email_uindex ON flask.Users (email);
-CREATE UNIQUE INDEX Users_uuid_uindex ON flask.Users (uuid);
-INSERT INTO flask.Users (id, login, password, nickname, email, uuid) VALUES (1, 'admin', 'admin', 'I''am admin', 'gDavidLevy@gmail.com', '1000');
+CREATE UNIQUE INDEX Users_id_uindex ON jis.Users (id);
+CREATE UNIQUE INDEX Users_login_uindex ON jis.Users (login);
+CREATE UNIQUE INDEX Users_nickname_uindex ON jis.Users (nickname);
+CREATE UNIQUE INDEX Users_email_uindex ON jis.Users (email);
+CREATE UNIQUE INDEX Users_uuid_uindex ON jis.Users (uuid);
+INSERT INTO jis.Users (id, login, password, nickname, email, uuid) VALUES (1, 'admin', 'admin', 'Admin', 'gDavidLevy@gmail.com', '1000');
 ```
 
 2. Настройка подключения к БД находятся в модуле {Server} в файле "resources/hibernate.cfg.xml":
@@ -43,12 +44,12 @@ INSERT INTO flask.Users (id, login, password, nickname, email, uuid) VALUES (1, 
     <session-factory>
         <!-- datasource config -->
         <property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
-        <!--<property name="hibernate.connection.url">jdbc:mysql://localhost:3306/flask?useSSL=false</property>-->
-        <!-- <property name="hibernate.connection.username">root</property>-->
-        <!-- <property name="hibernate.connection.password">password</property>-->
-        <property name="hibernate.connection.url">jdbc:mysql://localhost:3306/flask?useSSL=false</property>
-        <property name="hibernate.connection.username">root</property>
-        <property name="hibernate.connection.password">password</property>
+        <!--<property name="hibernate.connection.url">jdbc:mysql://localhost:3306/jis?useSSL=false</property>-->
+        <!-- <property name="hibernate.connection.username">jis</property>-->
+        <!-- <property name="hibernate.connection.password">jis</property>-->
+        <property name="hibernate.connection.url">jdbc:mysql://localhost:3306/jis?useSSL=false</property>
+        <property name="hibernate.connection.username">jis</property>
+        <property name="hibernate.connection.password">jis</property>
         <property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>
 
         <!-- entities -->
