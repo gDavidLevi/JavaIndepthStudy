@@ -131,7 +131,7 @@ public class Server extends Settings implements ServerThreadListener, ClientThre
 
     @Override
     public void onReady_ServerThread(ServerThread serverThread, ServerSocket serverSocket) {
-        log("info", "onReady");
+        log("info", String.format("onReady %s:%d", serverSocket.getInetAddress().toString(), serverSocket.getLocalPort()));
     }
 
     @Override
@@ -267,7 +267,7 @@ public class Server extends Settings implements ServerThreadListener, ClientThre
                 log("info", "User '" + login + "' is already registered in the database.");
             } else {
                 if (database.createUser(login, password, nickname, email)) {
-                    Path newFolder = Paths.get(getStorageFolder(), database.getUuid(login)).normalize();
+                    Path newFolder = Paths.get(getStorageFolder(), database.getUuid(nickname)).normalize();
                     if (makeDirectory(newFolder))
                         log("info", "Личный каталог '" + newFolder + "' для пользователя '" + nickname + "' зарегистрирован.");
                     //

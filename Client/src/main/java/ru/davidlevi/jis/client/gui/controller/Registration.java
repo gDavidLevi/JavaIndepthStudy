@@ -66,19 +66,19 @@ public class Registration {
     private EventHandler<ActionEvent> eventCheckIn = new EventHandler<ActionEvent>() {
         @Override
         public void handle(ActionEvent actionEvent) {
-            if (loginField == null &
-                    passwordField == null &
-                    nicknameField == null &
+            if (loginField == null |
+                    passwordField == null |
+                    nicknameField == null |
                     emailField == null) {
-                clientInterface.registrationRequest(loginField.getText(),
-                        passwordField.getText(),
-                        nicknameField.getText(),
-                        emailField.getText());
-            } else {
                 Alert alert = new Alert(Alert.AlertType.INFORMATION);
                 alert.setTitle("Registration");
                 alert.setHeaderText("Important");
                 alert.setContentText("All fields are required");
+            } else {
+                clientInterface.registrationRequest(loginField.getText(),
+                        passwordField.getText(),
+                        nicknameField.getText(),
+                        emailField.getText());
             }
         }
     };
