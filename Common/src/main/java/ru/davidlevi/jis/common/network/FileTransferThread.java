@@ -14,7 +14,7 @@ import java.util.Random;
 /**
  * Класс позволяет передавать большие потоки данных из-за применения Base64
  */
-public class Transmitter implements ByteStreamThreadInterface {
+public class FileTransferThread implements ByteStreamThreadInterface {
     /* Константы */
     private static final int SOCKET_TIMEOUT_MS = 2000;
     private static final int MAXIMUM_NUMBER_OF_PENDING_CONNECTIONS = 1;
@@ -31,7 +31,7 @@ public class Transmitter implements ByteStreamThreadInterface {
     private String path;
 
     {
-        logger = LogManager.getLogger(Transmitter.class);
+        logger = LogManager.getLogger(FileTransferThread.class);
     }
 
     /**
@@ -39,7 +39,7 @@ public class Transmitter implements ByteStreamThreadInterface {
      *
      * @param listener Получатель событий
      */
-    public Transmitter(ByteStreamThreadListener listener) {
+    public FileTransferThread(ByteStreamThreadListener listener) {
         this.listener = listener;
         generatePort();
     }
@@ -102,7 +102,7 @@ public class Transmitter implements ByteStreamThreadInterface {
         logger.info(message);
         //
         Runnable runnable = () -> {
-            listener.onStart(Transmitter.this, Direction.RECEIVE, "onStart : " + message);
+            listener.onStart(FileTransferThread.this, Direction.RECEIVE, "onStart : " + message);
             try (ServerSocket serverSocket = new ServerSocket(receivePort, MAXIMUM_NUMBER_OF_PENDING_CONNECTIONS)) {
                 serverSocket.setSoTimeout(SOCKET_TIMEOUT_MS);
                 while (!Thread.currentThread().isInterrupted()) {
@@ -114,15 +114,15 @@ public class Transmitter implements ByteStreamThreadInterface {
                     }
                     try (Base64InputStream in = new Base64InputStream(socket.getInputStream(), false);
                          FileOutputStream out = new FileOutputStream(receiveFile)) {
-                        Transmitter.this.copyStream(in, out, Direction.RECEIVE);
+                        FileTransferThread.this.copyStream(in, out, Direction.RECEIVE);
                     } catch (IOException exception) {
-                        listener.onException(Transmitter.this, exception);
+                        listener.onException(FileTransferThread.this, exception);
                     }
                 }
             } catch (IOException exception) {
-                listener.onException(Transmitter.this, exception);
+                listener.onException(FileTransferThread.this, exception);
             }
-            listener.onStop(Transmitter.this, Direction.RECEIVE, "onStop : " + message, clientThread, userFolderUUID, path);
+            listener.onStop(FileTransferThread.this, Direction.RECEIVE, "onStop : " + message, clientThread, userFolderUUID, path);
         };
         Thread receiver = new Thread(runnable);
         receiver.setName(receiveFile.getName());
@@ -143,20 +143,20 @@ public class Transmitter implements ByteStreamThreadInterface {
         if (sendPort < PORT_MIN) throw new RuntimeException("Invalid receivePort!");
         //
         Runnable runnable = () -> {
-            listener.onStart(Transmitter.this, Direction.SEND, "onStart : " + message);
+            listener.onStart(FileTransferThread.this, Direction.SEND, "onStart : " + message);
             try (Socket socket = new Socket(Inet4Address.getByName(hostname), sendPort)) {
                 while (!Thread.currentThread().isInterrupted()) {
                     try (FileInputStream in = new FileInputStream(sendFile);
                          Base64OutputStream out = new Base64OutputStream(socket.getOutputStream(), true)) {
-                        Transmitter.this.copyStream(in, out, Direction.SEND);
+                        FileTransferThread.this.copyStream(in, out, Direction.SEND);
                     } catch (IOException exception) {
-                        listener.onException(Transmitter.this, exception);
+                        listener.onException(FileTransferThread.this, exception);
                     }
                 }
             } catch (IOException exception) {
-                listener.onException(Transmitter.this, exception);
+                listener.onException(FileTransferThread.this, exception);
             }
-            listener.onStop(Transmitter.this, Direction.SEND, "onStop : " + message, clientThread, userFolderUUID, path);
+            listener.onStop(FileTransferThread.this, Direction.SEND, "onStop : " + message, clientThread, userFolderUUID, path);
         };
         Thread sender = new Thread(runnable);
         sender.setName(sendFile.getName());

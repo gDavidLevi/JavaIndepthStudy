@@ -8,9 +8,9 @@ import ru.davidlevi.jis.client.FxContext;
 import ru.davidlevi.jis.client.core.interfaces.ClientInterface;
 import ru.davidlevi.jis.client.gui.Layout;
 import ru.davidlevi.jis.client.gui.model.Record;
-import ru.davidlevi.jis.common.network.Transmitter;
 import ru.davidlevi.jis.common.network.ClientThread;
 import ru.davidlevi.jis.common.network.Direction;
+import ru.davidlevi.jis.common.network.FileTransferThread;
 import ru.davidlevi.jis.common.network.interfaces.ByteStreamThreadListener;
 import ru.davidlevi.jis.common.network.interfaces.ClientThreadListener;
 
@@ -140,12 +140,12 @@ public class Client extends Settings implements ClientThreadListener, ByteStream
      */
 
     @Override
-    public void onStart(Transmitter transmitter, Direction direction, String message) {
+    public void onStart(FileTransferThread fileTransferThread, Direction direction, String message) {
         // не обрабатываю
     }
 
     @Override
-    public void onProgress(Transmitter transmitter, Direction direction, String treadName, long bytes) {
+    public void onProgress(FileTransferThread fileTransferThread, Direction direction, String treadName, long bytes) {
         Platform.runLater(() -> {
             if (direction == Direction.RECEIVE)
                 fxContext.getControllerExplorer().setLineInfo("Receive: " + treadName + " " + String.valueOf(bytes) + " bytes");
@@ -155,12 +155,12 @@ public class Client extends Settings implements ClientThreadListener, ByteStream
     }
 
     @Override
-    public void onException(Transmitter transmitter, Exception exception) {
+    public void onException(FileTransferThread fileTransferThread, Exception exception) {
         // не обрабатываю
     }
 
     @Override
-    public void onStop(Transmitter transmitter, Direction direction, String message, ClientThread clientThread, String userFolderUUID, String path) {
+    public void onStop(FileTransferThread fileTransferThread, Direction direction, String message, ClientThread clientThread, String userFolderUUID, String path) {
         Platform.runLater(() -> {
             fxContext.getControllerExplorer().setLineInfo("ok");
         });
@@ -259,7 +259,7 @@ public class Client extends Settings implements ClientThreadListener, ByteStream
             String key = socket.getString("key");
 
             /* Активация отправителя */
-            Transmitter upload = new Transmitter(this);
+            FileTransferThread upload = new FileTransferThread(this);
             upload.initClient(client);
             upload.post(fxContext.getControllerExplorer().getListSendFiles().get(key), serverHostname, serverPort);
         }
@@ -367,7 +367,7 @@ public class Client extends Settings implements ClientThreadListener, ByteStream
     @Override
     public void receiveFile(String remoteFile, String localFile) {
         /* Активация загрузчика */
-        Transmitter download = new Transmitter(this);
+        FileTransferThread download = new FileTransferThread(this);
         download.initClient(client);
         download.get(localFile);
         int requestedPort = download.getReceiverPort();

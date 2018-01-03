@@ -7,8 +7,8 @@ import javafx.event.EventHandler;
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;
 import javafx.scene.control.ListView;
-import ru.davidlevi.jis.server.core.interfaces.InterfaceServer;
 import ru.davidlevi.jis.server.core.Server;
+import ru.davidlevi.jis.server.core.interfaces.InterfaceServer;
 
 import java.util.List;
 

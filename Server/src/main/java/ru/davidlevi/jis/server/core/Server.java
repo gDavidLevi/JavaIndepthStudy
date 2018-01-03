@@ -5,18 +5,18 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.json.JSONArray;
 import org.json.JSONObject;
-import ru.davidlevi.jis.common.network.Transmitter;
+import ru.davidlevi.jis.common.network.ClientThread;
 import ru.davidlevi.jis.common.network.Direction;
+import ru.davidlevi.jis.common.network.FileTransferThread;
 import ru.davidlevi.jis.common.network.interfaces.ByteStreamThreadListener;
+import ru.davidlevi.jis.common.network.interfaces.ClientThreadListener;
 import ru.davidlevi.jis.common.notuse.Dater;
 import ru.davidlevi.jis.server.core.interfaces.InterfaceServer;
-import ru.davidlevi.jis.common.network.ClientThread;
-import ru.davidlevi.jis.server.gui.controller.Basic;
-import ru.davidlevi.jis.server.network.interfaces.ServerThreadListener;
 import ru.davidlevi.jis.server.database.Database;
 import ru.davidlevi.jis.server.database.interfaces.InterfaceDatabase;
+import ru.davidlevi.jis.server.gui.controller.Basic;
 import ru.davidlevi.jis.server.network.ServerThread;
-import ru.davidlevi.jis.common.network.interfaces.ClientThreadListener;
+import ru.davidlevi.jis.server.network.interfaces.ServerThreadListener;
 
 import java.io.IOException;
 import java.net.ServerSocket;
@@ -154,56 +154,56 @@ public class Server extends Settings implements ServerThreadListener, ClientThre
 
     @Override
     public synchronized void onStart_ClientThread(ClientThread clientThread) {
-        log("info", "onStart : User " + ((User) clientThread).getName() + " on " + clientThread.getSocketClient());
+        log("info", "onStart : User " + clientThread.getName() + " on " + clientThread.getSocketClient());
     }
 
     @Override
     public synchronized void onReady_ClientThread(ClientThread clientThread, Socket socketClient) {
-        log("info", "onReady : User " + ((User) clientThread).getName() + " on " + clientThread.getSocketClient());
+        log("info", "onReady : User " + clientThread.getName() + " on " + clientThread.getSocketClient());
         listThreads.add(clientThread);
     }
 
     @Override
     public synchronized void onGet_ClientThread(ClientThread clientThread, Socket socketClient, JSONObject jsonObject) {
-        log("info", "onGet : User " + ((User) clientThread).getName() + " on " + clientThread.getSocketClient() + " : <-- \n" + jsonObject.toString(4));
+        log("info", "onGet : User " + clientThread.getName() + " on " + clientThread.getSocketClient() + " : <-- \n" + jsonObject.toString(4));
         handlerJSONObjects(clientThread, jsonObject);
     }
 
     @Override
     public synchronized void onPost_ClientThread(ClientThread clientThread, Socket socketClient, JSONObject jsonObject) {
-        log("info", "onPost : User " + ((User) clientThread).getName() + " on " + clientThread.getSocketClient() + " : --> \n" + jsonObject.toString(4));
+        log("info", "onPost : User " + clientThread.getName() + " on " + clientThread.getSocketClient() + " : --> \n" + jsonObject.toString(4));
     }
 
     @Override
     public synchronized void onException_ClientThread(ClientThread clientThread, Socket socketClient, Exception exception) {
-        log("info", "onException : User " + ((User) clientThread).getName() + " on " + clientThread.getSocketClient() + " : " + exception);
+        log("info", "onException : User " + clientThread.getName() + " on " + clientThread.getSocketClient() + " : " + exception);
     }
 
     @Override
     public synchronized void onStop_ClientThread(ClientThread clientThread) {
-        log("info", "onStop : User " + ((User) clientThread).getName() + " on " + clientThread.getSocketClient());
+        log("info", "onStop : User " + clientThread.getName() + " on " + clientThread.getSocketClient());
         listThreads.remove(clientThread);
     }
 
     // ============================================================================================
 
     @Override
-    public synchronized void onStart(Transmitter transmitter, Direction direction, String message) {
+    public synchronized void onStart(FileTransferThread fileTransferThread, Direction direction, String message) {
         log("info", message);
     }
 
     @Override
-    public synchronized void onProgress(Transmitter transmitter, Direction direction, String treadName, long bytes) {
+    public synchronized void onProgress(FileTransferThread fileTransferThread, Direction direction, String treadName, long bytes) {
 
     }
 
     @Override
-    public synchronized void onException(Transmitter transmitter, Exception exception) {
+    public synchronized void onException(FileTransferThread fileTransferThread, Exception exception) {
 
     }
 
     @Override
-    public synchronized void onStop(Transmitter transmitter, Direction direction, String message, ClientThread clientThread, String userFolderUUID, String path) {
+    public synchronized void onStop(FileTransferThread fileTransferThread, Direction direction, String message, ClientThread clientThread, String userFolderUUID, String path) {
         if (direction == Direction.RECEIVE)
             sendFolderContent(clientThread, userFolderUUID, Paths.get(path, "..").normalize().toAbsolutePath().toString());
         log("info", message);
@@ -296,7 +296,7 @@ public class Server extends Settings implements ServerThreadListener, ClientThre
             int port = socket.getInt("port");
 
             /* Активация отправителя */
-            Transmitter sender = new Transmitter(this);
+            FileTransferThread sender = new FileTransferThread(this);
             sender.initServer(clientThread, null, null);
             String filenameToSend = Paths.get(getStorageFolder(),
                     userFolderUUID,
@@ -310,7 +310,7 @@ public class Server extends Settings implements ServerThreadListener, ClientThre
             String uploadFilename = data.getString("filename");
 
             /* Активация получателя */
-            Transmitter receiver = new Transmitter(this);
+            FileTransferThread receiver = new FileTransferThread(this);
             receiver.initServer(clientThread, userFolderUUID, uploadFilename);
             receiver.get(Paths.get(getStorageFolder(), userFolderUUID, uploadFilename).toString());
             String storageName = receiver.getReceiverExternalIP();
@@ -362,8 +362,6 @@ public class Server extends Settings implements ServerThreadListener, ClientThre
                 sendFolderContent(clientThread, userFolderUUID, Paths.get(oldPath, "..").normalize().toString());
             else clientThread.post(getAlert("Rename", "Не могу переименовать", oldPath));
         }
-
-        // todo end
     }
 
     /**

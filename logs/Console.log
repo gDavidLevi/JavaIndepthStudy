@@ -769,3 +769,193 @@
 [INFO ] 2018-01-03 11:33:48.827 [ServerThread] Server - onStop
 [INFO ] 2018-01-03 11:33:49.505 [JavaFX Application Thread] HibernateFactory - Hibernate stoped.
 [INFO ] 2018-01-03 11:33:49.507 [JavaFX Application Thread] pooling - HHH10001008: Cleaning up connection pool [jdbc:mysql://localhost:3306/jis?useSSL=false]
+[INFO ] 2018-01-03 11:43:34.164 [JavaFX Application Thread] Settings - 
+  i i i i i i i
+  I I I I I I I
+  I  \ `+' /  I
+   \  `-+-'  /
+    `-__|__-'
+        |
+  ------+------
+[INFO ] 2018-01-03 11:43:34.238 [JavaFX Application Thread] Settings - Настройки сервера загружены.
+[INFO ] 2018-01-03 11:43:38.095 [JavaFX Application Thread] HibernateFactory - Hibernate is building...
+[INFO ] 2018-01-03 11:43:38.297 [JavaFX Application Thread] Version - HHH000412: Hibernate Core {5.2.12.Final}
+[INFO ] 2018-01-03 11:43:38.299 [JavaFX Application Thread] Environment - HHH000206: hibernate.properties not found
+[INFO ] 2018-01-03 11:43:38.683 [JavaFX Application Thread] Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+[WARN ] 2018-01-03 11:43:40.079 [JavaFX Application Thread] pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+[INFO ] 2018-01-03 11:43:40.090 [JavaFX Application Thread] pooling - HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/jis?useSSL=false]
+[INFO ] 2018-01-03 11:43:40.091 [JavaFX Application Thread] pooling - HHH10001001: Connection properties: {user=jis, password=****}
+[INFO ] 2018-01-03 11:43:40.091 [JavaFX Application Thread] pooling - HHH10001003: Autocommit mode: false
+[INFO ] 2018-01-03 11:43:40.099 [JavaFX Application Thread] DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 20 (min=1)
+[INFO ] 2018-01-03 11:43:40.608 [JavaFX Application Thread] Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+[INFO ] 2018-01-03 11:43:40.728 [JavaFX Application Thread] EnversServiceImpl - Envers integration enabled? : true
+[INFO ] 2018-01-03 11:43:41.740 [JavaFX Application Thread] QueryTranslatorFactoryInitiator - HHH000397: Using ASTQueryTranslatorFactory
+[INFO ] 2018-01-03 11:43:41.938 [JavaFX Application Thread] HibernateFactory - Hibernate created.
+[INFO ] 2018-01-03 11:43:42.075 [ServerThread] Server - onStart
+[INFO ] 2018-01-03 11:43:42.086 [ServerThread] Server - onReady capricorn/127.0.1.1:8189
+[INFO ] 2018-01-03 11:43:59.340 [ServerThread] Server - onAccepted : Socket[addr=/127.0.0.1,port=34548,localport=8189]
+[INFO ] 2018-01-03 11:43:59.357 [ClientThread] Server - onStart : User ClientThread on Socket[addr=/127.0.0.1,port=34548,localport=8189]
+[INFO ] 2018-01-03 11:43:59.358 [ClientThread] Server - onReady : User ClientThread on Socket[addr=/127.0.0.1,port=34548,localport=8189]
+[INFO ] 2018-01-03 11:43:59.478 [ClientThread] Server - onGet : User ClientThread on Socket[addr=/127.0.0.1,port=34548,localport=8189] : <-- 
+{
+    "request": "authentication",
+    "data": {
+        "password": "admin",
+        "login": "admin"
+    }
+}
+[INFO ] 2018-01-03 11:43:59.620 [ClientThread] Server - onPost : User ClientThread on Socket[addr=/127.0.0.1,port=34548,localport=8189] : --> 
+{
+    "data": {"nickname": "Admin"},
+    "response": "authorization"
+}
+[INFO ] 2018-01-03 11:43:59.784 [Admin] Server - onGet : User Admin on Socket[addr=/127.0.0.1,port=34548,localport=8189] : <-- 
+{
+    "request": "list",
+    "data": {"path": "/"}
+}
+[INFO ] 2018-01-03 11:43:59.827 [Admin] Server - onPost : User Admin on Socket[addr=/127.0.0.1,port=34548,localport=8189] : --> 
+{
+    "data": {
+        "date": [
+            "03.01.2018 9:12:48",
+            "31.12.2017 11:6:23",
+            "31.12.2017 11:6:59",
+            "03.01.2018 11:30:1",
+            "31.12.2017 11:7:11",
+            "03.01.2018 11:32:55",
+            "03.01.2018 9:12:42",
+            "03.01.2018 11:30:6"
+        ],
+        "size": [
+            "",
+            "",
+            "125",
+            "163328",
+            "67",
+            "351622588",
+            "",
+            "23987"
+        ],
+        "name": [
+            "Урок 2. JVM. Полное погружение",
+            "Урок 1. Проектирование архитектуры и модели данных",
+            "server_settings.json",
+            "screen00.png",
+            "сlient_settings.json",
+            "Урок 4. Операции.mp4",
+            "Урок 3. Сборщики проектов",
+            "screen03.png"
+        ],
+        "type": [
+            "dir",
+            "dir",
+            "file",
+            "file",
+            "file",
+            "file",
+            "dir",
+            "file"
+        ]
+    },
+    "response": "list"
+}
+[INFO ] 2018-01-03 11:44:03.370 [Admin] Server - onException : User Admin on Socket[addr=/127.0.0.1,port=34548,localport=8189] : java.io.EOFException
+[INFO ] 2018-01-03 11:44:03.371 [Admin] Server - onStop : User Admin on Socket[addr=/127.0.0.1,port=34548,localport=8189]
+[INFO ] 2018-01-03 11:52:00.566 [JavaFX Application Thread] Settings - 
+  i i i i i i i
+  I I I I I I I
+  I  \ `+' /  I
+   \  `-+-'  /
+    `-__|__-'
+        |
+  ------+------
+[INFO ] 2018-01-03 11:52:00.623 [JavaFX Application Thread] Settings - Настройки сервера загружены.
+[INFO ] 2018-01-03 11:52:05.080 [JavaFX Application Thread] HibernateFactory - Hibernate is building...
+[INFO ] 2018-01-03 11:52:05.271 [JavaFX Application Thread] Version - HHH000412: Hibernate Core {5.2.12.Final}
+[INFO ] 2018-01-03 11:52:05.273 [JavaFX Application Thread] Environment - HHH000206: hibernate.properties not found
+[INFO ] 2018-01-03 11:52:05.667 [JavaFX Application Thread] Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+[WARN ] 2018-01-03 11:52:07.756 [JavaFX Application Thread] pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+[INFO ] 2018-01-03 11:52:07.767 [JavaFX Application Thread] pooling - HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/jis?useSSL=false]
+[INFO ] 2018-01-03 11:52:07.767 [JavaFX Application Thread] pooling - HHH10001001: Connection properties: {user=jis, password=****}
+[INFO ] 2018-01-03 11:52:07.768 [JavaFX Application Thread] pooling - HHH10001003: Autocommit mode: false
+[INFO ] 2018-01-03 11:52:07.778 [JavaFX Application Thread] DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 20 (min=1)
+[INFO ] 2018-01-03 11:52:08.331 [JavaFX Application Thread] Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+[INFO ] 2018-01-03 11:52:08.531 [JavaFX Application Thread] EnversServiceImpl - Envers integration enabled? : true
+[INFO ] 2018-01-03 11:52:10.768 [JavaFX Application Thread] QueryTranslatorFactoryInitiator - HHH000397: Using ASTQueryTranslatorFactory
+[INFO ] 2018-01-03 11:52:11.240 [JavaFX Application Thread] HibernateFactory - Hibernate created.
+[INFO ] 2018-01-03 11:52:11.573 [ServerThread] Server - onStart
+[INFO ] 2018-01-03 11:52:11.585 [ServerThread] Server - onReady capricorn/127.0.1.1:8189
+[INFO ] 2018-01-03 11:52:12.392 [JavaFX Application Thread] Server - Поток сервера уже запущен.
+[INFO ] 2018-01-03 11:52:24.440 [ServerThread] Server - onAccepted : Socket[addr=/127.0.0.1,port=34734,localport=8189]
+[INFO ] 2018-01-03 11:52:24.443 [ClientThread] Server - onStart : User ClientThread on Socket[addr=/127.0.0.1,port=34734,localport=8189]
+[INFO ] 2018-01-03 11:52:24.444 [ClientThread] Server - onReady : User ClientThread on Socket[addr=/127.0.0.1,port=34734,localport=8189]
+[INFO ] 2018-01-03 11:52:24.548 [ClientThread] Server - onGet : User ClientThread on Socket[addr=/127.0.0.1,port=34734,localport=8189] : <-- 
+{
+    "request": "authentication",
+    "data": {
+        "password": "admin",
+        "login": "admin"
+    }
+}
+[INFO ] 2018-01-03 11:52:24.684 [ClientThread] Server - onPost : User ClientThread on Socket[addr=/127.0.0.1,port=34734,localport=8189] : --> 
+{
+    "data": {"nickname": "Admin"},
+    "response": "authorization"
+}
+[INFO ] 2018-01-03 11:52:24.909 [Admin] Server - onGet : User Admin on Socket[addr=/127.0.0.1,port=34734,localport=8189] : <-- 
+{
+    "request": "list",
+    "data": {"path": "/"}
+}
+[INFO ] 2018-01-03 11:52:24.963 [Admin] Server - onPost : User Admin on Socket[addr=/127.0.0.1,port=34734,localport=8189] : --> 
+{
+    "data": {
+        "date": [
+            "03.01.2018 9:12:48",
+            "31.12.2017 11:6:23",
+            "31.12.2017 11:6:59",
+            "03.01.2018 11:30:1",
+            "31.12.2017 11:7:11",
+            "03.01.2018 11:32:55",
+            "03.01.2018 9:12:42",
+            "03.01.2018 11:30:6"
+        ],
+        "size": [
+            "",
+            "",
+            "125",
+            "163328",
+            "67",
+            "351622588",
+            "",
+            "23987"
+        ],
+        "name": [
+            "Урок 2. JVM. Полное погружение",
+            "Урок 1. Проектирование архитектуры и модели данных",
+            "server_settings.json",
+            "screen00.png",
+            "сlient_settings.json",
+            "Урок 4. Операции.mp4",
+            "Урок 3. Сборщики проектов",
+            "screen03.png"
+        ],
+        "type": [
+            "dir",
+            "dir",
+            "file",
+            "file",
+            "file",
+            "file",
+            "dir",
+            "file"
+        ]
+    },
+    "response": "list"
+}
+[INFO ] 2018-01-03 11:52:40.450 [Admin] Server - onException : User Admin on Socket[addr=/127.0.0.1,port=34734,localport=8189] : java.io.EOFException
+[INFO ] 2018-01-03 11:52:40.452 [Admin] Server - onStop : User Admin on Socket[addr=/127.0.0.1,port=34734,localport=8189]
+[INFO ] 2018-01-03 11:52:42.458 [ServerThread] Server - onStop
+[INFO ] 2018-01-03 11:53:05.592 [JavaFX Application Thread] HibernateFactory - Hibernate stoped.
+[INFO ] 2018-01-03 11:53:05.593 [JavaFX Application Thread] pooling - HHH10001008: Cleaning up connection pool [jdbc:mysql://localhost:3306/jis?useSSL=false]

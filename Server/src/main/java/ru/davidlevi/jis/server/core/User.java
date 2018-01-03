@@ -53,6 +53,11 @@ public class User extends ClientThread {
         return this.isAuthorized;
     }
 
+    /**
+     * Возвращает никнейм пользователя
+     *
+     * @return String
+     */
     public String getNickname() {
         return this.nickname;
     }

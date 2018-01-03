@@ -39,7 +39,7 @@
             <AppenderRef ref="Console-log" level="all"/>
         </root>
 
-        <logger level="all" name="ru.davidlevi.jis.common.network.Transmitter" additivity="true">
+        <logger level="all" name="ru.davidlevi.jis.common.network.FileTransferThread" additivity="true">
             <AppenderRef ref="${this-module}-log" level="all"/>
         </logger>
     </loggers>

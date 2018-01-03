@@ -1,6 +1,7 @@
 package ru.davidlevi.jis.client.gui.model;
 
-import javafx.beans.property.*;
+import javafx.beans.property.SimpleStringProperty;
+import javafx.beans.property.StringProperty;
 
 /**
  * Модель Record

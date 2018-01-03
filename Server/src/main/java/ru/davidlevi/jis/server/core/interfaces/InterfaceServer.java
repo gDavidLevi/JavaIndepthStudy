@@ -9,10 +9,19 @@ import ru.davidlevi.jis.server.gui.controller.Basic;
  * @see Basic управляет интерфейсом
  */
 public interface InterfaceServer {
+    /**
+     * Запускаем сервер
+     */
     void start();
 
+    /**
+     * Останавливаем сервер
+     */
     void stop();
 
+    /**
+     * Отключаем всех клиентов
+     */
     void dropAll();
 
     /**

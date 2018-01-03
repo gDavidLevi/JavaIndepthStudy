@@ -3,7 +3,9 @@ package ru.davidlevi.jis.common.network;
 import org.json.JSONObject;
 import ru.davidlevi.jis.common.network.interfaces.ClientThreadListener;
 
-import java.io.*;
+import java.io.DataInputStream;
+import java.io.DataOutputStream;
+import java.io.IOException;
 import java.net.Socket;
 
 public class ClientThread extends Thread {
