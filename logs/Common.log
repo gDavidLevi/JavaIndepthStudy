@@ -1,5 +1,1 @@
-[INFO ] 2018-01-03 11:29:49.184 [JavaFX Application Thread] Transmitter - Receive file 'server_settings.json' from 'Client'.
-[INFO ] 2018-01-03 11:30:01.687 [Client] Transmitter - Send file 'screen00.png' to 'Client' on 10.128.9.238:60512.
-[INFO ] 2018-01-03 11:30:06.630 [Client] Transmitter - Send file 'screen03.png' to 'Client' on 10.128.9.238:58710.
-[INFO ] 2018-01-03 11:30:10.147 [Client] Transmitter - Send file 'screen01.png' to 'Client' on 10.128.9.238:48067.
-[INFO ] 2018-01-03 11:32:41.898 [Client] Transmitter - Send file 'Урок 4. Операции.mp4' to 'Client' on 10.128.9.238:55297.
+[INFO ] 2018-01-04 12:20:36.831 [Client] FileTransferThread - Send file 'screen01.png' to 'Client' on 10.128.9.238:47280.
