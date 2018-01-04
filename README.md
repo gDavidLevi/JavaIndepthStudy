@@ -39,7 +39,7 @@ INSERT INTO jis.Users (id, login, password, nickname, email, uuid) VALUES (1, 'a
 ```json
 {
   "server": {
-    "hostname": "capricorn",
+    "hostname": "127.0.0.1",
     "backlog": 100,
     "port": 8189,
     "storage_folder": "/store/david"  
@@ -69,7 +69,7 @@ INSERT INTO jis.Users (id, login, password, nickname, email, uuid) VALUES (1, 'a
 ```json
 {
   "client": {
-    "hostname": "capricorn",
+    "hostname": "127.0.0.1",
     "port": 8189
   }
 }

@@ -1,6 +1,6 @@
 {
   "server": {
-    "hostname": "capricorn",
+    "hostname": "127.0.0.1",
     "backlog": 100,
     "port": 8189,
     "storage_folder": "/store/david"
