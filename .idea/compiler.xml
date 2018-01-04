@@ -12,13 +12,11 @@
         <module name="Server" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel target="1.8">
-      <module name="Client" target="1.8" />
-      <module name="Common" target="1.8" />
-      <module name="jisclient" target="1.5" />
-      <module name="JisServer" target="1.5" />
-      <module name="Lessons" target="1.8" />
-      <module name="Server" target="1.8" />
+    <bytecodeTargetLevel target="9">
+      <module name="Client" target="9" />
+      <module name="Common" target="9" />
+      <module name="Lessons" target="9" />
+      <module name="Server" target="9" />
     </bytecodeTargetLevel>
   </component>
 </project>
