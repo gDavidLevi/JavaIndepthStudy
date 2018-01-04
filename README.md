@@ -13,7 +13,7 @@
 
 ### Настрока серверной части:
 
-- Создать на MySQL-сервере схему jis.
+##### Создать на MySQL-сервере схему jis.
 Создать пользователя jis с паролем jis. Привязать схему jis к пользователю jis.
 В схеме jis под пользователем root создать таблицу:
 
@@ -35,7 +35,7 @@ CREATE UNIQUE INDEX Users_uuid_uindex ON jis.Users (uuid);
 INSERT INTO jis.Users (id, login, password, nickname, email, uuid) VALUES (1, 'admin', 'admin', 'Admin', 'gDavidLevy@gmail.com', '1000');
 ```
 
-- Файл настроек "server_settings.json":
+##### Файл настроек "server_settings.json":
 ```json
 {
   "server": {
@@ -56,16 +56,16 @@ INSERT INTO jis.Users (id, login, password, nickname, email, uuid) VALUES (1, 'a
 
 Если файл "server_settings.json" отсутствует, то он создается автоматически с настройками по умолчанию.
 
-- Параметры запуска серверного приложения.
+##### Параметры запуска серверного приложения.
 
 Установить "VM options": --add-modules=java.xml.bind --illegal-access=warn
 
-- После запуска серверного приложения, нажать на кнопку "Start socket". 
+##### После запуска серверного приложения, нажать на кнопку "Start socket". 
 Поле этого клиенту смогут подключаться и регистрироваться.
 
 ### Настрока клиентской части:
 
-- Файл настроек "сlient_settings.json":
+##### Файл настроек "сlient_settings.json":
 ```json
 {
   "client": {
