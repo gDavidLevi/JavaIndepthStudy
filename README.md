@@ -13,9 +13,10 @@
 
 ### Настрока серверной части:
 
-1. Создать на MySQL-сервере схему jis.
+- Создать на MySQL-сервере схему jis.
 Создать пользователя jis с паролем jis. Привязать схему jis к пользователю jis.
 В схеме jis под пользователем root создать таблицу:
+
 ```sql
 CREATE TABLE jis.Users
 (
@@ -34,7 +35,8 @@ CREATE UNIQUE INDEX Users_uuid_uindex ON jis.Users (uuid);
 INSERT INTO jis.Users (id, login, password, nickname, email, uuid) VALUES (1, 'admin', 'admin', 'Admin', 'gDavidLevy@gmail.com', '1000');
 ```
 
-2. Настройка подключения к БД находятся в модуле {Server} в файле "resources/hibernate.cfg.xml":
+- Настройка подключения к БД находятся в модуле {Server} в файле "resources/hibernate.cfg.xml":
+
 ```xml
 <?xml version='1.0' encoding='utf-8'?>
 <!DOCTYPE hibernate-configuration PUBLIC
@@ -59,7 +61,7 @@ INSERT INTO jis.Users (id, login, password, nickname, email, uuid) VALUES (1, 'a
 </hibernate-configuration>
 ```
 
-3. Файл настроек "server_settings.json":
+- Файл настроек "server_settings.json":
 ```json
 {
   "server": {
@@ -70,17 +72,26 @@ INSERT INTO jis.Users (id, login, password, nickname, email, uuid) VALUES (1, 'a
   }
 }
 ```
-- "storage_folder" - каталог хранения файлов пользователя
-- "hostname" - имя хоста сервера доступное в сети Интернет
-- "port" - порт
-- "backlog" - максимальное количество подключений к соккет-серверу 
+**"storage_folder"** - каталог хранения файлов пользователя
+
+**"hostname"** - имя хоста сервера доступное в сети Интернет
+
+**"port"** - порт
+
+**"backlog"** - максимальное количество подключений к соккет-серверу 
+
 Если файл "server_settings.json" отсутствует, то он создается автоматически с настройками по умолчанию.
 
-4. После запуска серверного приложения, нажать на кнопку "Start socket". Поле этого клиенту смогут подключаться и регистрироваться.
+- Параметры запуска серверного приложения.
+
+Установить "VM options": --add-modules=java.xml.bind --illegal-access=warn
+
+- После запуска серверного приложения, нажать на кнопку "Start socket". 
+Поле этого клиенту смогут подключаться и регистрироваться.
 
 ### Настрока клиентской части:
 
-1. Файл настроек "сlient_settings.json":
+- Файл настроек "сlient_settings.json":
 ```json
 {
   "client": {
@@ -89,8 +100,10 @@ INSERT INTO jis.Users (id, login, password, nickname, email, uuid) VALUES (1, 'a
   }
 }
 ```
-- "hostname" - имя хоста сервера доступное в сети Интернет
-- "port" - порт
+**"hostname"** - имя хоста сервера доступное в сети Интернет
+
+**"port"** - порт
+
 Если файл "сlient_settings.json" отсутствует, то он создается автоматически с настройками по умолчанию.
 
 ### Логин и пароль:
