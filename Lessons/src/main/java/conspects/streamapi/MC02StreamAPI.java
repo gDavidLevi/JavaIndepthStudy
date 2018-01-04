@@ -5,6 +5,7 @@ import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.util.*;
 import java.util.function.IntFunction;
+import java.util.function.Predicate;
 import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 import java.util.stream.Stream;
@@ -173,7 +174,7 @@ public class MC02StreamAPI {
 
 
         List<Integer> integerList = Arrays.asList(1, 2, 3, 4, 5, 6, 7, 8, 9);
-        List<String> stringList = Arrays.asList("a1a", "b2b", "c3c", "d4d");
+        List<String> stringList = Arrays.asList("a1a", "b2b", "c3c", "d4d", "e5a");
 
         // Пример 13 (Java 9)
         System.out.println("13. Игнорировать в потоке числа < 3:");
@@ -231,10 +232,34 @@ public class MC02StreamAPI {
                 .ifPresent(System.out::println); // выведем в консоль
 
         // Пример 21
-        System.out.println("21. Преобразовать Int-поток в String-поток: ");
+        System.out.println("21. Преобразовать int-поток в String-поток: ");
         IntStream
                 .range(1, 9)  // [1,9)
-                .mapToObj(s -> "Num: " + s)  // преобразовать Int-поток в String-поток
+                .mapToObj(s -> "Num: " + s)  // преобразовать int-поток в поток объектов
+                .forEach(System.out::println);  // вывод каждого
+
+        // Пример 22
+        System.out.println("22. Порядок обработки (filter-map-forEach): ");
+        stringList.stream()
+                .filter(s -> s.endsWith("a"))  // заканчивается на 'a'
+                .map(m -> m.substring(1, 2))  // извлечь второй символ
+                .mapToInt(Integer::parseInt)  // преобразовать символ в Integer
+                .forEach(System.out::println);  // вывод каждого
+
+        // Пример 23
+        boolean result5 = stringList.stream()
+                .filter(s -> s.endsWith("z")) // отфиртровать наканчивающиеся на 'z'
+                .anyMatch(s -> true);  // любое вхождение
+        System.out.println("23. Есть ли в списке строка заканчиваеющаяся на 'z'?: " + result5);
+
+        // Пример 24
+        System.out.println("24. parallelStream: ");
+        integerList.parallelStream()
+                .filter(integer -> integer > 2)
+                .map(integer -> "Value: " + integer)
+                .map(s -> s.substring(7, 8))
+                .mapToInt(Integer::parseInt)
+                .filter(i -> i < 9)
                 .forEach(System.out::println);
     }
 }
