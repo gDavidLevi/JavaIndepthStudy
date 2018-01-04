@@ -10,7 +10,6 @@ import ru.davidlevi.jis.common.network.Direction;
 import ru.davidlevi.jis.common.network.FileTransferThread;
 import ru.davidlevi.jis.common.network.interfaces.ByteStreamThreadListener;
 import ru.davidlevi.jis.common.network.interfaces.ClientThreadListener;
-import ru.davidlevi.jis.common.notuse.Dater;
 import ru.davidlevi.jis.server.core.interfaces.InterfaceServer;
 import ru.davidlevi.jis.server.database.Database;
 import ru.davidlevi.jis.server.database.interfaces.InterfaceDatabase;
@@ -23,12 +22,15 @@ import java.net.ServerSocket;
 import java.net.Socket;
 import java.nio.file.*;
 import java.nio.file.attribute.BasicFileAttributes;
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.List;
 import java.util.Vector;
 
 public class Server extends Settings implements ServerThreadListener, ClientThreadListener, InterfaceServer, ByteStreamThreadListener {
+    private static final SimpleDateFormat DATE_FORMAT = new SimpleDateFormat("dd.MM.yyyy H:m:s");
+
     private Logger logger;
     private static InterfaceDatabase database;
     private ServerThread serverThread;
@@ -427,12 +429,12 @@ public class Server extends Settings implements ServerThreadListener, ClientThre
             JSONArray folder = new JSONArray();
             JSONArray size = new JSONArray();
             JSONArray date = new JSONArray();
-            for (Path entry : paths) {
-                BasicFileAttributes attributes = Files.readAttributes(entry, BasicFileAttributes.class);
-                String aName = entry.getFileName().toString();
+            for (Path path : paths) {
+                BasicFileAttributes attributes = Files.readAttributes(path, BasicFileAttributes.class);
+                String aName = path.getFileName().toString();
                 String aType = attributes.isDirectory() ? "dir" : "file";
                 String aSize = aType.equals("dir") ? "" : String.valueOf(attributes.size());
-                String aDate = Dater.longDateToString(entry.toFile().lastModified());
+                String aDate = longDateToString(path.toFile().lastModified());
                 /* flush */
                 name.put(aName);
                 folder.put(aType);
@@ -450,6 +452,12 @@ public class Server extends Settings implements ServerThreadListener, ClientThre
             e.printStackTrace();
         }
         return data;
+    }
+
+    /* Возвращает строку из LocalDate */
+    private String longDateToString(Long date) {
+        if (date == null) return null;
+        return DATE_FORMAT.format(date);
     }
 
     /* Создать каталог */

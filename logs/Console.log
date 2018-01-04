@@ -959,3 +959,1027 @@
 }
 [INFO ] 2018-01-04 12:31:01.058 [Admin] Server - onException : User Admin on Socket[addr=/127.0.0.1,port=49748,localport=8189] : java.io.EOFException
 [INFO ] 2018-01-04 12:31:01.062 [Admin] Server - onStop : User Admin on Socket[addr=/127.0.0.1,port=49748,localport=8189]
+[INFO ] 2018-01-04 13:22:25.109 [JavaFX Application Thread] Settings - 
+  i i i i i i i
+  I I I I I I I
+  I  \ `+' /  I
+   \  `-+-'  /
+    `-__|__-'
+        |
+  ------+------
+[INFO ] 2018-01-04 13:22:25.180 [JavaFX Application Thread] Settings - Настройки сервера загружены.
+[INFO ] 2018-01-04 13:22:29.940 [JavaFX Application Thread] HibernateFactory - Hibernate is building...
+[INFO ] 2018-01-04 13:22:30.253 [JavaFX Application Thread] Version - HHH000412: Hibernate Core {5.2.12.Final}
+[INFO ] 2018-01-04 13:22:30.257 [JavaFX Application Thread] Environment - HHH000206: hibernate.properties not found
+[INFO ] 2018-01-04 13:22:30.887 [JavaFX Application Thread] Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+[WARN ] 2018-01-04 13:22:32.649 [JavaFX Application Thread] pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+[INFO ] 2018-01-04 13:22:32.660 [JavaFX Application Thread] pooling - HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/jis?useSSL=false]
+[INFO ] 2018-01-04 13:22:32.661 [JavaFX Application Thread] pooling - HHH10001001: Connection properties: {password=****, user=jis}
+[INFO ] 2018-01-04 13:22:32.661 [JavaFX Application Thread] pooling - HHH10001003: Autocommit mode: false
+[INFO ] 2018-01-04 13:22:32.666 [JavaFX Application Thread] DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 20 (min=1)
+[INFO ] 2018-01-04 13:22:33.189 [JavaFX Application Thread] Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+[INFO ] 2018-01-04 13:22:33.318 [JavaFX Application Thread] EnversServiceImpl - Envers integration enabled? : true
+[INFO ] 2018-01-04 13:22:34.319 [JavaFX Application Thread] QueryTranslatorFactoryInitiator - HHH000397: Using ASTQueryTranslatorFactory
+[INFO ] 2018-01-04 13:22:34.507 [JavaFX Application Thread] HibernateFactory - Hibernate created.
+[INFO ] 2018-01-04 13:22:34.633 [ServerThread] Server - onStart
+[INFO ] 2018-01-04 13:22:34.641 [ServerThread] Server - onReady /127.0.0.1:8189
+[INFO ] 2018-01-04 13:22:53.140 [ServerThread] Server - onAccepted : Socket[addr=/127.0.0.1,port=51008,localport=8189]
+[INFO ] 2018-01-04 13:22:53.165 [ClientThread] Server - onStart : User ClientThread on Socket[addr=/127.0.0.1,port=51008,localport=8189]
+[INFO ] 2018-01-04 13:22:53.167 [ClientThread] Server - onReady : User ClientThread on Socket[addr=/127.0.0.1,port=51008,localport=8189]
+[INFO ] 2018-01-04 13:22:53.327 [ClientThread] Server - onGet : User ClientThread on Socket[addr=/127.0.0.1,port=51008,localport=8189] : <-- 
+{
+    "request": "authentication",
+    "data": {
+        "password": "admin",
+        "login": "admin"
+    }
+}
+[INFO ] 2018-01-04 13:22:53.495 [ClientThread] Server - onPost : User ClientThread on Socket[addr=/127.0.0.1,port=51008,localport=8189] : --> 
+{
+    "data": {"nickname": "Admin"},
+    "response": "authorization"
+}
+[INFO ] 2018-01-04 13:22:53.707 [Admin] Server - onGet : User Admin on Socket[addr=/127.0.0.1,port=51008,localport=8189] : <-- 
+{
+    "request": "list",
+    "data": {"path": "/"}
+}
+[INFO ] 2018-01-04 13:22:53.888 [Admin] Server - onPost : User Admin on Socket[addr=/127.0.0.1,port=51008,localport=8189] : --> 
+{
+    "data": {
+        "date": [
+            "03.01.2018 9:12:48",
+            "31.12.2017 11:6:23",
+            "31.12.2017 11:6:59",
+            "04.01.2018 12:20:36",
+            "03.01.2018 11:30:1",
+            "31.12.2017 11:7:11",
+            "03.01.2018 11:32:55",
+            "03.01.2018 9:12:42",
+            "03.01.2018 11:30:6",
+            "04.01.2018 12:15:56"
+        ],
+        "size": [
+            "",
+            "",
+            "125",
+            "8488",
+            "163328",
+            "67",
+            "351622588",
+            "",
+            "23987",
+            ""
+        ],
+        "name": [
+            "Урок 2. JVM. Полное погружение",
+            "Урок 1. Проектирование архитектуры и модели данных",
+            "server_settings.json",
+            "screen01.png",
+            "screen00.png",
+            "сlient_settings.json",
+            "Урок 4. Операции.mp4",
+            "Урок 3. Сборщики проектов",
+            "screen03.png",
+            "Кино"
+        ],
+        "type": [
+            "dir",
+            "dir",
+            "application/json",
+            "image/png",
+            "image/png",
+            "application/json",
+            "video/mp4",
+            "dir",
+            "image/png",
+            "dir"
+        ]
+    },
+    "response": "list"
+}
+[INFO ] 2018-01-04 13:24:04.898 [Admin] Server - onGet : User Admin on Socket[addr=/127.0.0.1,port=51008,localport=8189] : <-- 
+{
+    "request": "upload",
+    "data": {"filename": "/capricorn-passwords"}
+}
+[INFO ] 2018-01-04 13:24:04.936 [Admin] FileTransferThread - Receive file 'capricorn-passwords' from 'Admin'.
+[INFO ] 2018-01-04 13:24:04.968 [Admin] Server - onPost : User Admin on Socket[addr=/127.0.0.1,port=51008,localport=8189] : --> 
+{
+    "data": {"socket": {
+        "hostname": "10.128.9.238",
+        "port": 52350,
+        "key": "/capricorn-passwords"
+    }},
+    "response": "ready-upload"
+}
+[INFO ] 2018-01-04 13:24:04.970 [capricorn-passwords] Server - onStart : Receive file 'capricorn-passwords' from 'Admin'.
+[INFO ] 2018-01-04 13:24:06.269 [Client] FileTransferThread - Send file 'capricorn-passwords' to 'Client' on 10.128.9.238:52350.
+[INFO ] 2018-01-04 13:24:14.485 [Admin] Server - onGet : User Admin on Socket[addr=/127.0.0.1,port=51008,localport=8189] : <-- 
+{
+    "request": "list",
+    "data": {"path": "/Урок 2. JVM. Полное погружение"}
+}
+[INFO ] 2018-01-04 13:24:14.498 [Admin] Server - onPost : User Admin on Socket[addr=/127.0.0.1,port=51008,localport=8189] : --> 
+{
+    "data": {
+        "date": ["03.01.2018 9:17:55"],
+        "size": [""],
+        "name": ["new folder"],
+        "type": ["dir"]
+    },
+    "response": "list"
+}
+[INFO ] 2018-01-04 13:24:16.432 [Admin] Server - onGet : User Admin on Socket[addr=/127.0.0.1,port=51008,localport=8189] : <-- 
+{
+    "request": "list",
+    "data": {"path": "/"}
+}
+[INFO ] 2018-01-04 13:24:16.479 [Admin] Server - onStop : User Admin on Socket[addr=/127.0.0.1,port=51008,localport=8189]
+[INFO ] 2018-01-04 13:24:24.715 [ServerThread] Server - onAccepted : Socket[addr=/127.0.0.1,port=51062,localport=8189]
+[INFO ] 2018-01-04 13:24:24.717 [ClientThread] Server - onStart : User ClientThread on Socket[addr=/127.0.0.1,port=51062,localport=8189]
+[INFO ] 2018-01-04 13:24:24.718 [ClientThread] Server - onReady : User ClientThread on Socket[addr=/127.0.0.1,port=51062,localport=8189]
+[INFO ] 2018-01-04 13:24:24.818 [ClientThread] Server - onGet : User ClientThread on Socket[addr=/127.0.0.1,port=51062,localport=8189] : <-- 
+{
+    "request": "authentication",
+    "data": {
+        "password": "admin",
+        "login": "admin"
+    }
+}
+[INFO ] 2018-01-04 13:24:24.848 [ClientThread] Server - onPost : User ClientThread on Socket[addr=/127.0.0.1,port=51062,localport=8189] : --> 
+{
+    "data": {"nickname": "Admin"},
+    "response": "authorization"
+}
+[INFO ] 2018-01-04 13:24:24.898 [Admin] Server - onGet : User Admin on Socket[addr=/127.0.0.1,port=51062,localport=8189] : <-- 
+{
+    "request": "list",
+    "data": {"path": "/"}
+}
+[INFO ] 2018-01-04 13:24:24.907 [Admin] Server - onStop : User Admin on Socket[addr=/127.0.0.1,port=51062,localport=8189]
+[INFO ] 2018-01-04 13:24:42.643 [ServerThread] Server - onAccepted : Socket[addr=/127.0.0.1,port=51076,localport=8189]
+[INFO ] 2018-01-04 13:24:42.645 [ClientThread] Server - onStart : User ClientThread on Socket[addr=/127.0.0.1,port=51076,localport=8189]
+[INFO ] 2018-01-04 13:24:42.646 [ClientThread] Server - onReady : User ClientThread on Socket[addr=/127.0.0.1,port=51076,localport=8189]
+[INFO ] 2018-01-04 13:24:42.751 [ClientThread] Server - onGet : User ClientThread on Socket[addr=/127.0.0.1,port=51076,localport=8189] : <-- 
+{
+    "request": "authentication",
+    "data": {
+        "password": "admin",
+        "login": "admin"
+    }
+}
+[INFO ] 2018-01-04 13:24:42.775 [ClientThread] Server - onPost : User ClientThread on Socket[addr=/127.0.0.1,port=51076,localport=8189] : --> 
+{
+    "data": {"nickname": "Admin"},
+    "response": "authorization"
+}
+[INFO ] 2018-01-04 13:24:42.973 [Admin] Server - onGet : User Admin on Socket[addr=/127.0.0.1,port=51076,localport=8189] : <-- 
+{
+    "request": "list",
+    "data": {"path": "/"}
+}
+[INFO ] 2018-01-04 13:24:42.983 [Admin] Server - onStop : User Admin on Socket[addr=/127.0.0.1,port=51076,localport=8189]
+[INFO ] 2018-01-04 13:24:48.649 [ServerThread] Server - onStop
+[INFO ] 2018-01-04 13:24:50.784 [JavaFX Application Thread] HibernateFactory - Hibernate stoped.
+[INFO ] 2018-01-04 13:24:50.787 [JavaFX Application Thread] pooling - HHH10001008: Cleaning up connection pool [jdbc:mysql://localhost:3306/jis?useSSL=false]
+[INFO ] 2018-01-04 13:24:58.748 [JavaFX Application Thread] Settings - 
+  i i i i i i i
+  I I I I I I I
+  I  \ `+' /  I
+   \  `-+-'  /
+    `-__|__-'
+        |
+  ------+------
+[INFO ] 2018-01-04 13:24:58.854 [JavaFX Application Thread] Settings - Настройки сервера загружены.
+[INFO ] 2018-01-04 13:25:02.619 [JavaFX Application Thread] HibernateFactory - Hibernate is building...
+[INFO ] 2018-01-04 13:25:02.848 [JavaFX Application Thread] Version - HHH000412: Hibernate Core {5.2.12.Final}
+[INFO ] 2018-01-04 13:25:02.851 [JavaFX Application Thread] Environment - HHH000206: hibernate.properties not found
+[INFO ] 2018-01-04 13:25:03.445 [JavaFX Application Thread] Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+[WARN ] 2018-01-04 13:25:04.994 [JavaFX Application Thread] pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+[INFO ] 2018-01-04 13:25:05.006 [JavaFX Application Thread] pooling - HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/jis?useSSL=false]
+[INFO ] 2018-01-04 13:25:05.007 [JavaFX Application Thread] pooling - HHH10001001: Connection properties: {password=****, user=jis}
+[INFO ] 2018-01-04 13:25:05.008 [JavaFX Application Thread] pooling - HHH10001003: Autocommit mode: false
+[INFO ] 2018-01-04 13:25:05.019 [JavaFX Application Thread] DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 20 (min=1)
+[INFO ] 2018-01-04 13:25:05.605 [JavaFX Application Thread] Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+[INFO ] 2018-01-04 13:25:05.715 [JavaFX Application Thread] EnversServiceImpl - Envers integration enabled? : true
+[INFO ] 2018-01-04 13:25:06.534 [JavaFX Application Thread] QueryTranslatorFactoryInitiator - HHH000397: Using ASTQueryTranslatorFactory
+[INFO ] 2018-01-04 13:25:06.699 [JavaFX Application Thread] HibernateFactory - Hibernate created.
+[INFO ] 2018-01-04 13:25:06.820 [ServerThread] Server - onStart
+[INFO ] 2018-01-04 13:25:06.827 [ServerThread] Server - onReady /127.0.0.1:8189
+[INFO ] 2018-01-04 13:25:20.884 [ServerThread] Server - onAccepted : Socket[addr=/127.0.0.1,port=51100,localport=8189]
+[INFO ] 2018-01-04 13:25:20.900 [ClientThread] Server - onStart : User ClientThread on Socket[addr=/127.0.0.1,port=51100,localport=8189]
+[INFO ] 2018-01-04 13:25:20.901 [ClientThread] Server - onReady : User ClientThread on Socket[addr=/127.0.0.1,port=51100,localport=8189]
+[INFO ] 2018-01-04 13:25:21.016 [ClientThread] Server - onGet : User ClientThread on Socket[addr=/127.0.0.1,port=51100,localport=8189] : <-- 
+{
+    "request": "authentication",
+    "data": {
+        "password": "admin",
+        "login": "admin"
+    }
+}
+[INFO ] 2018-01-04 13:25:21.141 [ClientThread] Server - onPost : User ClientThread on Socket[addr=/127.0.0.1,port=51100,localport=8189] : --> 
+{
+    "data": {"nickname": "Admin"},
+    "response": "authorization"
+}
+[INFO ] 2018-01-04 13:25:21.338 [Admin] Server - onGet : User Admin on Socket[addr=/127.0.0.1,port=51100,localport=8189] : <-- 
+{
+    "request": "list",
+    "data": {"path": "/"}
+}
+[INFO ] 2018-01-04 13:25:21.571 [Admin] Server - onStop : User Admin on Socket[addr=/127.0.0.1,port=51100,localport=8189]
+[INFO ] 2018-01-04 13:25:26.575 [JavaFX Application Thread] HibernateFactory - Hibernate stoped.
+[INFO ] 2018-01-04 13:25:26.577 [JavaFX Application Thread] pooling - HHH10001008: Cleaning up connection pool [jdbc:mysql://localhost:3306/jis?useSSL=false]
+[INFO ] 2018-01-04 13:26:17.268 [JavaFX Application Thread] Settings - 
+  i i i i i i i
+  I I I I I I I
+  I  \ `+' /  I
+   \  `-+-'  /
+    `-__|__-'
+        |
+  ------+------
+[INFO ] 2018-01-04 13:26:17.351 [JavaFX Application Thread] Settings - Настройки сервера загружены.
+[INFO ] 2018-01-04 13:26:26.360 [JavaFX Application Thread] HibernateFactory - Hibernate is building...
+[INFO ] 2018-01-04 13:26:26.650 [JavaFX Application Thread] Version - HHH000412: Hibernate Core {5.2.12.Final}
+[INFO ] 2018-01-04 13:26:26.653 [JavaFX Application Thread] Environment - HHH000206: hibernate.properties not found
+[INFO ] 2018-01-04 13:26:27.230 [JavaFX Application Thread] Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+[WARN ] 2018-01-04 13:26:28.787 [JavaFX Application Thread] pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+[INFO ] 2018-01-04 13:26:28.801 [JavaFX Application Thread] pooling - HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/jis?useSSL=false]
+[INFO ] 2018-01-04 13:26:28.802 [JavaFX Application Thread] pooling - HHH10001001: Connection properties: {password=****, user=jis}
+[INFO ] 2018-01-04 13:26:28.803 [JavaFX Application Thread] pooling - HHH10001003: Autocommit mode: false
+[INFO ] 2018-01-04 13:26:28.814 [JavaFX Application Thread] DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 20 (min=1)
+[INFO ] 2018-01-04 13:26:29.412 [JavaFX Application Thread] Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+[INFO ] 2018-01-04 13:26:29.520 [JavaFX Application Thread] EnversServiceImpl - Envers integration enabled? : true
+[INFO ] 2018-01-04 13:26:30.327 [JavaFX Application Thread] QueryTranslatorFactoryInitiator - HHH000397: Using ASTQueryTranslatorFactory
+[INFO ] 2018-01-04 13:26:30.494 [JavaFX Application Thread] HibernateFactory - Hibernate created.
+[INFO ] 2018-01-04 13:26:30.618 [ServerThread] Server - onStart
+[INFO ] 2018-01-04 13:26:30.624 [ServerThread] Server - onReady /127.0.0.1:8189
+[INFO ] 2018-01-04 13:26:36.588 [ServerThread] Server - onAccepted : Socket[addr=/127.0.0.1,port=51134,localport=8189]
+[INFO ] 2018-01-04 13:26:36.603 [ClientThread] Server - onStart : User ClientThread on Socket[addr=/127.0.0.1,port=51134,localport=8189]
+[INFO ] 2018-01-04 13:26:36.605 [ClientThread] Server - onReady : User ClientThread on Socket[addr=/127.0.0.1,port=51134,localport=8189]
+[INFO ] 2018-01-04 13:26:36.739 [ClientThread] Server - onGet : User ClientThread on Socket[addr=/127.0.0.1,port=51134,localport=8189] : <-- 
+{
+    "request": "authentication",
+    "data": {
+        "password": "admin",
+        "login": "admin"
+    }
+}
+[INFO ] 2018-01-04 13:26:36.899 [ClientThread] Server - onPost : User ClientThread on Socket[addr=/127.0.0.1,port=51134,localport=8189] : --> 
+{
+    "data": {"nickname": "Admin"},
+    "response": "authorization"
+}
+[INFO ] 2018-01-04 13:26:37.112 [Admin] Server - onGet : User Admin on Socket[addr=/127.0.0.1,port=51134,localport=8189] : <-- 
+{
+    "request": "list",
+    "data": {"path": "/"}
+}
+[INFO ] 2018-01-04 13:26:37.356 [Admin] Server - onPost : User Admin on Socket[addr=/127.0.0.1,port=51134,localport=8189] : --> 
+{
+    "data": {
+        "date": [
+            "03.01.2018 9:12:48",
+            "31.12.2017 11:6:23",
+            "31.12.2017 11:6:59",
+            "04.01.2018 12:20:36",
+            "03.01.2018 11:30:1",
+            "04.01.2018 13:24:6",
+            "31.12.2017 11:7:11",
+            "03.01.2018 11:32:55",
+            "03.01.2018 9:12:42",
+            "03.01.2018 11:30:6",
+            "04.01.2018 12:15:56"
+        ],
+        "size": [
+            "",
+            "",
+            "125",
+            "8488",
+            "163328",
+            "23",
+            "67",
+            "351622588",
+            "",
+            "23987",
+            ""
+        ],
+        "name": [
+            "Урок 2. JVM. Полное погружение",
+            "Урок 1. Проектирование архитектуры и модели данных",
+            "server_settings.json",
+            "screen01.png",
+            "screen00.png",
+            "capricorn-passwords",
+            "сlient_settings.json",
+            "Урок 4. Операции.mp4",
+            "Урок 3. Сборщики проектов",
+            "screen03.png",
+            "Кино"
+        ],
+        "type": [
+            "dir",
+            "dir",
+            "file",
+            "file",
+            "file",
+            "file",
+            "file",
+            "file",
+            "dir",
+            "file",
+            "dir"
+        ]
+    },
+    "response": "list"
+}
+[INFO ] 2018-01-04 13:28:08.706 [Admin] Server - onGet : User Admin on Socket[addr=/127.0.0.1,port=51134,localport=8189] : <-- 
+{
+    "request": "list",
+    "data": {"path": "/Урок 2. JVM. Полное погружение"}
+}
+[INFO ] 2018-01-04 13:28:08.715 [Admin] Server - onPost : User Admin on Socket[addr=/127.0.0.1,port=51134,localport=8189] : --> 
+{
+    "data": {
+        "date": ["03.01.2018 9:17:55"],
+        "size": [""],
+        "name": ["new folder"],
+        "type": ["dir"]
+    },
+    "response": "list"
+}
+[INFO ] 2018-01-04 13:28:09.842 [Admin] Server - onGet : User Admin on Socket[addr=/127.0.0.1,port=51134,localport=8189] : <-- 
+{
+    "request": "list",
+    "data": {"path": "/"}
+}
+[INFO ] 2018-01-04 13:28:09.862 [Admin] Server - onPost : User Admin on Socket[addr=/127.0.0.1,port=51134,localport=8189] : --> 
+{
+    "data": {
+        "date": [
+            "03.01.2018 9:12:48",
+            "31.12.2017 11:6:23",
+            "31.12.2017 11:6:59",
+            "04.01.2018 12:20:36",
+            "03.01.2018 11:30:1",
+            "31.12.2017 11:7:11",
+            "03.01.2018 11:32:55",
+            "03.01.2018 9:12:42",
+            "03.01.2018 11:30:6",
+            "04.01.2018 13:24:6",
+            "04.01.2018 12:15:56"
+        ],
+        "size": [
+            "",
+            "",
+            "125",
+            "8488",
+            "163328",
+            "67",
+            "351622588",
+            "",
+            "23987",
+            "23",
+            ""
+        ],
+        "name": [
+            "Урок 2. JVM. Полное погружение",
+            "Урок 1. Проектирование архитектуры и модели данных",
+            "server_settings.json",
+            "screen01.png",
+            "screen00.png",
+            "сlient_settings.json",
+            "Урок 4. Операции.mp4",
+            "Урок 3. Сборщики проектов",
+            "screen03.png",
+            "capricorn-passwords.txt",
+            "Кино"
+        ],
+        "type": [
+            "dir",
+            "dir",
+            "file",
+            "file",
+            "file",
+            "file",
+            "file",
+            "dir",
+            "file",
+            "file",
+            "dir"
+        ]
+    },
+    "response": "list"
+}
+[INFO ] 2018-01-04 13:28:46.750 [JavaFX Application Thread] HibernateFactory - Hibernate stoped.
+[INFO ] 2018-01-04 13:28:46.753 [JavaFX Application Thread] pooling - HHH10001008: Cleaning up connection pool [jdbc:mysql://localhost:3306/jis?useSSL=false]
+[INFO ] 2018-01-04 14:10:17.018 [JavaFX Application Thread] Settings - 
+  i i i i i i i
+  I I I I I I I
+  I  \ `+' /  I
+   \  `-+-'  /
+    `-__|__-'
+        |
+  ------+------
+[INFO ] 2018-01-04 14:10:17.158 [JavaFX Application Thread] Settings - Настройки сервера загружены.
+[INFO ] 2018-01-04 14:10:21.778 [JavaFX Application Thread] HibernateFactory - Hibernate is building...
+[INFO ] 2018-01-04 14:10:21.989 [JavaFX Application Thread] Version - HHH000412: Hibernate Core {5.2.12.Final}
+[INFO ] 2018-01-04 14:10:21.992 [JavaFX Application Thread] Environment - HHH000206: hibernate.properties not found
+[INFO ] 2018-01-04 14:10:22.543 [JavaFX Application Thread] Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+[WARN ] 2018-01-04 14:10:24.107 [JavaFX Application Thread] pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+[INFO ] 2018-01-04 14:10:24.120 [JavaFX Application Thread] pooling - HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/jis?useSSL=false]
+[INFO ] 2018-01-04 14:10:24.121 [JavaFX Application Thread] pooling - HHH10001001: Connection properties: {password=****, user=jis}
+[INFO ] 2018-01-04 14:10:24.121 [JavaFX Application Thread] pooling - HHH10001003: Autocommit mode: false
+[INFO ] 2018-01-04 14:10:24.126 [JavaFX Application Thread] DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 20 (min=1)
+[INFO ] 2018-01-04 14:10:24.739 [JavaFX Application Thread] Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+[INFO ] 2018-01-04 14:10:24.889 [JavaFX Application Thread] EnversServiceImpl - Envers integration enabled? : true
+[INFO ] 2018-01-04 14:10:25.980 [JavaFX Application Thread] QueryTranslatorFactoryInitiator - HHH000397: Using ASTQueryTranslatorFactory
+[INFO ] 2018-01-04 14:10:26.147 [JavaFX Application Thread] HibernateFactory - Hibernate created.
+[INFO ] 2018-01-04 14:10:26.265 [ServerThread] Server - onStart
+[INFO ] 2018-01-04 14:10:26.272 [ServerThread] Server - onReady /127.0.0.1:8189
+[INFO ] 2018-01-04 14:10:45.966 [ServerThread] Server - onAccepted : Socket[addr=/127.0.0.1,port=51906,localport=8189]
+[INFO ] 2018-01-04 14:10:45.982 [ClientThread] Server - onStart : User ClientThread on Socket[addr=/127.0.0.1,port=51906,localport=8189]
+[INFO ] 2018-01-04 14:10:45.983 [ClientThread] Server - onReady : User ClientThread on Socket[addr=/127.0.0.1,port=51906,localport=8189]
+[INFO ] 2018-01-04 14:10:46.101 [ClientThread] Server - onGet : User ClientThread on Socket[addr=/127.0.0.1,port=51906,localport=8189] : <-- 
+{
+    "request": "authentication",
+    "data": {
+        "password": "admin",
+        "login": "admin"
+    }
+}
+[INFO ] 2018-01-04 14:10:46.219 [ClientThread] Server - onPost : User ClientThread on Socket[addr=/127.0.0.1,port=51906,localport=8189] : --> 
+{
+    "data": {"nickname": "Admin"},
+    "response": "authorization"
+}
+[INFO ] 2018-01-04 14:10:46.410 [Admin] Server - onGet : User Admin on Socket[addr=/127.0.0.1,port=51906,localport=8189] : <-- 
+{
+    "request": "list",
+    "data": {"path": "/"}
+}
+[INFO ] 2018-01-04 14:10:46.574 [Admin] Server - onPost : User Admin on Socket[addr=/127.0.0.1,port=51906,localport=8189] : --> 
+{
+    "data": {
+        "date": [
+            "03.01.2018 9:12:48",
+            "04.01.2018 14:4:10",
+            "04.01.2018 13:58:32",
+            "04.01.2018 13:58:39",
+            "31.12.2017 11:6:23",
+            "31.12.2017 11:6:59",
+            "04.01.2018 12:20:36",
+            "03.01.2018 11:30:1",
+            "31.12.2017 11:7:11",
+            "03.01.2018 11:32:55",
+            "03.01.2018 9:12:42",
+            "03.01.2018 11:30:6",
+            "04.01.2018 13:24:6",
+            "04.01.2018 12:15:56"
+        ],
+        "size": [
+            "",
+            "2",
+            "6557",
+            "7405",
+            "",
+            "125",
+            "8488",
+            "163328",
+            "67",
+            "351622588",
+            "",
+            "23987",
+            "23",
+            ""
+        ],
+        "name": [
+            "Урок 2. JVM. Полное погружение",
+            "Text File.log",
+            "LibreOffice Calc",
+            "LibreOffice Writer",
+            "Урок 1. Проектирование архитектуры и модели данных",
+            "server_settings.json",
+            "screen01.png",
+            "screen00.png",
+            "сlient_settings.json",
+            "Урок 4. Операции.mp4",
+            "Урок 3. Сборщики проектов",
+            "screen03.png",
+            "capricorn-passwords.txt",
+            "Кино"
+        ],
+        "type": [
+            "dir",
+            "file",
+            "file",
+            "file",
+            "dir",
+            "application/json",
+            "image/png",
+            "image/png",
+            "application/json",
+            "video/mp4",
+            "dir",
+            "image/png",
+            "text/plain",
+            "dir"
+        ]
+    },
+    "response": "list"
+}
+[INFO ] 2018-01-04 14:11:52.987 [Admin] Server - onException : User Admin on Socket[addr=/127.0.0.1,port=51906,localport=8189] : java.io.EOFException
+[INFO ] 2018-01-04 14:11:52.990 [Admin] Server - onStop : User Admin on Socket[addr=/127.0.0.1,port=51906,localport=8189]
+[INFO ] 2018-01-04 14:15:56.408 [ServerThread] Server - onAccepted : Socket[addr=/127.0.0.1,port=51980,localport=8189]
+[INFO ] 2018-01-04 14:15:56.411 [ClientThread] Server - onStart : User ClientThread on Socket[addr=/127.0.0.1,port=51980,localport=8189]
+[INFO ] 2018-01-04 14:15:56.412 [ClientThread] Server - onReady : User ClientThread on Socket[addr=/127.0.0.1,port=51980,localport=8189]
+[INFO ] 2018-01-04 14:15:56.520 [ClientThread] Server - onGet : User ClientThread on Socket[addr=/127.0.0.1,port=51980,localport=8189] : <-- 
+{
+    "request": "authentication",
+    "data": {
+        "password": "admin",
+        "login": "admin"
+    }
+}
+[INFO ] 2018-01-04 14:15:56.538 [ClientThread] Server - onPost : User ClientThread on Socket[addr=/127.0.0.1,port=51980,localport=8189] : --> 
+{
+    "data": {"nickname": "Admin"},
+    "response": "authorization"
+}
+[INFO ] 2018-01-04 14:15:56.756 [Admin] Server - onGet : User Admin on Socket[addr=/127.0.0.1,port=51980,localport=8189] : <-- 
+{
+    "request": "list",
+    "data": {"path": "/"}
+}
+[INFO ] 2018-01-04 14:15:56.781 [Admin] Server - onPost : User Admin on Socket[addr=/127.0.0.1,port=51980,localport=8189] : --> 
+{
+    "data": {
+        "date": [
+            "03.01.2018 9:12:48",
+            "04.01.2018 14:4:10",
+            "04.01.2018 13:58:32",
+            "04.01.2018 13:58:39",
+            "31.12.2017 11:6:23",
+            "31.12.2017 11:6:59",
+            "04.01.2018 12:20:36",
+            "03.01.2018 11:30:1",
+            "31.12.2017 11:7:11",
+            "03.01.2018 11:32:55",
+            "03.01.2018 9:12:42",
+            "03.01.2018 11:30:6",
+            "04.01.2018 13:24:6",
+            "04.01.2018 12:15:56"
+        ],
+        "size": [
+            "",
+            "2",
+            "6557",
+            "7405",
+            "",
+            "125",
+            "8488",
+            "163328",
+            "67",
+            "351622588",
+            "",
+            "23987",
+            "23",
+            ""
+        ],
+        "name": [
+            "Урок 2. JVM. Полное погружение",
+            "Text File.log",
+            "LibreOffice Calc",
+            "LibreOffice Writer",
+            "Урок 1. Проектирование архитектуры и модели данных",
+            "server_settings.json",
+            "screen01.png",
+            "screen00.png",
+            "сlient_settings.json",
+            "Урок 4. Операции.mp4",
+            "Урок 3. Сборщики проектов",
+            "screen03.png",
+            "capricorn-passwords.txt",
+            "Кино"
+        ],
+        "type": [
+            "dir",
+            "file",
+            "file",
+            "file",
+            "dir",
+            "application/json",
+            "image/png",
+            "image/png",
+            "application/json",
+            "video/mp4",
+            "dir",
+            "image/png",
+            "text/plain",
+            "dir"
+        ]
+    },
+    "response": "list"
+}
+[INFO ] 2018-01-04 14:17:42.413 [Admin] Server - onException : User Admin on Socket[addr=/127.0.0.1,port=51980,localport=8189] : java.io.EOFException
+[INFO ] 2018-01-04 14:17:42.414 [Admin] Server - onStop : User Admin on Socket[addr=/127.0.0.1,port=51980,localport=8189]
+[INFO ] 2018-01-04 14:25:29.028 [ServerThread] Server - onAccepted : Socket[addr=/127.0.0.1,port=52126,localport=8189]
+[INFO ] 2018-01-04 14:25:29.030 [ClientThread] Server - onStart : User ClientThread on Socket[addr=/127.0.0.1,port=52126,localport=8189]
+[INFO ] 2018-01-04 14:25:29.031 [ClientThread] Server - onReady : User ClientThread on Socket[addr=/127.0.0.1,port=52126,localport=8189]
+[INFO ] 2018-01-04 14:25:29.136 [ClientThread] Server - onGet : User ClientThread on Socket[addr=/127.0.0.1,port=52126,localport=8189] : <-- 
+{
+    "request": "authentication",
+    "data": {
+        "password": "admin",
+        "login": "admin"
+    }
+}
+[INFO ] 2018-01-04 14:25:29.182 [ClientThread] Server - onPost : User ClientThread on Socket[addr=/127.0.0.1,port=52126,localport=8189] : --> 
+{
+    "data": {"nickname": "Admin"},
+    "response": "authorization"
+}
+[INFO ] 2018-01-04 14:25:29.390 [Admin] Server - onGet : User Admin on Socket[addr=/127.0.0.1,port=52126,localport=8189] : <-- 
+{
+    "request": "list",
+    "data": {"path": "/"}
+}
+[INFO ] 2018-01-04 14:25:29.417 [Admin] Server - onPost : User Admin on Socket[addr=/127.0.0.1,port=52126,localport=8189] : --> 
+{
+    "data": {
+        "date": [
+            "03.01.2018 9:12:48",
+            "04.01.2018 14:4:10",
+            "04.01.2018 13:58:32",
+            "04.01.2018 13:58:39",
+            "31.12.2017 11:6:23",
+            "31.12.2017 11:6:59",
+            "04.01.2018 12:20:36",
+            "03.01.2018 11:30:1",
+            "31.12.2017 11:7:11",
+            "03.01.2018 11:32:55",
+            "03.01.2018 9:12:42",
+            "03.01.2018 11:30:6",
+            "04.01.2018 13:24:6",
+            "04.01.2018 12:15:56"
+        ],
+        "size": [
+            "",
+            "2",
+            "6557",
+            "7405",
+            "",
+            "125",
+            "8488",
+            "163328",
+            "67",
+            "351622588",
+            "",
+            "23987",
+            "23",
+            ""
+        ],
+        "name": [
+            "Урок 2. JVM. Полное погружение",
+            "Text File.log",
+            "LibreOffice Calc",
+            "LibreOffice Writer",
+            "Урок 1. Проектирование архитектуры и модели данных",
+            "server_settings.json",
+            "screen01.png",
+            "screen00.png",
+            "сlient_settings.json",
+            "Урок 4. Операции.mp4",
+            "Урок 3. Сборщики проектов",
+            "screen03.png",
+            "capricorn-passwords.txt",
+            "Кино"
+        ],
+        "type": [
+            "dir",
+            "file",
+            "file",
+            "file",
+            "dir",
+            "application/json",
+            "image/png",
+            "image/png",
+            "application/json",
+            "video/mp4",
+            "dir",
+            "image/png",
+            "text/plain",
+            "dir"
+        ]
+    },
+    "response": "list"
+}
+[INFO ] 2018-01-04 14:25:52.285 [Admin] Server - onException : User Admin on Socket[addr=/127.0.0.1,port=52126,localport=8189] : java.io.EOFException
+[INFO ] 2018-01-04 14:25:52.286 [Admin] Server - onStop : User Admin on Socket[addr=/127.0.0.1,port=52126,localport=8189]
+[INFO ] 2018-01-04 14:26:26.490 [ServerThread] Server - onAccepted : Socket[addr=/127.0.0.1,port=52142,localport=8189]
+[INFO ] 2018-01-04 14:26:26.492 [ClientThread] Server - onStart : User ClientThread on Socket[addr=/127.0.0.1,port=52142,localport=8189]
+[INFO ] 2018-01-04 14:26:26.493 [ClientThread] Server - onReady : User ClientThread on Socket[addr=/127.0.0.1,port=52142,localport=8189]
+[INFO ] 2018-01-04 14:26:26.596 [ClientThread] Server - onGet : User ClientThread on Socket[addr=/127.0.0.1,port=52142,localport=8189] : <-- 
+{
+    "request": "authentication",
+    "data": {
+        "password": "admin",
+        "login": "admin"
+    }
+}
+[INFO ] 2018-01-04 14:26:26.618 [ClientThread] Server - onPost : User ClientThread on Socket[addr=/127.0.0.1,port=52142,localport=8189] : --> 
+{
+    "data": {"nickname": "Admin"},
+    "response": "authorization"
+}
+[INFO ] 2018-01-04 14:26:26.796 [Admin] Server - onGet : User Admin on Socket[addr=/127.0.0.1,port=52142,localport=8189] : <-- 
+{
+    "request": "list",
+    "data": {"path": "/"}
+}
+[INFO ] 2018-01-04 14:26:26.837 [Admin] Server - onPost : User Admin on Socket[addr=/127.0.0.1,port=52142,localport=8189] : --> 
+{
+    "data": {
+        "date": [
+            "03.01.2018 9:12:48",
+            "04.01.2018 14:4:10",
+            "04.01.2018 13:58:32",
+            "04.01.2018 13:58:39",
+            "31.12.2017 11:6:23",
+            "31.12.2017 11:6:59",
+            "04.01.2018 12:20:36",
+            "03.01.2018 11:30:1",
+            "31.12.2017 11:7:11",
+            "03.01.2018 11:32:55",
+            "03.01.2018 9:12:42",
+            "03.01.2018 11:30:6",
+            "04.01.2018 13:24:6",
+            "04.01.2018 12:15:56"
+        ],
+        "size": [
+            "",
+            "2",
+            "6557",
+            "7405",
+            "",
+            "125",
+            "8488",
+            "163328",
+            "67",
+            "351622588",
+            "",
+            "23987",
+            "23",
+            ""
+        ],
+        "name": [
+            "Урок 2. JVM. Полное погружение",
+            "Text File.log",
+            "LibreOffice Calc",
+            "LibreOffice Writer",
+            "Урок 1. Проектирование архитектуры и модели данных",
+            "server_settings.json",
+            "screen01.png",
+            "screen00.png",
+            "сlient_settings.json",
+            "Урок 4. Операции.mp4",
+            "Урок 3. Сборщики проектов",
+            "screen03.png",
+            "capricorn-passwords.txt",
+            "Кино"
+        ],
+        "type": [
+            "dir",
+            "file",
+            "file",
+            "file",
+            "dir",
+            "application/json",
+            "image/png",
+            "image/png",
+            "application/json",
+            "video/mp4",
+            "dir",
+            "image/png",
+            "text/plain",
+            "dir"
+        ]
+    },
+    "response": "list"
+}
+[INFO ] 2018-01-04 14:27:23.623 [Admin] Server - onException : User Admin on Socket[addr=/127.0.0.1,port=52142,localport=8189] : java.io.EOFException
+[INFO ] 2018-01-04 14:27:23.624 [Admin] Server - onStop : User Admin on Socket[addr=/127.0.0.1,port=52142,localport=8189]
+[INFO ] 2018-01-04 14:28:06.487 [ServerThread] Server - onAccepted : Socket[addr=/127.0.0.1,port=52172,localport=8189]
+[INFO ] 2018-01-04 14:28:06.489 [ClientThread] Server - onStart : User ClientThread on Socket[addr=/127.0.0.1,port=52172,localport=8189]
+[INFO ] 2018-01-04 14:28:06.491 [ClientThread] Server - onReady : User ClientThread on Socket[addr=/127.0.0.1,port=52172,localport=8189]
+[INFO ] 2018-01-04 14:28:06.593 [ClientThread] Server - onGet : User ClientThread on Socket[addr=/127.0.0.1,port=52172,localport=8189] : <-- 
+{
+    "request": "authentication",
+    "data": {
+        "password": "admin",
+        "login": "admin"
+    }
+}
+[INFO ] 2018-01-04 14:28:06.607 [ClientThread] Server - onPost : User ClientThread on Socket[addr=/127.0.0.1,port=52172,localport=8189] : --> 
+{
+    "data": {"nickname": "Admin"},
+    "response": "authorization"
+}
+[INFO ] 2018-01-04 14:28:06.781 [Admin] Server - onGet : User Admin on Socket[addr=/127.0.0.1,port=52172,localport=8189] : <-- 
+{
+    "request": "list",
+    "data": {"path": "/"}
+}
+[INFO ] 2018-01-04 14:28:06.803 [Admin] Server - onPost : User Admin on Socket[addr=/127.0.0.1,port=52172,localport=8189] : --> 
+{
+    "data": {
+        "date": [
+            "03.01.2018 9:12:48",
+            "04.01.2018 14:4:10",
+            "04.01.2018 13:58:32",
+            "04.01.2018 13:58:39",
+            "31.12.2017 11:6:23",
+            "31.12.2017 11:6:59",
+            "04.01.2018 12:20:36",
+            "03.01.2018 11:30:1",
+            "31.12.2017 11:7:11",
+            "03.01.2018 11:32:55",
+            "03.01.2018 9:12:42",
+            "03.01.2018 11:30:6",
+            "04.01.2018 13:24:6",
+            "04.01.2018 12:15:56"
+        ],
+        "size": [
+            "",
+            "2",
+            "6557",
+            "7405",
+            "",
+            "125",
+            "8488",
+            "163328",
+            "67",
+            "351622588",
+            "",
+            "23987",
+            "23",
+            ""
+        ],
+        "name": [
+            "Урок 2. JVM. Полное погружение",
+            "Text File.log",
+            "LibreOffice Calc",
+            "LibreOffice Writer",
+            "Урок 1. Проектирование архитектуры и модели данных",
+            "server_settings.json",
+            "screen01.png",
+            "screen00.png",
+            "сlient_settings.json",
+            "Урок 4. Операции.mp4",
+            "Урок 3. Сборщики проектов",
+            "screen03.png",
+            "capricorn-passwords.txt",
+            "Кино"
+        ],
+        "type": [
+            "dir",
+            "file",
+            "file",
+            "file",
+            "dir",
+            "application/json",
+            "image/png",
+            "image/png",
+            "application/json",
+            "video/mp4",
+            "dir",
+            "image/png",
+            "text/plain",
+            "dir"
+        ]
+    },
+    "response": "list"
+}
+[INFO ] 2018-01-04 14:28:10.143 [Admin] Server - onException : User Admin on Socket[addr=/127.0.0.1,port=52172,localport=8189] : java.io.EOFException
+[INFO ] 2018-01-04 14:28:10.144 [Admin] Server - onStop : User Admin on Socket[addr=/127.0.0.1,port=52172,localport=8189]
+[INFO ] 2018-01-04 14:28:43.408 [JavaFX Application Thread] Settings - 
+  i i i i i i i
+  I I I I I I I
+  I  \ `+' /  I
+   \  `-+-'  /
+    `-__|__-'
+        |
+  ------+------
+[INFO ] 2018-01-04 14:28:43.499 [JavaFX Application Thread] Settings - Настройки сервера загружены.
+[INFO ] 2018-01-04 14:28:49.685 [JavaFX Application Thread] HibernateFactory - Hibernate is building...
+[INFO ] 2018-01-04 14:28:50.178 [JavaFX Application Thread] Version - HHH000412: Hibernate Core {5.2.12.Final}
+[INFO ] 2018-01-04 14:28:50.189 [JavaFX Application Thread] Environment - HHH000206: hibernate.properties not found
+[INFO ] 2018-01-04 14:28:51.423 [JavaFX Application Thread] Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+[WARN ] 2018-01-04 14:28:55.659 [JavaFX Application Thread] pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+[INFO ] 2018-01-04 14:28:55.705 [JavaFX Application Thread] pooling - HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/jis?useSSL=false]
+[INFO ] 2018-01-04 14:28:55.707 [JavaFX Application Thread] pooling - HHH10001001: Connection properties: {password=****, user=jis}
+[INFO ] 2018-01-04 14:28:55.708 [JavaFX Application Thread] pooling - HHH10001003: Autocommit mode: false
+[INFO ] 2018-01-04 14:28:55.714 [JavaFX Application Thread] DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 20 (min=1)
+[INFO ] 2018-01-04 14:28:56.415 [JavaFX Application Thread] Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+[INFO ] 2018-01-04 14:28:56.566 [JavaFX Application Thread] EnversServiceImpl - Envers integration enabled? : true
+[INFO ] 2018-01-04 14:28:57.599 [JavaFX Application Thread] QueryTranslatorFactoryInitiator - HHH000397: Using ASTQueryTranslatorFactory
+[INFO ] 2018-01-04 14:28:57.771 [JavaFX Application Thread] HibernateFactory - Hibernate created.
+[INFO ] 2018-01-04 14:28:57.885 [ServerThread] Server - onStart
+[INFO ] 2018-01-04 14:28:57.890 [ServerThread] Server - onReady /127.0.0.1:8189
+[INFO ] 2018-01-04 14:29:03.096 [ServerThread] Server - onAccepted : Socket[addr=/127.0.0.1,port=52208,localport=8189]
+[INFO ] 2018-01-04 14:29:03.113 [ClientThread] Server - onStart : User ClientThread on Socket[addr=/127.0.0.1,port=52208,localport=8189]
+[INFO ] 2018-01-04 14:29:03.114 [ClientThread] Server - onReady : User ClientThread on Socket[addr=/127.0.0.1,port=52208,localport=8189]
+[INFO ] 2018-01-04 14:29:03.253 [ClientThread] Server - onGet : User ClientThread on Socket[addr=/127.0.0.1,port=52208,localport=8189] : <-- 
+{
+    "request": "authentication",
+    "data": {
+        "password": "admin",
+        "login": "admin"
+    }
+}
+[INFO ] 2018-01-04 14:29:03.440 [ClientThread] Server - onPost : User ClientThread on Socket[addr=/127.0.0.1,port=52208,localport=8189] : --> 
+{
+    "data": {"nickname": "Admin"},
+    "response": "authorization"
+}
+[INFO ] 2018-01-04 14:29:03.745 [Admin] Server - onGet : User Admin on Socket[addr=/127.0.0.1,port=52208,localport=8189] : <-- 
+{
+    "request": "list",
+    "data": {"path": "/"}
+}
+[INFO ] 2018-01-04 14:29:03.845 [Admin] Server - onPost : User Admin on Socket[addr=/127.0.0.1,port=52208,localport=8189] : --> 
+{
+    "data": {
+        "date": [
+            "03.01.2018 9:12:48",
+            "04.01.2018 14:4:10",
+            "04.01.2018 13:58:32",
+            "04.01.2018 13:58:39",
+            "31.12.2017 11:6:23",
+            "31.12.2017 11:6:59",
+            "04.01.2018 12:20:36",
+            "03.01.2018 11:30:1",
+            "31.12.2017 11:7:11",
+            "03.01.2018 11:32:55",
+            "03.01.2018 9:12:42",
+            "03.01.2018 11:30:6",
+            "04.01.2018 13:24:6",
+            "04.01.2018 12:15:56"
+        ],
+        "size": [
+            "",
+            "2",
+            "6557",
+            "7405",
+            "",
+            "125",
+            "8488",
+            "163328",
+            "67",
+            "351622588",
+            "",
+            "23987",
+            "23",
+            ""
+        ],
+        "name": [
+            "Урок 2. JVM. Полное погружение",
+            "Text File.log",
+            "LibreOffice Calc",
+            "LibreOffice Writer",
+            "Урок 1. Проектирование архитектуры и модели данных",
+            "server_settings.json",
+            "screen01.png",
+            "screen00.png",
+            "сlient_settings.json",
+            "Урок 4. Операции.mp4",
+            "Урок 3. Сборщики проектов",
+            "screen03.png",
+            "capricorn-passwords.txt",
+            "Кино"
+        ],
+        "type": [
+            "dir",
+            "file",
+            "file",
+            "file",
+            "dir",
+            "file",
+            "file",
+            "file",
+            "file",
+            "file",
+            "dir",
+            "file",
+            "file",
+            "dir"
+        ]
+    },
+    "response": "list"
+}
+[INFO ] 2018-01-04 14:29:16.607 [Admin] Server - onException : User Admin on Socket[addr=/127.0.0.1,port=52208,localport=8189] : java.io.EOFException
+[INFO ] 2018-01-04 14:29:16.610 [Admin] Server - onStop : User Admin on Socket[addr=/127.0.0.1,port=52208,localport=8189]
+[INFO ] 2018-01-04 14:29:19.113 [ServerThread] Server - onStop
+[INFO ] 2018-01-04 14:29:19.594 [JavaFX Application Thread] HibernateFactory - Hibernate stoped.
+[INFO ] 2018-01-04 14:29:19.597 [JavaFX Application Thread] pooling - HHH10001008: Cleaning up connection pool [jdbc:mysql://localhost:3306/jis?useSSL=false]

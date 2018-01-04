@@ -17,6 +17,11 @@ import ru.davidlevi.jis.client.gui.controller.Explorer;
 import ru.davidlevi.jis.client.gui.controller.Registration;
 
 import java.io.IOException;
+import java.nio.file.FileVisitOption;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.nio.file.Paths;
+import java.util.HashMap;
 
 /**
  * Класс FxContext

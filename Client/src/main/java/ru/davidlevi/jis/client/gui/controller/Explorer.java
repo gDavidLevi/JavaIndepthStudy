@@ -18,11 +18,13 @@ import ru.davidlevi.jis.client.core.interfaces.ClientInterface;
 import ru.davidlevi.jis.client.gui.model.Record;
 
 import java.io.File;
+import java.io.IOException;
+import java.net.URL;
+import java.nio.file.FileVisitOption;
+import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Optional;
+import java.util.*;
 
 /**
  * Fxml-контроллер Explorer
@@ -142,13 +144,12 @@ public class Explorer {
      * в колонке равно "dir", то "images/places/folder-blue.png", если
      * в колонке значение "file", то "images/mimetypes/text-plain.png".
      */
-    private Callback<TableColumn<Record, String>, TableCell<Record, String>> cellFactoryColumnType
-            = new Callback<TableColumn<Record, String>, TableCell<Record, String>>() {
+    private Callback<TableColumn<Record, String>, TableCell<Record, String>> cellFactoryColumnType = new Callback<>() {
         @Override
         public TableCell<Record, String> call(TableColumn<Record, String> param) {
-            final Image imageFolder = new Image("images/dir.png");
-            final Image imageFile = new Image("images/file.png");
-            return new TableCell<Record, String>() {
+            final Image imageFolder = new Image("images/mimetypes/dir.png");
+            final Image imageFile = new Image("images/mimetypes/file.png");
+            return new TableCell<>() {
                 private final ImageView imageView = new ImageView();
 
                 {
