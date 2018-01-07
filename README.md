@@ -55,7 +55,7 @@ INSERT INTO jis.Users (id, login, password, nickname, email, uuid) VALUES (1, 'a
 
 Если файл "server_settings.json" отсутствует, то он создается автоматически с настройками по умолчанию.
 
-##### Параметры запуска серверного приложения.
+##### Запуска серверного приложения в Java 9.
 
 Установить "VM options": --add-modules=java.xml.bind --illegal-access=warn
 
