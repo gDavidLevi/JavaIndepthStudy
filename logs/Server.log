@@ -1,4 +1,4 @@
-[INFO ] 2018-01-04 10:47:16.946 [JavaFX Application Thread] Settings - 
+[INFO ] 2018-01-08 10:58:18.974 [JavaFX Application Thread] Settings - 
   i i i i i i i
   I I I I I I I
   I  \ `+' /  I
@@ -6,262 +6,15 @@
     `-__|__-'
         |
   ------+------
-[INFO ] 2018-01-04 10:47:17.016 [JavaFX Application Thread] Settings - Настройки сервера загружены.
-[INFO ] 2018-01-04 10:47:21.379 [JavaFX Application Thread] HibernateFactory - Hibernate is building...
-[INFO ] 2018-01-04 10:49:19.917 [JavaFX Application Thread] Settings - 
-  i i i i i i i
-  I I I I I I I
-  I  \ `+' /  I
-   \  `-+-'  /
-    `-__|__-'
-        |
-  ------+------
-[INFO ] 2018-01-04 10:49:20.005 [JavaFX Application Thread] Settings - Настройки сервера загружены.
-[INFO ] 2018-01-04 10:49:23.870 [JavaFX Application Thread] HibernateFactory - Hibernate is building...
-[INFO ] 2018-01-04 10:52:32.762 [JavaFX Application Thread] Settings - 
-  i i i i i i i
-  I I I I I I I
-  I  \ `+' /  I
-   \  `-+-'  /
-    `-__|__-'
-        |
-  ------+------
-[INFO ] 2018-01-04 10:52:32.877 [JavaFX Application Thread] Settings - Настройки сервера загружены.
-[INFO ] 2018-01-04 10:52:36.722 [JavaFX Application Thread] HibernateFactory - Hibernate is building...
-[INFO ] 2018-01-04 10:56:27.793 [JavaFX Application Thread] Settings - 
-  i i i i i i i
-  I I I I I I I
-  I  \ `+' /  I
-   \  `-+-'  /
-    `-__|__-'
-        |
-  ------+------
-[INFO ] 2018-01-04 10:56:27.868 [JavaFX Application Thread] Settings - Настройки сервера загружены.
-[INFO ] 2018-01-04 10:56:34.492 [JavaFX Application Thread] HibernateFactory - Hibernate is building...
-[INFO ] 2018-01-04 10:57:23.153 [JavaFX Application Thread] Settings - 
-  i i i i i i i
-  I I I I I I I
-  I  \ `+' /  I
-   \  `-+-'  /
-    `-__|__-'
-        |
-  ------+------
-[INFO ] 2018-01-04 10:57:23.287 [JavaFX Application Thread] Settings - Настройки сервера загружены.
-[INFO ] 2018-01-04 10:57:26.920 [JavaFX Application Thread] HibernateFactory - Hibernate is building...
-[INFO ] 2018-01-04 10:57:31.059 [JavaFX Application Thread] HibernateFactory - Hibernate created.
-[INFO ] 2018-01-04 10:57:31.175 [ServerThread] Server - onStart
-[INFO ] 2018-01-04 10:57:31.181 [ServerThread] Server - onReady capricorn/127.0.1.1:8189
-[INFO ] 2018-01-04 10:58:21.226 [ServerThread] Server - onStop
-[INFO ] 2018-01-04 10:58:22.573 [ServerThread] Server - onStart
-[INFO ] 2018-01-04 10:58:22.574 [ServerThread] Server - onReady capricorn/127.0.1.1:8189
-[INFO ] 2018-01-04 11:02:23.880 [JavaFX Application Thread] Settings - 
-  i i i i i i i
-  I I I I I I I
-  I  \ `+' /  I
-   \  `-+-'  /
-    `-__|__-'
-        |
-  ------+------
-[INFO ] 2018-01-04 11:02:23.973 [JavaFX Application Thread] Settings - Настройки сервера загружены.
-[INFO ] 2018-01-04 11:02:27.493 [JavaFX Application Thread] HibernateFactory - Hibernate is building...
-[INFO ] 2018-01-04 11:02:31.453 [JavaFX Application Thread] HibernateFactory - Hibernate created.
-[INFO ] 2018-01-04 11:02:31.567 [ServerThread] Server - onStart
-[INFO ] 2018-01-04 11:02:31.572 [ServerThread] Server - onReady capricorn/127.0.1.1:8189
-[INFO ] 2018-01-04 11:03:32.473 [JavaFX Application Thread] HibernateFactory - Hibernate stoped.
-[INFO ] 2018-01-04 11:05:51.062 [JavaFX Application Thread] Settings - 
-  i i i i i i i
-  I I I I I I I
-  I  \ `+' /  I
-   \  `-+-'  /
-    `-__|__-'
-        |
-  ------+------
-[INFO ] 2018-01-04 11:05:51.154 [JavaFX Application Thread] Settings - Настройки сервера загружены.
-[INFO ] 2018-01-04 11:05:54.722 [JavaFX Application Thread] HibernateFactory - Hibernate is building...
-[INFO ] 2018-01-04 11:05:58.475 [JavaFX Application Thread] HibernateFactory - Hibernate created.
-[INFO ] 2018-01-04 11:05:58.590 [ServerThread] Server - onStart
-[INFO ] 2018-01-04 11:05:58.603 [ServerThread] Server - onReady capricorn/127.0.1.1:8189
-[INFO ] 2018-01-04 11:06:21.907 [JavaFX Application Thread] HibernateFactory - Hibernate stoped.
-[INFO ] 2018-01-04 11:09:13.670 [JavaFX Application Thread] Settings - 
-  i i i i i i i
-  I I I I I I I
-  I  \ `+' /  I
-   \  `-+-'  /
-    `-__|__-'
-        |
-  ------+------
-[INFO ] 2018-01-04 11:09:13.751 [JavaFX Application Thread] Settings - Настройки сервера загружены.
-[INFO ] 2018-01-04 11:09:29.391 [JavaFX Application Thread] HibernateFactory - Hibernate is building...
-[INFO ] 2018-01-04 11:09:33.185 [JavaFX Application Thread] HibernateFactory - Hibernate created.
-[INFO ] 2018-01-04 11:09:33.294 [ServerThread] Server - onStart
-[INFO ] 2018-01-04 11:09:33.300 [ServerThread] Server - onReady capricorn/127.0.1.1:8189
-[INFO ] 2018-01-04 11:09:38.600 [JavaFX Application Thread] HibernateFactory - Hibernate stoped.
-[INFO ] 2018-01-04 11:09:58.177 [JavaFX Application Thread] Settings - 
-  i i i i i i i
-  I I I I I I I
-  I  \ `+' /  I
-   \  `-+-'  /
-    `-__|__-'
-        |
-  ------+------
-[INFO ] 2018-01-04 11:09:58.273 [JavaFX Application Thread] Settings - Настройки сервера загружены.
-[INFO ] 2018-01-04 11:10:01.741 [JavaFX Application Thread] HibernateFactory - Hibernate is building...
-[INFO ] 2018-01-04 11:11:05.046 [JavaFX Application Thread] Settings - 
-  i i i i i i i
-  I I I I I I I
-  I  \ `+' /  I
-   \  `-+-'  /
-    `-__|__-'
-        |
-  ------+------
-[INFO ] 2018-01-04 11:11:05.137 [JavaFX Application Thread] Settings - Настройки сервера загружены.
-[INFO ] 2018-01-04 11:11:08.070 [JavaFX Application Thread] HibernateFactory - Hibernate is building...
-[INFO ] 2018-01-04 11:13:00.464 [JavaFX Application Thread] Settings - 
-  i i i i i i i
-  I I I I I I I
-  I  \ `+' /  I
-   \  `-+-'  /
-    `-__|__-'
-        |
-  ------+------
-[INFO ] 2018-01-04 11:13:00.580 [JavaFX Application Thread] Settings - Настройки сервера загружены.
-[INFO ] 2018-01-04 11:13:04.254 [JavaFX Application Thread] HibernateFactory - Hibernate is building...
-[INFO ] 2018-01-04 11:14:24.709 [JavaFX Application Thread] Settings - 
-  i i i i i i i
-  I I I I I I I
-  I  \ `+' /  I
-   \  `-+-'  /
-    `-__|__-'
-        |
-  ------+------
-[INFO ] 2018-01-04 11:14:24.812 [JavaFX Application Thread] Settings - Настройки сервера загружены.
-[INFO ] 2018-01-04 11:14:30.102 [JavaFX Application Thread] HibernateFactory - Hibernate is building...
-[INFO ] 2018-01-04 11:14:43.184 [JavaFX Application Thread] Settings - 
-  i i i i i i i
-  I I I I I I I
-  I  \ `+' /  I
-   \  `-+-'  /
-    `-__|__-'
-        |
-  ------+------
-[INFO ] 2018-01-04 11:14:43.291 [JavaFX Application Thread] Settings - Настройки сервера загружены.
-[INFO ] 2018-01-04 11:14:47.757 [JavaFX Application Thread] HibernateFactory - Hibernate is building...
-[INFO ] 2018-01-04 11:16:35.122 [JavaFX Application Thread] Settings - 
-  i i i i i i i
-  I I I I I I I
-  I  \ `+' /  I
-   \  `-+-'  /
-    `-__|__-'
-        |
-  ------+------
-[INFO ] 2018-01-04 11:16:35.212 [JavaFX Application Thread] Settings - Настройки сервера загружены.
-[INFO ] 2018-01-04 11:16:38.922 [JavaFX Application Thread] HibernateFactory - Hibernate is building...
-[INFO ] 2018-01-04 11:18:11.035 [JavaFX Application Thread] Settings - 
-  i i i i i i i
-  I I I I I I I
-  I  \ `+' /  I
-   \  `-+-'  /
-    `-__|__-'
-        |
-  ------+------
-[INFO ] 2018-01-04 11:18:11.119 [JavaFX Application Thread] Settings - Настройки сервера загружены.
-[INFO ] 2018-01-04 11:18:14.167 [JavaFX Application Thread] HibernateFactory - Hibernate is building...
-[INFO ] 2018-01-04 11:27:35.349 [JavaFX Application Thread] Settings - 
-  i i i i i i i
-  I I I I I I I
-  I  \ `+' /  I
-   \  `-+-'  /
-    `-__|__-'
-        |
-  ------+------
-[INFO ] 2018-01-04 11:27:35.432 [JavaFX Application Thread] Settings - Настройки сервера загружены.
-[INFO ] 2018-01-04 11:27:40.486 [JavaFX Application Thread] HibernateFactory - Hibernate is building...
-[INFO ] 2018-01-04 11:27:44.527 [JavaFX Application Thread] HibernateFactory - Hibernate created.
-[INFO ] 2018-01-04 11:27:44.639 [ServerThread] Server - onStart
-[INFO ] 2018-01-04 11:27:44.645 [ServerThread] Server - onReady capricorn/127.0.1.1:8189
-[INFO ] 2018-01-04 11:27:50.652 [ServerThread] Server - onStop
-[INFO ] 2018-01-04 11:27:51.630 [JavaFX Application Thread] HibernateFactory - Hibernate stoped.
-[INFO ] 2018-01-04 12:00:28.045 [JavaFX Application Thread] Settings - 
-  i i i i i i i
-  I I I I I I I
-  I  \ `+' /  I
-   \  `-+-'  /
-    `-__|__-'
-        |
-  ------+------
-[INFO ] 2018-01-04 12:00:28.166 [JavaFX Application Thread] Settings - Настройки сервера загружены.
-[INFO ] 2018-01-04 12:00:31.738 [JavaFX Application Thread] HibernateFactory - Hibernate is building...
-[INFO ] 2018-01-04 12:00:35.492 [JavaFX Application Thread] HibernateFactory - Hibernate created.
-[INFO ] 2018-01-04 12:00:35.657 [ServerThread] Server - onStart
-[INFO ] 2018-01-04 12:00:35.665 [ServerThread] Server - onReady capricorn/127.0.1.1:8189
-[INFO ] 2018-01-04 12:00:38.134 [JavaFX Application Thread] HibernateFactory - Hibernate stoped.
-[INFO ] 2018-01-04 12:04:35.576 [JavaFX Application Thread] Settings - 
-  i i i i i i i
-  I I I I I I I
-  I  \ `+' /  I
-   \  `-+-'  /
-    `-__|__-'
-        |
-  ------+------
-[INFO ] 2018-01-04 12:04:35.688 [JavaFX Application Thread] Settings - Настройки сервера загружены.
-[INFO ] 2018-01-04 12:04:39.211 [JavaFX Application Thread] HibernateFactory - Hibernate is building...
-[INFO ] 2018-01-04 12:04:43.060 [JavaFX Application Thread] HibernateFactory - Hibernate created.
-[INFO ] 2018-01-04 12:04:43.168 [ServerThread] Server - onStart
-[INFO ] 2018-01-04 12:04:43.173 [ServerThread] Server - onReady capricorn/127.0.1.1:8189
-[INFO ] 2018-01-04 12:05:35.855 [JavaFX Application Thread] Settings - 
-  i i i i i i i
-  I I I I I I I
-  I  \ `+' /  I
-   \  `-+-'  /
-    `-__|__-'
-        |
-  ------+------
-[INFO ] 2018-01-04 12:05:35.950 [JavaFX Application Thread] Settings - Настройки сервера загружены.
-[INFO ] 2018-01-04 12:05:39.021 [JavaFX Application Thread] HibernateFactory - Hibernate is building...
-[INFO ] 2018-01-04 12:05:43.289 [JavaFX Application Thread] HibernateFactory - Hibernate created.
-[INFO ] 2018-01-04 12:05:43.407 [ServerThread] Server - onStart
-[INFO ] 2018-01-04 12:05:43.413 [ServerThread] Server - onReady capricorn/127.0.1.1:8189
-[INFO ] 2018-01-04 12:07:29.329 [JavaFX Application Thread] Settings - 
-  i i i i i i i
-  I I I I I I I
-  I  \ `+' /  I
-   \  `-+-'  /
-    `-__|__-'
-        |
-  ------+------
-[INFO ] 2018-01-04 12:07:29.432 [JavaFX Application Thread] Settings - Настройки сервера загружены.
-[INFO ] 2018-01-04 12:07:32.957 [JavaFX Application Thread] HibernateFactory - Hibernate is building...
-[ERROR] 2018-01-04 12:07:36.446 [JavaFX Application Thread] HibernateFactory - org.hibernate.MappingException: Could not get constructor for org.hibernate.persister.entity.SingleTableEntityPersister
-[INFO ] 2018-01-04 12:08:29.436 [JavaFX Application Thread] Settings - 
-  i i i i i i i
-  I I I I I I I
-  I  \ `+' /  I
-   \  `-+-'  /
-    `-__|__-'
-        |
-  ------+------
-[INFO ] 2018-01-04 12:08:29.531 [JavaFX Application Thread] Settings - Настройки сервера загружены.
-[INFO ] 2018-01-04 12:08:32.622 [JavaFX Application Thread] HibernateFactory - Hibernate is building...
-[INFO ] 2018-01-04 12:08:36.544 [JavaFX Application Thread] HibernateFactory - Hibernate created.
-[INFO ] 2018-01-04 12:08:36.656 [ServerThread] Server - onStart
-[INFO ] 2018-01-04 12:08:36.664 [ServerThread] Server - onReady capricorn/127.0.1.1:8189
-[INFO ] 2018-01-04 12:10:29.106 [JavaFX Application Thread] Settings - 
-  i i i i i i i
-  I I I I I I I
-  I  \ `+' /  I
-   \  `-+-'  /
-    `-__|__-'
-        |
-  ------+------
-[INFO ] 2018-01-04 12:10:29.192 [JavaFX Application Thread] Settings - Настройки сервера загружены.
-[INFO ] 2018-01-04 12:10:33.083 [JavaFX Application Thread] HibernateFactory - Hibernate is building...
-[INFO ] 2018-01-04 12:10:37.071 [JavaFX Application Thread] HibernateFactory - Hibernate created.
-[INFO ] 2018-01-04 12:10:37.187 [ServerThread] Server - onStart
-[INFO ] 2018-01-04 12:10:37.191 [ServerThread] Server - onReady capricorn/127.0.1.1:8189
-[INFO ] 2018-01-04 12:15:07.997 [ServerThread] Server - onAccepted : Socket[addr=/127.0.0.1,port=58922,localport=8189]
-[INFO ] 2018-01-04 12:15:08.019 [ClientThread] Server - onStart : User ClientThread on Socket[addr=/127.0.0.1,port=58922,localport=8189]
-[INFO ] 2018-01-04 12:15:08.021 [ClientThread] Server - onReady : User ClientThread on Socket[addr=/127.0.0.1,port=58922,localport=8189]
-[INFO ] 2018-01-04 12:15:08.153 [ClientThread] Server - onGet : User ClientThread on Socket[addr=/127.0.0.1,port=58922,localport=8189] : <-- 
+[INFO ] 2018-01-08 10:58:19.110 [JavaFX Application Thread] Settings - Настройки сервера загружены.
+[INFO ] 2018-01-08 10:58:23.160 [JavaFX Application Thread] HibernateFactory - Hibernate is building...
+[INFO ] 2018-01-08 10:58:27.810 [JavaFX Application Thread] HibernateFactory - Hibernate created.
+[INFO ] 2018-01-08 10:58:27.921 [ServerThread] Server - onStart
+[INFO ] 2018-01-08 10:58:27.927 [ServerThread] Server - onReady /127.0.0.1:8189
+[INFO ] 2018-01-08 10:58:57.574 [ServerThread] Server - onAccepted : Socket[addr=/127.0.0.1,port=45982,localport=8189]
+[INFO ] 2018-01-08 10:58:57.593 [ClientThread] Server - onStart : User ClientThread on Socket[addr=/127.0.0.1,port=45982,localport=8189]
+[INFO ] 2018-01-08 10:58:57.594 [ClientThread] Server - onReady : User ClientThread on Socket[addr=/127.0.0.1,port=45982,localport=8189]
+[INFO ] 2018-01-08 10:58:57.738 [ClientThread] Server - onGet : User ClientThread on Socket[addr=/127.0.0.1,port=45982,localport=8189] : <-- 
 {
     "request": "authentication",
     "data": {
@@ -269,124 +22,92 @@
         "login": "admin"
     }
 }
-[INFO ] 2018-01-04 12:15:08.292 [ClientThread] Server - onPost : User ClientThread on Socket[addr=/127.0.0.1,port=58922,localport=8189] : --> 
+[INFO ] 2018-01-08 10:58:57.926 [ClientThread] Server - onPost : User ClientThread on Socket[addr=/127.0.0.1,port=45982,localport=8189] : --> 
 {
     "data": {"nickname": "Admin"},
     "response": "authorization"
 }
-[INFO ] 2018-01-04 12:15:08.488 [Admin] Server - onGet : User Admin on Socket[addr=/127.0.0.1,port=58922,localport=8189] : <-- 
+[INFO ] 2018-01-08 10:58:58.137 [Admin] Server - onGet : User Admin on Socket[addr=/127.0.0.1,port=45982,localport=8189] : <-- 
 {
     "request": "list",
     "data": {"path": "/"}
 }
-[INFO ] 2018-01-04 12:15:08.522 [Admin] Server - onPost : User Admin on Socket[addr=/127.0.0.1,port=58922,localport=8189] : --> 
+[INFO ] 2018-01-08 10:58:58.230 [Admin] Server - onPost : User Admin on Socket[addr=/127.0.0.1,port=45982,localport=8189] : --> 
 {
     "data": {
         "date": [
             "03.01.2018 9:12:48",
+            "04.01.2018 14:4:10",
+            "04.01.2018 13:58:32",
+            "04.01.2018 13:58:39",
             "31.12.2017 11:6:23",
             "31.12.2017 11:6:59",
-            "03.01.2018 11:30:1",
-            "31.12.2017 11:7:11",
-            "03.01.2018 11:32:55",
-            "03.01.2018 9:12:42",
-            "03.01.2018 11:30:6"
-        ],
-        "size": [
-            "",
-            "",
-            "125",
-            "163328",
-            "67",
-            "351622588",
-            "",
-            "23987"
-        ],
-        "name": [
-            "Урок 2. JVM. Полное погружение",
-            "Урок 1. Проектирование архитектуры и модели данных",
-            "server_settings.json",
-            "screen00.png",
-            "сlient_settings.json",
-            "Урок 4. Операции.mp4",
-            "Урок 3. Сборщики проектов",
-            "screen03.png"
-        ],
-        "type": [
-            "dir",
-            "dir",
-            "file",
-            "file",
-            "file",
-            "file",
-            "dir",
-            "file"
-        ]
-    },
-    "response": "list"
-}
-[INFO ] 2018-01-04 12:15:43.127 [Admin] Server - onGet : User Admin on Socket[addr=/127.0.0.1,port=58922,localport=8189] : <-- 
-{
-    "request": "create-folder",
-    "data": {"new-folder": "/Кино"}
-}
-[INFO ] 2018-01-04 12:15:43.152 [Admin] Server - Новый каталог '/Кино' пользователя 'Admin' создан.
-[INFO ] 2018-01-04 12:15:43.171 [Admin] Server - onPost : User Admin on Socket[addr=/127.0.0.1,port=58922,localport=8189] : --> 
-{
-    "data": {
-        "date": [
-            "03.01.2018 9:12:48",
-            "31.12.2017 11:6:23",
-            "31.12.2017 11:6:59",
+            "04.01.2018 12:20:36",
             "03.01.2018 11:30:1",
             "31.12.2017 11:7:11",
             "03.01.2018 11:32:55",
             "03.01.2018 9:12:42",
             "03.01.2018 11:30:6",
-            "04.01.2018 12:15:43"
+            "04.01.2018 13:24:6",
+            "04.01.2018 12:15:56"
         ],
         "size": [
             "",
+            "2",
+            "6557",
+            "7405",
             "",
             "125",
+            "8488",
             "163328",
             "67",
             "351622588",
             "",
             "23987",
+            "23",
             ""
         ],
         "name": [
             "Урок 2. JVM. Полное погружение",
+            "Text File.log",
+            "LibreOffice Calc",
+            "LibreOffice Writer",
             "Урок 1. Проектирование архитектуры и модели данных",
             "server_settings.json",
+            "screen01.png",
             "screen00.png",
             "сlient_settings.json",
             "Урок 4. Операции.mp4",
             "Урок 3. Сборщики проектов",
             "screen03.png",
+            "capricorn-passwords.txt",
             "Кино"
         ],
         "type": [
             "dir",
+            "file",
+            "file",
+            "file",
             "dir",
             "file",
             "file",
             "file",
             "file",
+            "file",
             "dir",
+            "file",
             "file",
             "dir"
         ]
     },
     "response": "list"
 }
-[INFO ] 2018-01-04 12:15:45.162 [Admin] Server - onGet : User Admin on Socket[addr=/127.0.0.1,port=58922,localport=8189] : <-- 
+[INFO ] 2018-01-08 10:59:03.871 [Admin] Server - onGet : User Admin on Socket[addr=/127.0.0.1,port=45982,localport=8189] : <-- 
 {
     "request": "list",
-    "data": {"path": "/Кино"}
+    "data": {"path": "/Урок 1. Проектирование архитектуры и модели данных"}
 }
-[INFO ] 2018-01-04 12:15:45.176 [Admin] Server - onPost : User Admin on Socket[addr=/127.0.0.1,port=58922,localport=8189] : --> 
+[INFO ] 2018-01-08 10:59:03.881 [Admin] Server - onPost : User Admin on Socket[addr=/127.0.0.1,port=45982,localport=8189] : --> 
 {
     "data": {
         "date": [],
@@ -396,207 +117,19 @@
     },
     "response": "list"
 }
-[INFO ] 2018-01-04 12:15:51.760 [Admin] Server - onGet : User Admin on Socket[addr=/127.0.0.1,port=58922,localport=8189] : <-- 
-{
-    "request": "create-folder",
-    "data": {"new-folder": "/Кино/Комедии"}
-}
-[INFO ] 2018-01-04 12:15:51.773 [Admin] Server - Новый каталог '/Кино/Комедии' пользователя 'Admin' создан.
-[INFO ] 2018-01-04 12:15:51.780 [Admin] Server - onPost : User Admin on Socket[addr=/127.0.0.1,port=58922,localport=8189] : --> 
-{
-    "data": {
-        "date": ["04.01.2018 12:15:51"],
-        "size": [""],
-        "name": ["Комедии"],
-        "type": ["dir"]
-    },
-    "response": "list"
-}
-[INFO ] 2018-01-04 12:15:56.213 [Admin] Server - onGet : User Admin on Socket[addr=/127.0.0.1,port=58922,localport=8189] : <-- 
-{
-    "request": "create-folder",
-    "data": {"new-folder": "/Кино/Мелодрамы"}
-}
-[INFO ] 2018-01-04 12:15:56.261 [Admin] Server - Новый каталог '/Кино/Мелодрамы' пользователя 'Admin' создан.
-[INFO ] 2018-01-04 12:15:56.263 [Admin] Server - onPost : User Admin on Socket[addr=/127.0.0.1,port=58922,localport=8189] : --> 
-{
-    "data": {
-        "date": [
-            "04.01.2018 12:15:51",
-            "04.01.2018 12:15:56"
-        ],
-        "size": [
-            "",
-            ""
-        ],
-        "name": [
-            "Комедии",
-            "Мелодрамы"
-        ],
-        "type": [
-            "dir",
-            "dir"
-        ]
-    },
-    "response": "list"
-}
-[INFO ] 2018-01-04 12:15:59.527 [Admin] Server - onGet : User Admin on Socket[addr=/127.0.0.1,port=58922,localport=8189] : <-- 
+[INFO ] 2018-01-08 10:59:06.256 [Admin] Server - onGet : User Admin on Socket[addr=/127.0.0.1,port=45982,localport=8189] : <-- 
 {
     "request": "list",
     "data": {"path": "/"}
 }
-[INFO ] 2018-01-04 12:15:59.547 [Admin] Server - onPost : User Admin on Socket[addr=/127.0.0.1,port=58922,localport=8189] : --> 
+[INFO ] 2018-01-08 10:59:06.273 [Admin] Server - onPost : User Admin on Socket[addr=/127.0.0.1,port=45982,localport=8189] : --> 
 {
     "data": {
         "date": [
             "03.01.2018 9:12:48",
-            "31.12.2017 11:6:23",
-            "31.12.2017 11:6:59",
-            "03.01.2018 11:30:1",
-            "31.12.2017 11:7:11",
-            "03.01.2018 11:32:55",
-            "03.01.2018 9:12:42",
-            "03.01.2018 11:30:6",
-            "04.01.2018 12:15:56"
-        ],
-        "size": [
-            "",
-            "",
-            "125",
-            "163328",
-            "67",
-            "351622588",
-            "",
-            "23987",
-            ""
-        ],
-        "name": [
-            "Урок 2. JVM. Полное погружение",
-            "Урок 1. Проектирование архитектуры и модели данных",
-            "server_settings.json",
-            "screen00.png",
-            "сlient_settings.json",
-            "Урок 4. Операции.mp4",
-            "Урок 3. Сборщики проектов",
-            "screen03.png",
-            "Кино"
-        ],
-        "type": [
-            "dir",
-            "dir",
-            "file",
-            "file",
-            "file",
-            "file",
-            "dir",
-            "file",
-            "dir"
-        ]
-    },
-    "response": "list"
-}
-[INFO ] 2018-01-04 12:16:01.137 [Admin] Server - onGet : User Admin on Socket[addr=/127.0.0.1,port=58922,localport=8189] : <-- 
-{
-    "request": "list",
-    "data": {"path": "/Кино"}
-}
-[INFO ] 2018-01-04 12:16:01.149 [Admin] Server - onPost : User Admin on Socket[addr=/127.0.0.1,port=58922,localport=8189] : --> 
-{
-    "data": {
-        "date": [
-            "04.01.2018 12:15:51",
-            "04.01.2018 12:15:56"
-        ],
-        "size": [
-            "",
-            ""
-        ],
-        "name": [
-            "Комедии",
-            "Мелодрамы"
-        ],
-        "type": [
-            "dir",
-            "dir"
-        ]
-    },
-    "response": "list"
-}
-[INFO ] 2018-01-04 12:16:52.660 [Admin] Server - onGet : User Admin on Socket[addr=/127.0.0.1,port=58922,localport=8189] : <-- 
-{
-    "request": "list",
-    "data": {"path": "/"}
-}
-[INFO ] 2018-01-04 12:16:52.677 [Admin] Server - onPost : User Admin on Socket[addr=/127.0.0.1,port=58922,localport=8189] : --> 
-{
-    "data": {
-        "date": [
-            "03.01.2018 9:12:48",
-            "31.12.2017 11:6:23",
-            "31.12.2017 11:6:59",
-            "03.01.2018 11:30:1",
-            "31.12.2017 11:7:11",
-            "03.01.2018 11:32:55",
-            "03.01.2018 9:12:42",
-            "03.01.2018 11:30:6",
-            "04.01.2018 12:15:56"
-        ],
-        "size": [
-            "",
-            "",
-            "125",
-            "163328",
-            "67",
-            "351622588",
-            "",
-            "23987",
-            ""
-        ],
-        "name": [
-            "Урок 2. JVM. Полное погружение",
-            "Урок 1. Проектирование архитектуры и модели данных",
-            "server_settings.json",
-            "screen00.png",
-            "сlient_settings.json",
-            "Урок 4. Операции.mp4",
-            "Урок 3. Сборщики проектов",
-            "screen03.png",
-            "Кино"
-        ],
-        "type": [
-            "dir",
-            "dir",
-            "file",
-            "file",
-            "file",
-            "file",
-            "dir",
-            "file",
-            "dir"
-        ]
-    },
-    "response": "list"
-}
-[INFO ] 2018-01-04 12:20:35.929 [Admin] Server - onGet : User Admin on Socket[addr=/127.0.0.1,port=58922,localport=8189] : <-- 
-{
-    "request": "upload",
-    "data": {"filename": "/screen01.png"}
-}
-[INFO ] 2018-01-04 12:20:35.965 [Admin] Server - onPost : User Admin on Socket[addr=/127.0.0.1,port=58922,localport=8189] : --> 
-{
-    "data": {"socket": {
-        "hostname": "10.128.9.238",
-        "port": 47280,
-        "key": "/screen01.png"
-    }},
-    "response": "ready-upload"
-}
-[INFO ] 2018-01-04 12:20:35.975 [screen01.png] Server - onStart : Receive file 'screen01.png' from 'Admin'.
-[INFO ] 2018-01-04 12:20:36.872 [screen01.png] Server - onPost : User Admin on Socket[addr=/127.0.0.1,port=58922,localport=8189] : --> 
-{
-    "data": {
-        "date": [
-            "03.01.2018 9:12:48",
+            "04.01.2018 14:4:10",
+            "04.01.2018 13:58:32",
+            "04.01.2018 13:58:39",
             "31.12.2017 11:6:23",
             "31.12.2017 11:6:59",
             "04.01.2018 12:20:36",
@@ -605,10 +138,14 @@
             "03.01.2018 11:32:55",
             "03.01.2018 9:12:42",
             "03.01.2018 11:30:6",
+            "04.01.2018 13:24:6",
             "04.01.2018 12:15:56"
         ],
         "size": [
             "",
+            "2",
+            "6557",
+            "7405",
             "",
             "125",
             "8488",
@@ -617,10 +154,14 @@
             "351622588",
             "",
             "23987",
+            "23",
             ""
         ],
         "name": [
             "Урок 2. JVM. Полное погружение",
+            "Text File.log",
+            "LibreOffice Calc",
+            "LibreOffice Writer",
             "Урок 1. Проектирование архитектуры и модели данных",
             "server_settings.json",
             "screen01.png",
@@ -629,10 +170,14 @@
             "Урок 4. Операции.mp4",
             "Урок 3. Сборщики проектов",
             "screen03.png",
+            "capricorn-passwords.txt",
             "Кино"
         ],
         "type": [
             "dir",
+            "file",
+            "file",
+            "file",
             "dir",
             "file",
             "file",
@@ -640,75 +185,19 @@
             "file",
             "file",
             "dir",
+            "file",
             "file",
             "dir"
         ]
     },
     "response": "list"
 }
-[INFO ] 2018-01-04 12:20:36.872 [screen01.png] Server - onStop : Receive file 'screen01.png' from 'Admin'.
-[INFO ] 2018-01-04 12:20:40.421 [Admin] Server - onGet : User Admin on Socket[addr=/127.0.0.1,port=58922,localport=8189] : <-- 
-{
-    "request": "list",
-    "data": {"path": "/"}
-}
-[INFO ] 2018-01-04 12:20:40.436 [Admin] Server - onPost : User Admin on Socket[addr=/127.0.0.1,port=58922,localport=8189] : --> 
-{
-    "data": {
-        "date": [
-            "03.01.2018 9:12:48",
-            "31.12.2017 11:6:23",
-            "31.12.2017 11:6:59",
-            "04.01.2018 12:20:36",
-            "03.01.2018 11:30:1",
-            "31.12.2017 11:7:11",
-            "03.01.2018 11:32:55",
-            "03.01.2018 9:12:42",
-            "03.01.2018 11:30:6",
-            "04.01.2018 12:15:56"
-        ],
-        "size": [
-            "",
-            "",
-            "125",
-            "8488",
-            "163328",
-            "67",
-            "351622588",
-            "",
-            "23987",
-            ""
-        ],
-        "name": [
-            "Урок 2. JVM. Полное погружение",
-            "Урок 1. Проектирование архитектуры и модели данных",
-            "server_settings.json",
-            "screen01.png",
-            "screen00.png",
-            "сlient_settings.json",
-            "Урок 4. Операции.mp4",
-            "Урок 3. Сборщики проектов",
-            "screen03.png",
-            "Кино"
-        ],
-        "type": [
-            "dir",
-            "dir",
-            "file",
-            "file",
-            "file",
-            "file",
-            "file",
-            "dir",
-            "file",
-            "dir"
-        ]
-    },
-    "response": "list"
-}
-[INFO ] 2018-01-04 12:20:42.759 [Admin] Server - onException : User Admin on Socket[addr=/127.0.0.1,port=58922,localport=8189] : java.io.EOFException
-[INFO ] 2018-01-04 12:20:42.760 [Admin] Server - onStop : User Admin on Socket[addr=/127.0.0.1,port=58922,localport=8189]
-[INFO ] 2018-01-04 12:30:30.560 [JavaFX Application Thread] Settings - 
+[INFO ] 2018-01-08 10:59:12.471 [Admin] Server - onException : User Admin on Socket[addr=/127.0.0.1,port=45982,localport=8189] : java.io.EOFException
+[INFO ] 2018-01-08 10:59:12.473 [Admin] Server - onStop : User Admin on Socket[addr=/127.0.0.1,port=45982,localport=8189]
+[INFO ] 2018-01-08 10:59:15.590 [ServerThread] Server - onStop
+[INFO ] 2018-01-08 10:59:16.195 [JavaFX Application Thread] Server - Поток сервера не запущен.
+[INFO ] 2018-01-08 10:59:17.115 [JavaFX Application Thread] HibernateFactory - Hibernate stoped.
+[INFO ] 2018-01-08 11:08:41.328 [JavaFX Application Thread] Settings - 
   i i i i i i i
   I I I I I I I
   I  \ `+' /  I
@@ -716,15 +205,15 @@
     `-__|__-'
         |
   ------+------
-[INFO ] 2018-01-04 12:30:30.672 [JavaFX Application Thread] Settings - Настройки сервера загружены.
-[INFO ] 2018-01-04 12:30:34.219 [JavaFX Application Thread] HibernateFactory - Hibernate is building...
-[INFO ] 2018-01-04 12:30:38.540 [JavaFX Application Thread] HibernateFactory - Hibernate created.
-[INFO ] 2018-01-04 12:30:38.659 [ServerThread] Server - onStart
-[INFO ] 2018-01-04 12:30:38.664 [ServerThread] Server - onReady /127.0.0.1:8189
-[INFO ] 2018-01-04 12:30:57.460 [ServerThread] Server - onAccepted : Socket[addr=/127.0.0.1,port=49748,localport=8189]
-[INFO ] 2018-01-04 12:30:57.480 [ClientThread] Server - onStart : User ClientThread on Socket[addr=/127.0.0.1,port=49748,localport=8189]
-[INFO ] 2018-01-04 12:30:57.481 [ClientThread] Server - onReady : User ClientThread on Socket[addr=/127.0.0.1,port=49748,localport=8189]
-[INFO ] 2018-01-04 12:30:57.614 [ClientThread] Server - onGet : User ClientThread on Socket[addr=/127.0.0.1,port=49748,localport=8189] : <-- 
+[INFO ] 2018-01-08 11:08:41.438 [JavaFX Application Thread] Settings - Настройки сервера загружены.
+[INFO ] 2018-01-08 11:08:55.158 [JavaFX Application Thread] HibernateFactory - Hibernate is building...
+[INFO ] 2018-01-08 11:08:59.302 [JavaFX Application Thread] HibernateFactory - Hibernate created.
+[INFO ] 2018-01-08 11:08:59.417 [ServerThread] Server - onStart
+[INFO ] 2018-01-08 11:08:59.426 [ServerThread] Server - onReady /127.0.0.1:8189
+[INFO ] 2018-01-08 11:09:14.602 [ServerThread] Server - onAccepted : Socket[addr=/127.0.0.1,port=46132,localport=8189]
+[INFO ] 2018-01-08 11:09:14.615 [ClientThread] Server - onStart : User ClientThread on Socket[addr=/127.0.0.1,port=46132,localport=8189]
+[INFO ] 2018-01-08 11:09:14.616 [ClientThread] Server - onReady : User ClientThread on Socket[addr=/127.0.0.1,port=46132,localport=8189]
+[INFO ] 2018-01-08 11:09:14.744 [ClientThread] Server - onGet : User ClientThread on Socket[addr=/127.0.0.1,port=46132,localport=8189] : <-- 
 {
     "request": "authentication",
     "data": {
@@ -732,21 +221,24 @@
         "login": "admin"
     }
 }
-[INFO ] 2018-01-04 12:30:57.763 [ClientThread] Server - onPost : User ClientThread on Socket[addr=/127.0.0.1,port=49748,localport=8189] : --> 
+[INFO ] 2018-01-08 11:09:14.876 [ClientThread] Server - onPost : User ClientThread on Socket[addr=/127.0.0.1,port=46132,localport=8189] : --> 
 {
     "data": {"nickname": "Admin"},
     "response": "authorization"
 }
-[INFO ] 2018-01-04 12:30:57.973 [Admin] Server - onGet : User Admin on Socket[addr=/127.0.0.1,port=49748,localport=8189] : <-- 
+[INFO ] 2018-01-08 11:09:15.068 [Admin] Server - onGet : User Admin on Socket[addr=/127.0.0.1,port=46132,localport=8189] : <-- 
 {
     "request": "list",
     "data": {"path": "/"}
 }
-[INFO ] 2018-01-04 12:30:58.038 [Admin] Server - onPost : User Admin on Socket[addr=/127.0.0.1,port=49748,localport=8189] : --> 
+[INFO ] 2018-01-08 11:09:15.098 [Admin] Server - onPost : User Admin on Socket[addr=/127.0.0.1,port=46132,localport=8189] : --> 
 {
     "data": {
         "date": [
             "03.01.2018 9:12:48",
+            "04.01.2018 14:4:10",
+            "04.01.2018 13:58:32",
+            "04.01.2018 13:58:39",
             "31.12.2017 11:6:23",
             "31.12.2017 11:6:59",
             "04.01.2018 12:20:36",
@@ -755,10 +247,14 @@
             "03.01.2018 11:32:55",
             "03.01.2018 9:12:42",
             "03.01.2018 11:30:6",
+            "04.01.2018 13:24:6",
             "04.01.2018 12:15:56"
         ],
         "size": [
             "",
+            "2",
+            "6557",
+            "7405",
             "",
             "125",
             "8488",
@@ -767,10 +263,14 @@
             "351622588",
             "",
             "23987",
+            "23",
             ""
         ],
         "name": [
             "Урок 2. JVM. Полное погружение",
+            "Text File.log",
+            "LibreOffice Calc",
+            "LibreOffice Writer",
             "Урок 1. Проектирование архитектуры и модели данных",
             "server_settings.json",
             "screen01.png",
@@ -779,10 +279,14 @@
             "Урок 4. Операции.mp4",
             "Урок 3. Сборщики проектов",
             "screen03.png",
+            "capricorn-passwords.txt",
             "Кино"
         ],
         "type": [
             "dir",
+            "file",
+            "file",
+            "file",
             "dir",
             "file",
             "file",
@@ -790,31 +294,19 @@
             "file",
             "file",
             "dir",
+            "file",
             "file",
             "dir"
         ]
     },
     "response": "list"
 }
-[INFO ] 2018-01-04 12:31:01.058 [Admin] Server - onException : User Admin on Socket[addr=/127.0.0.1,port=49748,localport=8189] : java.io.EOFException
-[INFO ] 2018-01-04 12:31:01.062 [Admin] Server - onStop : User Admin on Socket[addr=/127.0.0.1,port=49748,localport=8189]
-[INFO ] 2018-01-04 13:22:25.109 [JavaFX Application Thread] Settings - 
-  i i i i i i i
-  I I I I I I I
-  I  \ `+' /  I
-   \  `-+-'  /
-    `-__|__-'
-        |
-  ------+------
-[INFO ] 2018-01-04 13:22:25.180 [JavaFX Application Thread] Settings - Настройки сервера загружены.
-[INFO ] 2018-01-04 13:22:29.940 [JavaFX Application Thread] HibernateFactory - Hibernate is building...
-[INFO ] 2018-01-04 13:22:34.507 [JavaFX Application Thread] HibernateFactory - Hibernate created.
-[INFO ] 2018-01-04 13:22:34.633 [ServerThread] Server - onStart
-[INFO ] 2018-01-04 13:22:34.641 [ServerThread] Server - onReady /127.0.0.1:8189
-[INFO ] 2018-01-04 13:22:53.140 [ServerThread] Server - onAccepted : Socket[addr=/127.0.0.1,port=51008,localport=8189]
-[INFO ] 2018-01-04 13:22:53.165 [ClientThread] Server - onStart : User ClientThread on Socket[addr=/127.0.0.1,port=51008,localport=8189]
-[INFO ] 2018-01-04 13:22:53.167 [ClientThread] Server - onReady : User ClientThread on Socket[addr=/127.0.0.1,port=51008,localport=8189]
-[INFO ] 2018-01-04 13:22:53.327 [ClientThread] Server - onGet : User ClientThread on Socket[addr=/127.0.0.1,port=51008,localport=8189] : <-- 
+[INFO ] 2018-01-08 11:09:27.691 [Admin] Server - onException : User Admin on Socket[addr=/127.0.0.1,port=46132,localport=8189] : java.io.EOFException
+[INFO ] 2018-01-08 11:09:27.693 [Admin] Server - onStop : User Admin on Socket[addr=/127.0.0.1,port=46132,localport=8189]
+[INFO ] 2018-01-08 11:12:21.971 [ServerThread] Server - onAccepted : Socket[addr=/127.0.0.1,port=46186,localport=8189]
+[INFO ] 2018-01-08 11:12:21.973 [ClientThread] Server - onStart : User ClientThread on Socket[addr=/127.0.0.1,port=46186,localport=8189]
+[INFO ] 2018-01-08 11:12:21.974 [ClientThread] Server - onReady : User ClientThread on Socket[addr=/127.0.0.1,port=46186,localport=8189]
+[INFO ] 2018-01-08 11:12:22.079 [ClientThread] Server - onGet : User ClientThread on Socket[addr=/127.0.0.1,port=46186,localport=8189] : <-- 
 {
     "request": "authentication",
     "data": {
@@ -822,21 +314,42 @@
         "login": "admin"
     }
 }
-[INFO ] 2018-01-04 13:22:53.495 [ClientThread] Server - onPost : User ClientThread on Socket[addr=/127.0.0.1,port=51008,localport=8189] : --> 
+[INFO ] 2018-01-08 11:12:22.094 [ClientThread] Server - onPost : User ClientThread on Socket[addr=/127.0.0.1,port=46186,localport=8189] : --> 
 {
     "data": {"nickname": "Admin"},
     "response": "authorization"
 }
-[INFO ] 2018-01-04 13:22:53.707 [Admin] Server - onGet : User Admin on Socket[addr=/127.0.0.1,port=51008,localport=8189] : <-- 
+[INFO ] 2018-01-08 11:12:24.513 [Admin] Server - onException : User Admin on Socket[addr=/127.0.0.1,port=46186,localport=8189] : java.io.EOFException
+[INFO ] 2018-01-08 11:12:24.514 [Admin] Server - onStop : User Admin on Socket[addr=/127.0.0.1,port=46186,localport=8189]
+[INFO ] 2018-01-08 11:13:09.275 [ServerThread] Server - onAccepted : Socket[addr=/127.0.0.1,port=46196,localport=8189]
+[INFO ] 2018-01-08 11:13:09.277 [ClientThread] Server - onStart : User ClientThread on Socket[addr=/127.0.0.1,port=46196,localport=8189]
+[INFO ] 2018-01-08 11:13:09.278 [ClientThread] Server - onReady : User ClientThread on Socket[addr=/127.0.0.1,port=46196,localport=8189]
+[INFO ] 2018-01-08 11:13:09.383 [ClientThread] Server - onGet : User ClientThread on Socket[addr=/127.0.0.1,port=46196,localport=8189] : <-- 
+{
+    "request": "authentication",
+    "data": {
+        "password": "admin",
+        "login": "admin"
+    }
+}
+[INFO ] 2018-01-08 11:13:09.410 [ClientThread] Server - onPost : User ClientThread on Socket[addr=/127.0.0.1,port=46196,localport=8189] : --> 
+{
+    "data": {"nickname": "Admin"},
+    "response": "authorization"
+}
+[INFO ] 2018-01-08 11:13:09.592 [Admin] Server - onGet : User Admin on Socket[addr=/127.0.0.1,port=46196,localport=8189] : <-- 
 {
     "request": "list",
     "data": {"path": "/"}
 }
-[INFO ] 2018-01-04 13:22:53.888 [Admin] Server - onPost : User Admin on Socket[addr=/127.0.0.1,port=51008,localport=8189] : --> 
+[INFO ] 2018-01-08 11:13:09.634 [Admin] Server - onPost : User Admin on Socket[addr=/127.0.0.1,port=46196,localport=8189] : --> 
 {
     "data": {
         "date": [
             "03.01.2018 9:12:48",
+            "04.01.2018 14:4:10",
+            "04.01.2018 13:58:32",
+            "04.01.2018 13:58:39",
             "31.12.2017 11:6:23",
             "31.12.2017 11:6:59",
             "04.01.2018 12:20:36",
@@ -845,10 +358,14 @@
             "03.01.2018 11:32:55",
             "03.01.2018 9:12:42",
             "03.01.2018 11:30:6",
+            "04.01.2018 13:24:6",
             "04.01.2018 12:15:56"
         ],
         "size": [
             "",
+            "2",
+            "6557",
+            "7405",
             "",
             "125",
             "8488",
@@ -857,10 +374,14 @@
             "351622588",
             "",
             "23987",
+            "23",
             ""
         ],
         "name": [
             "Урок 2. JVM. Полное погружение",
+            "Text File.log",
+            "LibreOffice Calc",
+            "LibreOffice Writer",
             "Урок 1. Проектирование архитектуры и модели данных",
             "server_settings.json",
             "screen01.png",
@@ -869,44 +390,34 @@
             "Урок 4. Операции.mp4",
             "Урок 3. Сборщики проектов",
             "screen03.png",
+            "capricorn-passwords.txt",
             "Кино"
         ],
         "type": [
             "dir",
+            "file",
+            "file",
+            "file",
             "dir",
-            "application/json",
-            "image/png",
-            "image/png",
-            "application/json",
-            "video/mp4",
+            "file",
+            "file",
+            "file",
+            "file",
+            "file",
             "dir",
-            "image/png",
+            "file",
+            "file",
             "dir"
         ]
     },
     "response": "list"
 }
-[INFO ] 2018-01-04 13:24:04.898 [Admin] Server - onGet : User Admin on Socket[addr=/127.0.0.1,port=51008,localport=8189] : <-- 
-{
-    "request": "upload",
-    "data": {"filename": "/capricorn-passwords"}
-}
-[INFO ] 2018-01-04 13:24:04.968 [Admin] Server - onPost : User Admin on Socket[addr=/127.0.0.1,port=51008,localport=8189] : --> 
-{
-    "data": {"socket": {
-        "hostname": "10.128.9.238",
-        "port": 52350,
-        "key": "/capricorn-passwords"
-    }},
-    "response": "ready-upload"
-}
-[INFO ] 2018-01-04 13:24:04.970 [capricorn-passwords] Server - onStart : Receive file 'capricorn-passwords' from 'Admin'.
-[INFO ] 2018-01-04 13:24:14.485 [Admin] Server - onGet : User Admin on Socket[addr=/127.0.0.1,port=51008,localport=8189] : <-- 
+[INFO ] 2018-01-08 11:13:27.470 [Admin] Server - onGet : User Admin on Socket[addr=/127.0.0.1,port=46196,localport=8189] : <-- 
 {
     "request": "list",
     "data": {"path": "/Урок 2. JVM. Полное погружение"}
 }
-[INFO ] 2018-01-04 13:24:14.498 [Admin] Server - onPost : User Admin on Socket[addr=/127.0.0.1,port=51008,localport=8189] : --> 
+[INFO ] 2018-01-08 11:13:27.482 [Admin] Server - onPost : User Admin on Socket[addr=/127.0.0.1,port=46196,localport=8189] : --> 
 {
     "data": {
         "date": ["03.01.2018 9:17:55"],
@@ -916,192 +427,87 @@
     },
     "response": "list"
 }
-[INFO ] 2018-01-04 13:24:16.432 [Admin] Server - onGet : User Admin on Socket[addr=/127.0.0.1,port=51008,localport=8189] : <-- 
+[INFO ] 2018-01-08 11:13:28.803 [Admin] Server - onGet : User Admin on Socket[addr=/127.0.0.1,port=46196,localport=8189] : <-- 
 {
     "request": "list",
-    "data": {"path": "/"}
+    "data": {"path": "/Урок 2. JVM. Полное погружение/new folder"}
 }
-[INFO ] 2018-01-04 13:24:16.479 [Admin] Server - onStop : User Admin on Socket[addr=/127.0.0.1,port=51008,localport=8189]
-[INFO ] 2018-01-04 13:24:24.715 [ServerThread] Server - onAccepted : Socket[addr=/127.0.0.1,port=51062,localport=8189]
-[INFO ] 2018-01-04 13:24:24.717 [ClientThread] Server - onStart : User ClientThread on Socket[addr=/127.0.0.1,port=51062,localport=8189]
-[INFO ] 2018-01-04 13:24:24.718 [ClientThread] Server - onReady : User ClientThread on Socket[addr=/127.0.0.1,port=51062,localport=8189]
-[INFO ] 2018-01-04 13:24:24.818 [ClientThread] Server - onGet : User ClientThread on Socket[addr=/127.0.0.1,port=51062,localport=8189] : <-- 
-{
-    "request": "authentication",
-    "data": {
-        "password": "admin",
-        "login": "admin"
-    }
-}
-[INFO ] 2018-01-04 13:24:24.848 [ClientThread] Server - onPost : User ClientThread on Socket[addr=/127.0.0.1,port=51062,localport=8189] : --> 
-{
-    "data": {"nickname": "Admin"},
-    "response": "authorization"
-}
-[INFO ] 2018-01-04 13:24:24.898 [Admin] Server - onGet : User Admin on Socket[addr=/127.0.0.1,port=51062,localport=8189] : <-- 
-{
-    "request": "list",
-    "data": {"path": "/"}
-}
-[INFO ] 2018-01-04 13:24:24.907 [Admin] Server - onStop : User Admin on Socket[addr=/127.0.0.1,port=51062,localport=8189]
-[INFO ] 2018-01-04 13:24:42.643 [ServerThread] Server - onAccepted : Socket[addr=/127.0.0.1,port=51076,localport=8189]
-[INFO ] 2018-01-04 13:24:42.645 [ClientThread] Server - onStart : User ClientThread on Socket[addr=/127.0.0.1,port=51076,localport=8189]
-[INFO ] 2018-01-04 13:24:42.646 [ClientThread] Server - onReady : User ClientThread on Socket[addr=/127.0.0.1,port=51076,localport=8189]
-[INFO ] 2018-01-04 13:24:42.751 [ClientThread] Server - onGet : User ClientThread on Socket[addr=/127.0.0.1,port=51076,localport=8189] : <-- 
-{
-    "request": "authentication",
-    "data": {
-        "password": "admin",
-        "login": "admin"
-    }
-}
-[INFO ] 2018-01-04 13:24:42.775 [ClientThread] Server - onPost : User ClientThread on Socket[addr=/127.0.0.1,port=51076,localport=8189] : --> 
-{
-    "data": {"nickname": "Admin"},
-    "response": "authorization"
-}
-[INFO ] 2018-01-04 13:24:42.973 [Admin] Server - onGet : User Admin on Socket[addr=/127.0.0.1,port=51076,localport=8189] : <-- 
-{
-    "request": "list",
-    "data": {"path": "/"}
-}
-[INFO ] 2018-01-04 13:24:42.983 [Admin] Server - onStop : User Admin on Socket[addr=/127.0.0.1,port=51076,localport=8189]
-[INFO ] 2018-01-04 13:24:48.649 [ServerThread] Server - onStop
-[INFO ] 2018-01-04 13:24:50.784 [JavaFX Application Thread] HibernateFactory - Hibernate stoped.
-[INFO ] 2018-01-04 13:24:58.748 [JavaFX Application Thread] Settings - 
-  i i i i i i i
-  I I I I I I I
-  I  \ `+' /  I
-   \  `-+-'  /
-    `-__|__-'
-        |
-  ------+------
-[INFO ] 2018-01-04 13:24:58.854 [JavaFX Application Thread] Settings - Настройки сервера загружены.
-[INFO ] 2018-01-04 13:25:02.619 [JavaFX Application Thread] HibernateFactory - Hibernate is building...
-[INFO ] 2018-01-04 13:25:06.699 [JavaFX Application Thread] HibernateFactory - Hibernate created.
-[INFO ] 2018-01-04 13:25:06.820 [ServerThread] Server - onStart
-[INFO ] 2018-01-04 13:25:06.827 [ServerThread] Server - onReady /127.0.0.1:8189
-[INFO ] 2018-01-04 13:25:20.884 [ServerThread] Server - onAccepted : Socket[addr=/127.0.0.1,port=51100,localport=8189]
-[INFO ] 2018-01-04 13:25:20.900 [ClientThread] Server - onStart : User ClientThread on Socket[addr=/127.0.0.1,port=51100,localport=8189]
-[INFO ] 2018-01-04 13:25:20.901 [ClientThread] Server - onReady : User ClientThread on Socket[addr=/127.0.0.1,port=51100,localport=8189]
-[INFO ] 2018-01-04 13:25:21.016 [ClientThread] Server - onGet : User ClientThread on Socket[addr=/127.0.0.1,port=51100,localport=8189] : <-- 
-{
-    "request": "authentication",
-    "data": {
-        "password": "admin",
-        "login": "admin"
-    }
-}
-[INFO ] 2018-01-04 13:25:21.141 [ClientThread] Server - onPost : User ClientThread on Socket[addr=/127.0.0.1,port=51100,localport=8189] : --> 
-{
-    "data": {"nickname": "Admin"},
-    "response": "authorization"
-}
-[INFO ] 2018-01-04 13:25:21.338 [Admin] Server - onGet : User Admin on Socket[addr=/127.0.0.1,port=51100,localport=8189] : <-- 
-{
-    "request": "list",
-    "data": {"path": "/"}
-}
-[INFO ] 2018-01-04 13:25:21.571 [Admin] Server - onStop : User Admin on Socket[addr=/127.0.0.1,port=51100,localport=8189]
-[INFO ] 2018-01-04 13:25:26.575 [JavaFX Application Thread] HibernateFactory - Hibernate stoped.
-[INFO ] 2018-01-04 13:26:17.268 [JavaFX Application Thread] Settings - 
-  i i i i i i i
-  I I I I I I I
-  I  \ `+' /  I
-   \  `-+-'  /
-    `-__|__-'
-        |
-  ------+------
-[INFO ] 2018-01-04 13:26:17.351 [JavaFX Application Thread] Settings - Настройки сервера загружены.
-[INFO ] 2018-01-04 13:26:26.360 [JavaFX Application Thread] HibernateFactory - Hibernate is building...
-[INFO ] 2018-01-04 13:26:30.494 [JavaFX Application Thread] HibernateFactory - Hibernate created.
-[INFO ] 2018-01-04 13:26:30.618 [ServerThread] Server - onStart
-[INFO ] 2018-01-04 13:26:30.624 [ServerThread] Server - onReady /127.0.0.1:8189
-[INFO ] 2018-01-04 13:26:36.588 [ServerThread] Server - onAccepted : Socket[addr=/127.0.0.1,port=51134,localport=8189]
-[INFO ] 2018-01-04 13:26:36.603 [ClientThread] Server - onStart : User ClientThread on Socket[addr=/127.0.0.1,port=51134,localport=8189]
-[INFO ] 2018-01-04 13:26:36.605 [ClientThread] Server - onReady : User ClientThread on Socket[addr=/127.0.0.1,port=51134,localport=8189]
-[INFO ] 2018-01-04 13:26:36.739 [ClientThread] Server - onGet : User ClientThread on Socket[addr=/127.0.0.1,port=51134,localport=8189] : <-- 
-{
-    "request": "authentication",
-    "data": {
-        "password": "admin",
-        "login": "admin"
-    }
-}
-[INFO ] 2018-01-04 13:26:36.899 [ClientThread] Server - onPost : User ClientThread on Socket[addr=/127.0.0.1,port=51134,localport=8189] : --> 
-{
-    "data": {"nickname": "Admin"},
-    "response": "authorization"
-}
-[INFO ] 2018-01-04 13:26:37.112 [Admin] Server - onGet : User Admin on Socket[addr=/127.0.0.1,port=51134,localport=8189] : <-- 
-{
-    "request": "list",
-    "data": {"path": "/"}
-}
-[INFO ] 2018-01-04 13:26:37.356 [Admin] Server - onPost : User Admin on Socket[addr=/127.0.0.1,port=51134,localport=8189] : --> 
+[INFO ] 2018-01-08 11:13:28.838 [Admin] Server - onPost : User Admin on Socket[addr=/127.0.0.1,port=46196,localport=8189] : --> 
 {
     "data": {
-        "date": [
-            "03.01.2018 9:12:48",
-            "31.12.2017 11:6:23",
-            "31.12.2017 11:6:59",
-            "04.01.2018 12:20:36",
-            "03.01.2018 11:30:1",
-            "04.01.2018 13:24:6",
-            "31.12.2017 11:7:11",
-            "03.01.2018 11:32:55",
-            "03.01.2018 9:12:42",
-            "03.01.2018 11:30:6",
-            "04.01.2018 12:15:56"
-        ],
-        "size": [
-            "",
-            "",
-            "125",
-            "8488",
-            "163328",
-            "23",
-            "67",
-            "351622588",
-            "",
-            "23987",
-            ""
-        ],
-        "name": [
-            "Урок 2. JVM. Полное погружение",
-            "Урок 1. Проектирование архитектуры и модели данных",
-            "server_settings.json",
-            "screen01.png",
-            "screen00.png",
-            "capricorn-passwords",
-            "сlient_settings.json",
-            "Урок 4. Операции.mp4",
-            "Урок 3. Сборщики проектов",
-            "screen03.png",
-            "Кино"
-        ],
-        "type": [
-            "dir",
-            "dir",
-            "file",
-            "file",
-            "file",
-            "file",
-            "file",
-            "file",
-            "dir",
-            "file",
-            "dir"
-        ]
+        "date": ["03.01.2018 9:18:2"],
+        "size": [""],
+        "name": ["new folder"],
+        "type": ["dir"]
     },
     "response": "list"
 }
-[INFO ] 2018-01-04 13:28:08.706 [Admin] Server - onGet : User Admin on Socket[addr=/127.0.0.1,port=51134,localport=8189] : <-- 
+[INFO ] 2018-01-08 11:13:30.430 [Admin] Server - onGet : User Admin on Socket[addr=/127.0.0.1,port=46196,localport=8189] : <-- 
+{
+    "request": "list",
+    "data": {"path": "/Урок 2. JVM. Полное погружение/new folder/new folder"}
+}
+[INFO ] 2018-01-08 11:13:30.440 [Admin] Server - onPost : User Admin on Socket[addr=/127.0.0.1,port=46196,localport=8189] : --> 
+{
+    "data": {
+        "date": ["03.01.2018 9:18:5"],
+        "size": [""],
+        "name": ["new folder"],
+        "type": ["dir"]
+    },
+    "response": "list"
+}
+[INFO ] 2018-01-08 11:13:31.384 [Admin] Server - onGet : User Admin on Socket[addr=/127.0.0.1,port=46196,localport=8189] : <-- 
+{
+    "request": "list",
+    "data": {"path": "/Урок 2. JVM. Полное погружение/new folder/new folder/new folder"}
+}
+[INFO ] 2018-01-08 11:13:31.395 [Admin] Server - onPost : User Admin on Socket[addr=/127.0.0.1,port=46196,localport=8189] : --> 
+{
+    "data": {
+        "date": ["03.01.2018 9:18:9"],
+        "size": [""],
+        "name": ["new folder"],
+        "type": ["dir"]
+    },
+    "response": "list"
+}
+[INFO ] 2018-01-08 11:13:33.101 [Admin] Server - onGet : User Admin on Socket[addr=/127.0.0.1,port=46196,localport=8189] : <-- 
+{
+    "request": "list",
+    "data": {"path": "/Урок 2. JVM. Полное погружение/new folder/new folder"}
+}
+[INFO ] 2018-01-08 11:13:33.112 [Admin] Server - onPost : User Admin on Socket[addr=/127.0.0.1,port=46196,localport=8189] : --> 
+{
+    "data": {
+        "date": ["03.01.2018 9:18:5"],
+        "size": [""],
+        "name": ["new folder"],
+        "type": ["dir"]
+    },
+    "response": "list"
+}
+[INFO ] 2018-01-08 11:13:33.440 [Admin] Server - onGet : User Admin on Socket[addr=/127.0.0.1,port=46196,localport=8189] : <-- 
+{
+    "request": "list",
+    "data": {"path": "/Урок 2. JVM. Полное погружение/new folder"}
+}
+[INFO ] 2018-01-08 11:13:33.457 [Admin] Server - onPost : User Admin on Socket[addr=/127.0.0.1,port=46196,localport=8189] : --> 
+{
+    "data": {
+        "date": ["03.01.2018 9:18:2"],
+        "size": [""],
+        "name": ["new folder"],
+        "type": ["dir"]
+    },
+    "response": "list"
+}
+[INFO ] 2018-01-08 11:13:33.672 [Admin] Server - onGet : User Admin on Socket[addr=/127.0.0.1,port=46196,localport=8189] : <-- 
 {
     "request": "list",
     "data": {"path": "/Урок 2. JVM. Полное погружение"}
 }
-[INFO ] 2018-01-04 13:28:08.715 [Admin] Server - onPost : User Admin on Socket[addr=/127.0.0.1,port=51134,localport=8189] : --> 
+[INFO ] 2018-01-08 11:13:33.679 [Admin] Server - onPost : User Admin on Socket[addr=/127.0.0.1,port=46196,localport=8189] : --> 
 {
     "data": {
         "date": ["03.01.2018 9:17:55"],
@@ -1111,583 +517,12 @@
     },
     "response": "list"
 }
-[INFO ] 2018-01-04 13:28:09.842 [Admin] Server - onGet : User Admin on Socket[addr=/127.0.0.1,port=51134,localport=8189] : <-- 
+[INFO ] 2018-01-08 11:13:33.949 [Admin] Server - onGet : User Admin on Socket[addr=/127.0.0.1,port=46196,localport=8189] : <-- 
 {
     "request": "list",
     "data": {"path": "/"}
 }
-[INFO ] 2018-01-04 13:28:09.862 [Admin] Server - onPost : User Admin on Socket[addr=/127.0.0.1,port=51134,localport=8189] : --> 
-{
-    "data": {
-        "date": [
-            "03.01.2018 9:12:48",
-            "31.12.2017 11:6:23",
-            "31.12.2017 11:6:59",
-            "04.01.2018 12:20:36",
-            "03.01.2018 11:30:1",
-            "31.12.2017 11:7:11",
-            "03.01.2018 11:32:55",
-            "03.01.2018 9:12:42",
-            "03.01.2018 11:30:6",
-            "04.01.2018 13:24:6",
-            "04.01.2018 12:15:56"
-        ],
-        "size": [
-            "",
-            "",
-            "125",
-            "8488",
-            "163328",
-            "67",
-            "351622588",
-            "",
-            "23987",
-            "23",
-            ""
-        ],
-        "name": [
-            "Урок 2. JVM. Полное погружение",
-            "Урок 1. Проектирование архитектуры и модели данных",
-            "server_settings.json",
-            "screen01.png",
-            "screen00.png",
-            "сlient_settings.json",
-            "Урок 4. Операции.mp4",
-            "Урок 3. Сборщики проектов",
-            "screen03.png",
-            "capricorn-passwords.txt",
-            "Кино"
-        ],
-        "type": [
-            "dir",
-            "dir",
-            "file",
-            "file",
-            "file",
-            "file",
-            "file",
-            "dir",
-            "file",
-            "file",
-            "dir"
-        ]
-    },
-    "response": "list"
-}
-[INFO ] 2018-01-04 13:28:46.750 [JavaFX Application Thread] HibernateFactory - Hibernate stoped.
-[INFO ] 2018-01-04 14:10:17.018 [JavaFX Application Thread] Settings - 
-  i i i i i i i
-  I I I I I I I
-  I  \ `+' /  I
-   \  `-+-'  /
-    `-__|__-'
-        |
-  ------+------
-[INFO ] 2018-01-04 14:10:17.158 [JavaFX Application Thread] Settings - Настройки сервера загружены.
-[INFO ] 2018-01-04 14:10:21.778 [JavaFX Application Thread] HibernateFactory - Hibernate is building...
-[INFO ] 2018-01-04 14:10:26.147 [JavaFX Application Thread] HibernateFactory - Hibernate created.
-[INFO ] 2018-01-04 14:10:26.265 [ServerThread] Server - onStart
-[INFO ] 2018-01-04 14:10:26.272 [ServerThread] Server - onReady /127.0.0.1:8189
-[INFO ] 2018-01-04 14:10:45.966 [ServerThread] Server - onAccepted : Socket[addr=/127.0.0.1,port=51906,localport=8189]
-[INFO ] 2018-01-04 14:10:45.982 [ClientThread] Server - onStart : User ClientThread on Socket[addr=/127.0.0.1,port=51906,localport=8189]
-[INFO ] 2018-01-04 14:10:45.983 [ClientThread] Server - onReady : User ClientThread on Socket[addr=/127.0.0.1,port=51906,localport=8189]
-[INFO ] 2018-01-04 14:10:46.101 [ClientThread] Server - onGet : User ClientThread on Socket[addr=/127.0.0.1,port=51906,localport=8189] : <-- 
-{
-    "request": "authentication",
-    "data": {
-        "password": "admin",
-        "login": "admin"
-    }
-}
-[INFO ] 2018-01-04 14:10:46.219 [ClientThread] Server - onPost : User ClientThread on Socket[addr=/127.0.0.1,port=51906,localport=8189] : --> 
-{
-    "data": {"nickname": "Admin"},
-    "response": "authorization"
-}
-[INFO ] 2018-01-04 14:10:46.410 [Admin] Server - onGet : User Admin on Socket[addr=/127.0.0.1,port=51906,localport=8189] : <-- 
-{
-    "request": "list",
-    "data": {"path": "/"}
-}
-[INFO ] 2018-01-04 14:10:46.574 [Admin] Server - onPost : User Admin on Socket[addr=/127.0.0.1,port=51906,localport=8189] : --> 
-{
-    "data": {
-        "date": [
-            "03.01.2018 9:12:48",
-            "04.01.2018 14:4:10",
-            "04.01.2018 13:58:32",
-            "04.01.2018 13:58:39",
-            "31.12.2017 11:6:23",
-            "31.12.2017 11:6:59",
-            "04.01.2018 12:20:36",
-            "03.01.2018 11:30:1",
-            "31.12.2017 11:7:11",
-            "03.01.2018 11:32:55",
-            "03.01.2018 9:12:42",
-            "03.01.2018 11:30:6",
-            "04.01.2018 13:24:6",
-            "04.01.2018 12:15:56"
-        ],
-        "size": [
-            "",
-            "2",
-            "6557",
-            "7405",
-            "",
-            "125",
-            "8488",
-            "163328",
-            "67",
-            "351622588",
-            "",
-            "23987",
-            "23",
-            ""
-        ],
-        "name": [
-            "Урок 2. JVM. Полное погружение",
-            "Text File.log",
-            "LibreOffice Calc",
-            "LibreOffice Writer",
-            "Урок 1. Проектирование архитектуры и модели данных",
-            "server_settings.json",
-            "screen01.png",
-            "screen00.png",
-            "сlient_settings.json",
-            "Урок 4. Операции.mp4",
-            "Урок 3. Сборщики проектов",
-            "screen03.png",
-            "capricorn-passwords.txt",
-            "Кино"
-        ],
-        "type": [
-            "dir",
-            "file",
-            "file",
-            "file",
-            "dir",
-            "application/json",
-            "image/png",
-            "image/png",
-            "application/json",
-            "video/mp4",
-            "dir",
-            "image/png",
-            "text/plain",
-            "dir"
-        ]
-    },
-    "response": "list"
-}
-[INFO ] 2018-01-04 14:11:52.987 [Admin] Server - onException : User Admin on Socket[addr=/127.0.0.1,port=51906,localport=8189] : java.io.EOFException
-[INFO ] 2018-01-04 14:11:52.990 [Admin] Server - onStop : User Admin on Socket[addr=/127.0.0.1,port=51906,localport=8189]
-[INFO ] 2018-01-04 14:15:56.408 [ServerThread] Server - onAccepted : Socket[addr=/127.0.0.1,port=51980,localport=8189]
-[INFO ] 2018-01-04 14:15:56.411 [ClientThread] Server - onStart : User ClientThread on Socket[addr=/127.0.0.1,port=51980,localport=8189]
-[INFO ] 2018-01-04 14:15:56.412 [ClientThread] Server - onReady : User ClientThread on Socket[addr=/127.0.0.1,port=51980,localport=8189]
-[INFO ] 2018-01-04 14:15:56.520 [ClientThread] Server - onGet : User ClientThread on Socket[addr=/127.0.0.1,port=51980,localport=8189] : <-- 
-{
-    "request": "authentication",
-    "data": {
-        "password": "admin",
-        "login": "admin"
-    }
-}
-[INFO ] 2018-01-04 14:15:56.538 [ClientThread] Server - onPost : User ClientThread on Socket[addr=/127.0.0.1,port=51980,localport=8189] : --> 
-{
-    "data": {"nickname": "Admin"},
-    "response": "authorization"
-}
-[INFO ] 2018-01-04 14:15:56.756 [Admin] Server - onGet : User Admin on Socket[addr=/127.0.0.1,port=51980,localport=8189] : <-- 
-{
-    "request": "list",
-    "data": {"path": "/"}
-}
-[INFO ] 2018-01-04 14:15:56.781 [Admin] Server - onPost : User Admin on Socket[addr=/127.0.0.1,port=51980,localport=8189] : --> 
-{
-    "data": {
-        "date": [
-            "03.01.2018 9:12:48",
-            "04.01.2018 14:4:10",
-            "04.01.2018 13:58:32",
-            "04.01.2018 13:58:39",
-            "31.12.2017 11:6:23",
-            "31.12.2017 11:6:59",
-            "04.01.2018 12:20:36",
-            "03.01.2018 11:30:1",
-            "31.12.2017 11:7:11",
-            "03.01.2018 11:32:55",
-            "03.01.2018 9:12:42",
-            "03.01.2018 11:30:6",
-            "04.01.2018 13:24:6",
-            "04.01.2018 12:15:56"
-        ],
-        "size": [
-            "",
-            "2",
-            "6557",
-            "7405",
-            "",
-            "125",
-            "8488",
-            "163328",
-            "67",
-            "351622588",
-            "",
-            "23987",
-            "23",
-            ""
-        ],
-        "name": [
-            "Урок 2. JVM. Полное погружение",
-            "Text File.log",
-            "LibreOffice Calc",
-            "LibreOffice Writer",
-            "Урок 1. Проектирование архитектуры и модели данных",
-            "server_settings.json",
-            "screen01.png",
-            "screen00.png",
-            "сlient_settings.json",
-            "Урок 4. Операции.mp4",
-            "Урок 3. Сборщики проектов",
-            "screen03.png",
-            "capricorn-passwords.txt",
-            "Кино"
-        ],
-        "type": [
-            "dir",
-            "file",
-            "file",
-            "file",
-            "dir",
-            "application/json",
-            "image/png",
-            "image/png",
-            "application/json",
-            "video/mp4",
-            "dir",
-            "image/png",
-            "text/plain",
-            "dir"
-        ]
-    },
-    "response": "list"
-}
-[INFO ] 2018-01-04 14:17:42.413 [Admin] Server - onException : User Admin on Socket[addr=/127.0.0.1,port=51980,localport=8189] : java.io.EOFException
-[INFO ] 2018-01-04 14:17:42.414 [Admin] Server - onStop : User Admin on Socket[addr=/127.0.0.1,port=51980,localport=8189]
-[INFO ] 2018-01-04 14:25:29.028 [ServerThread] Server - onAccepted : Socket[addr=/127.0.0.1,port=52126,localport=8189]
-[INFO ] 2018-01-04 14:25:29.030 [ClientThread] Server - onStart : User ClientThread on Socket[addr=/127.0.0.1,port=52126,localport=8189]
-[INFO ] 2018-01-04 14:25:29.031 [ClientThread] Server - onReady : User ClientThread on Socket[addr=/127.0.0.1,port=52126,localport=8189]
-[INFO ] 2018-01-04 14:25:29.136 [ClientThread] Server - onGet : User ClientThread on Socket[addr=/127.0.0.1,port=52126,localport=8189] : <-- 
-{
-    "request": "authentication",
-    "data": {
-        "password": "admin",
-        "login": "admin"
-    }
-}
-[INFO ] 2018-01-04 14:25:29.182 [ClientThread] Server - onPost : User ClientThread on Socket[addr=/127.0.0.1,port=52126,localport=8189] : --> 
-{
-    "data": {"nickname": "Admin"},
-    "response": "authorization"
-}
-[INFO ] 2018-01-04 14:25:29.390 [Admin] Server - onGet : User Admin on Socket[addr=/127.0.0.1,port=52126,localport=8189] : <-- 
-{
-    "request": "list",
-    "data": {"path": "/"}
-}
-[INFO ] 2018-01-04 14:25:29.417 [Admin] Server - onPost : User Admin on Socket[addr=/127.0.0.1,port=52126,localport=8189] : --> 
-{
-    "data": {
-        "date": [
-            "03.01.2018 9:12:48",
-            "04.01.2018 14:4:10",
-            "04.01.2018 13:58:32",
-            "04.01.2018 13:58:39",
-            "31.12.2017 11:6:23",
-            "31.12.2017 11:6:59",
-            "04.01.2018 12:20:36",
-            "03.01.2018 11:30:1",
-            "31.12.2017 11:7:11",
-            "03.01.2018 11:32:55",
-            "03.01.2018 9:12:42",
-            "03.01.2018 11:30:6",
-            "04.01.2018 13:24:6",
-            "04.01.2018 12:15:56"
-        ],
-        "size": [
-            "",
-            "2",
-            "6557",
-            "7405",
-            "",
-            "125",
-            "8488",
-            "163328",
-            "67",
-            "351622588",
-            "",
-            "23987",
-            "23",
-            ""
-        ],
-        "name": [
-            "Урок 2. JVM. Полное погружение",
-            "Text File.log",
-            "LibreOffice Calc",
-            "LibreOffice Writer",
-            "Урок 1. Проектирование архитектуры и модели данных",
-            "server_settings.json",
-            "screen01.png",
-            "screen00.png",
-            "сlient_settings.json",
-            "Урок 4. Операции.mp4",
-            "Урок 3. Сборщики проектов",
-            "screen03.png",
-            "capricorn-passwords.txt",
-            "Кино"
-        ],
-        "type": [
-            "dir",
-            "file",
-            "file",
-            "file",
-            "dir",
-            "application/json",
-            "image/png",
-            "image/png",
-            "application/json",
-            "video/mp4",
-            "dir",
-            "image/png",
-            "text/plain",
-            "dir"
-        ]
-    },
-    "response": "list"
-}
-[INFO ] 2018-01-04 14:25:52.285 [Admin] Server - onException : User Admin on Socket[addr=/127.0.0.1,port=52126,localport=8189] : java.io.EOFException
-[INFO ] 2018-01-04 14:25:52.286 [Admin] Server - onStop : User Admin on Socket[addr=/127.0.0.1,port=52126,localport=8189]
-[INFO ] 2018-01-04 14:26:26.490 [ServerThread] Server - onAccepted : Socket[addr=/127.0.0.1,port=52142,localport=8189]
-[INFO ] 2018-01-04 14:26:26.492 [ClientThread] Server - onStart : User ClientThread on Socket[addr=/127.0.0.1,port=52142,localport=8189]
-[INFO ] 2018-01-04 14:26:26.493 [ClientThread] Server - onReady : User ClientThread on Socket[addr=/127.0.0.1,port=52142,localport=8189]
-[INFO ] 2018-01-04 14:26:26.596 [ClientThread] Server - onGet : User ClientThread on Socket[addr=/127.0.0.1,port=52142,localport=8189] : <-- 
-{
-    "request": "authentication",
-    "data": {
-        "password": "admin",
-        "login": "admin"
-    }
-}
-[INFO ] 2018-01-04 14:26:26.618 [ClientThread] Server - onPost : User ClientThread on Socket[addr=/127.0.0.1,port=52142,localport=8189] : --> 
-{
-    "data": {"nickname": "Admin"},
-    "response": "authorization"
-}
-[INFO ] 2018-01-04 14:26:26.796 [Admin] Server - onGet : User Admin on Socket[addr=/127.0.0.1,port=52142,localport=8189] : <-- 
-{
-    "request": "list",
-    "data": {"path": "/"}
-}
-[INFO ] 2018-01-04 14:26:26.837 [Admin] Server - onPost : User Admin on Socket[addr=/127.0.0.1,port=52142,localport=8189] : --> 
-{
-    "data": {
-        "date": [
-            "03.01.2018 9:12:48",
-            "04.01.2018 14:4:10",
-            "04.01.2018 13:58:32",
-            "04.01.2018 13:58:39",
-            "31.12.2017 11:6:23",
-            "31.12.2017 11:6:59",
-            "04.01.2018 12:20:36",
-            "03.01.2018 11:30:1",
-            "31.12.2017 11:7:11",
-            "03.01.2018 11:32:55",
-            "03.01.2018 9:12:42",
-            "03.01.2018 11:30:6",
-            "04.01.2018 13:24:6",
-            "04.01.2018 12:15:56"
-        ],
-        "size": [
-            "",
-            "2",
-            "6557",
-            "7405",
-            "",
-            "125",
-            "8488",
-            "163328",
-            "67",
-            "351622588",
-            "",
-            "23987",
-            "23",
-            ""
-        ],
-        "name": [
-            "Урок 2. JVM. Полное погружение",
-            "Text File.log",
-            "LibreOffice Calc",
-            "LibreOffice Writer",
-            "Урок 1. Проектирование архитектуры и модели данных",
-            "server_settings.json",
-            "screen01.png",
-            "screen00.png",
-            "сlient_settings.json",
-            "Урок 4. Операции.mp4",
-            "Урок 3. Сборщики проектов",
-            "screen03.png",
-            "capricorn-passwords.txt",
-            "Кино"
-        ],
-        "type": [
-            "dir",
-            "file",
-            "file",
-            "file",
-            "dir",
-            "application/json",
-            "image/png",
-            "image/png",
-            "application/json",
-            "video/mp4",
-            "dir",
-            "image/png",
-            "text/plain",
-            "dir"
-        ]
-    },
-    "response": "list"
-}
-[INFO ] 2018-01-04 14:27:23.623 [Admin] Server - onException : User Admin on Socket[addr=/127.0.0.1,port=52142,localport=8189] : java.io.EOFException
-[INFO ] 2018-01-04 14:27:23.624 [Admin] Server - onStop : User Admin on Socket[addr=/127.0.0.1,port=52142,localport=8189]
-[INFO ] 2018-01-04 14:28:06.487 [ServerThread] Server - onAccepted : Socket[addr=/127.0.0.1,port=52172,localport=8189]
-[INFO ] 2018-01-04 14:28:06.489 [ClientThread] Server - onStart : User ClientThread on Socket[addr=/127.0.0.1,port=52172,localport=8189]
-[INFO ] 2018-01-04 14:28:06.491 [ClientThread] Server - onReady : User ClientThread on Socket[addr=/127.0.0.1,port=52172,localport=8189]
-[INFO ] 2018-01-04 14:28:06.593 [ClientThread] Server - onGet : User ClientThread on Socket[addr=/127.0.0.1,port=52172,localport=8189] : <-- 
-{
-    "request": "authentication",
-    "data": {
-        "password": "admin",
-        "login": "admin"
-    }
-}
-[INFO ] 2018-01-04 14:28:06.607 [ClientThread] Server - onPost : User ClientThread on Socket[addr=/127.0.0.1,port=52172,localport=8189] : --> 
-{
-    "data": {"nickname": "Admin"},
-    "response": "authorization"
-}
-[INFO ] 2018-01-04 14:28:06.781 [Admin] Server - onGet : User Admin on Socket[addr=/127.0.0.1,port=52172,localport=8189] : <-- 
-{
-    "request": "list",
-    "data": {"path": "/"}
-}
-[INFO ] 2018-01-04 14:28:06.803 [Admin] Server - onPost : User Admin on Socket[addr=/127.0.0.1,port=52172,localport=8189] : --> 
-{
-    "data": {
-        "date": [
-            "03.01.2018 9:12:48",
-            "04.01.2018 14:4:10",
-            "04.01.2018 13:58:32",
-            "04.01.2018 13:58:39",
-            "31.12.2017 11:6:23",
-            "31.12.2017 11:6:59",
-            "04.01.2018 12:20:36",
-            "03.01.2018 11:30:1",
-            "31.12.2017 11:7:11",
-            "03.01.2018 11:32:55",
-            "03.01.2018 9:12:42",
-            "03.01.2018 11:30:6",
-            "04.01.2018 13:24:6",
-            "04.01.2018 12:15:56"
-        ],
-        "size": [
-            "",
-            "2",
-            "6557",
-            "7405",
-            "",
-            "125",
-            "8488",
-            "163328",
-            "67",
-            "351622588",
-            "",
-            "23987",
-            "23",
-            ""
-        ],
-        "name": [
-            "Урок 2. JVM. Полное погружение",
-            "Text File.log",
-            "LibreOffice Calc",
-            "LibreOffice Writer",
-            "Урок 1. Проектирование архитектуры и модели данных",
-            "server_settings.json",
-            "screen01.png",
-            "screen00.png",
-            "сlient_settings.json",
-            "Урок 4. Операции.mp4",
-            "Урок 3. Сборщики проектов",
-            "screen03.png",
-            "capricorn-passwords.txt",
-            "Кино"
-        ],
-        "type": [
-            "dir",
-            "file",
-            "file",
-            "file",
-            "dir",
-            "application/json",
-            "image/png",
-            "image/png",
-            "application/json",
-            "video/mp4",
-            "dir",
-            "image/png",
-            "text/plain",
-            "dir"
-        ]
-    },
-    "response": "list"
-}
-[INFO ] 2018-01-04 14:28:10.143 [Admin] Server - onException : User Admin on Socket[addr=/127.0.0.1,port=52172,localport=8189] : java.io.EOFException
-[INFO ] 2018-01-04 14:28:10.144 [Admin] Server - onStop : User Admin on Socket[addr=/127.0.0.1,port=52172,localport=8189]
-[INFO ] 2018-01-04 14:28:43.408 [JavaFX Application Thread] Settings - 
-  i i i i i i i
-  I I I I I I I
-  I  \ `+' /  I
-   \  `-+-'  /
-    `-__|__-'
-        |
-  ------+------
-[INFO ] 2018-01-04 14:28:43.499 [JavaFX Application Thread] Settings - Настройки сервера загружены.
-[INFO ] 2018-01-04 14:28:49.685 [JavaFX Application Thread] HibernateFactory - Hibernate is building...
-[INFO ] 2018-01-04 14:28:57.771 [JavaFX Application Thread] HibernateFactory - Hibernate created.
-[INFO ] 2018-01-04 14:28:57.885 [ServerThread] Server - onStart
-[INFO ] 2018-01-04 14:28:57.890 [ServerThread] Server - onReady /127.0.0.1:8189
-[INFO ] 2018-01-04 14:29:03.096 [ServerThread] Server - onAccepted : Socket[addr=/127.0.0.1,port=52208,localport=8189]
-[INFO ] 2018-01-04 14:29:03.113 [ClientThread] Server - onStart : User ClientThread on Socket[addr=/127.0.0.1,port=52208,localport=8189]
-[INFO ] 2018-01-04 14:29:03.114 [ClientThread] Server - onReady : User ClientThread on Socket[addr=/127.0.0.1,port=52208,localport=8189]
-[INFO ] 2018-01-04 14:29:03.253 [ClientThread] Server - onGet : User ClientThread on Socket[addr=/127.0.0.1,port=52208,localport=8189] : <-- 
-{
-    "request": "authentication",
-    "data": {
-        "password": "admin",
-        "login": "admin"
-    }
-}
-[INFO ] 2018-01-04 14:29:03.440 [ClientThread] Server - onPost : User ClientThread on Socket[addr=/127.0.0.1,port=52208,localport=8189] : --> 
-{
-    "data": {"nickname": "Admin"},
-    "response": "authorization"
-}
-[INFO ] 2018-01-04 14:29:03.745 [Admin] Server - onGet : User Admin on Socket[addr=/127.0.0.1,port=52208,localport=8189] : <-- 
-{
-    "request": "list",
-    "data": {"path": "/"}
-}
-[INFO ] 2018-01-04 14:29:03.845 [Admin] Server - onPost : User Admin on Socket[addr=/127.0.0.1,port=52208,localport=8189] : --> 
+[INFO ] 2018-01-08 11:13:33.976 [Admin] Server - onPost : User Admin on Socket[addr=/127.0.0.1,port=46196,localport=8189] : --> 
 {
     "data": {
         "date": [
@@ -1757,7 +592,81 @@
     },
     "response": "list"
 }
-[INFO ] 2018-01-04 14:29:16.607 [Admin] Server - onException : User Admin on Socket[addr=/127.0.0.1,port=52208,localport=8189] : java.io.EOFException
-[INFO ] 2018-01-04 14:29:16.610 [Admin] Server - onStop : User Admin on Socket[addr=/127.0.0.1,port=52208,localport=8189]
-[INFO ] 2018-01-04 14:29:19.113 [ServerThread] Server - onStop
-[INFO ] 2018-01-04 14:29:19.594 [JavaFX Application Thread] HibernateFactory - Hibernate stoped.
+[INFO ] 2018-01-08 11:13:35.373 [Admin] Server - onGet : User Admin on Socket[addr=/127.0.0.1,port=46196,localport=8189] : <-- 
+{
+    "request": "list",
+    "data": {"path": "/"}
+}
+[INFO ] 2018-01-08 11:13:35.384 [Admin] Server - onPost : User Admin on Socket[addr=/127.0.0.1,port=46196,localport=8189] : --> 
+{
+    "data": {
+        "date": [
+            "03.01.2018 9:12:48",
+            "04.01.2018 14:4:10",
+            "04.01.2018 13:58:32",
+            "04.01.2018 13:58:39",
+            "31.12.2017 11:6:23",
+            "31.12.2017 11:6:59",
+            "04.01.2018 12:20:36",
+            "03.01.2018 11:30:1",
+            "31.12.2017 11:7:11",
+            "03.01.2018 11:32:55",
+            "03.01.2018 9:12:42",
+            "03.01.2018 11:30:6",
+            "04.01.2018 13:24:6",
+            "04.01.2018 12:15:56"
+        ],
+        "size": [
+            "",
+            "2",
+            "6557",
+            "7405",
+            "",
+            "125",
+            "8488",
+            "163328",
+            "67",
+            "351622588",
+            "",
+            "23987",
+            "23",
+            ""
+        ],
+        "name": [
+            "Урок 2. JVM. Полное погружение",
+            "Text File.log",
+            "LibreOffice Calc",
+            "LibreOffice Writer",
+            "Урок 1. Проектирование архитектуры и модели данных",
+            "server_settings.json",
+            "screen01.png",
+            "screen00.png",
+            "сlient_settings.json",
+            "Урок 4. Операции.mp4",
+            "Урок 3. Сборщики проектов",
+            "screen03.png",
+            "capricorn-passwords.txt",
+            "Кино"
+        ],
+        "type": [
+            "dir",
+            "file",
+            "file",
+            "file",
+            "dir",
+            "file",
+            "file",
+            "file",
+            "file",
+            "file",
+            "dir",
+            "file",
+            "file",
+            "dir"
+        ]
+    },
+    "response": "list"
+}
+[INFO ] 2018-01-08 11:13:43.289 [Admin] Server - onException : User Admin on Socket[addr=/127.0.0.1,port=46196,localport=8189] : java.net.SocketException: Socket closed
+[INFO ] 2018-01-08 11:13:43.291 [Admin] Server - onStop : User Admin on Socket[addr=/127.0.0.1,port=46196,localport=8189]
+[INFO ] 2018-01-08 11:13:52.365 [JavaFX Application Thread] HibernateFactory - Hibernate stoped.
