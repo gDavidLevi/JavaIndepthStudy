@@ -12,16 +12,10 @@ import ru.davidlevi.jis.client.core.Client;
 import ru.davidlevi.jis.client.core.interfaces.ClientInterface;
 import ru.davidlevi.jis.client.gui.Layout;
 import ru.davidlevi.jis.client.gui.controller.Authorization;
-import ru.davidlevi.jis.client.gui.controller.Basic;
 import ru.davidlevi.jis.client.gui.controller.Explorer;
 import ru.davidlevi.jis.client.gui.controller.Registration;
 
 import java.io.IOException;
-import java.nio.file.FileVisitOption;
-import java.nio.file.Files;
-import java.nio.file.Path;
-import java.nio.file.Paths;
-import java.util.HashMap;
 
 /**
  * Класс FxContext
@@ -74,15 +68,15 @@ public class FxContext {
     /**
      * Инициализация сцены
      *
-     * @throws IOException layoutBasic();
+     * @throws IOException layoutRoot();
      */
     private void init() throws IOException {
         stage.setTitle("JIS Client");
         stage.setResizable(true);
         stage.setWidth(400);
-        stage.setHeight(600);
+        stage.setHeight(10);
         stage.setOnCloseRequest(eventCloseClientWindows);
-        layoutBasic();
+        layoutRoot();
         setContentView(Layout.AUTHORIZATION);
     }
 
@@ -127,12 +121,10 @@ public class FxContext {
      *
      * @throws IOException rootLayout = loader.load();
      */
-    private void layoutBasic() throws IOException {
+    private void layoutRoot() throws IOException {
         FXMLLoader loader = new FXMLLoader();
-        loader.setLocation(mainClass.getResource("view/basic.fxml"));
+        loader.setLocation(mainClass.getResource("view/root.fxml"));
         rootLayout = loader.load();
-        Basic controller = loader.getController();
-        controller.setFxContext(this);
         Scene scene = new Scene(rootLayout);
         this.stage.setScene(scene);
         this.stage.show();

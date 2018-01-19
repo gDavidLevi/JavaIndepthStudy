@@ -8,7 +8,7 @@ import ru.davidlevi.jis.server.gui.controller.Basic;
  * @see ru.davidlevi.jis.server.core.Server имплементирует интерфейс для обработки событий
  * @see Basic управляет интерфейсом
  */
-public interface InterfaceServer {
+public interface ServerInterface {
     /**
      * Запускаем сервер
      */

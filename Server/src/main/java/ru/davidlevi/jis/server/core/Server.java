@@ -10,7 +10,7 @@ import ru.davidlevi.jis.common.network.Direction;
 import ru.davidlevi.jis.common.network.FileTransferThread;
 import ru.davidlevi.jis.common.network.interfaces.ByteStreamThreadListener;
 import ru.davidlevi.jis.common.network.interfaces.ClientThreadListener;
-import ru.davidlevi.jis.server.core.interfaces.InterfaceServer;
+import ru.davidlevi.jis.server.core.interfaces.ServerInterface;
 import ru.davidlevi.jis.server.database.Database;
 import ru.davidlevi.jis.server.database.interfaces.InterfaceDatabase;
 import ru.davidlevi.jis.server.gui.controller.Basic;
@@ -23,24 +23,21 @@ import java.net.Socket;
 import java.nio.file.*;
 import java.nio.file.attribute.BasicFileAttributes;
 import java.text.SimpleDateFormat;
-import java.util.ArrayList;
-import java.util.Comparator;
-import java.util.List;
-import java.util.Vector;
+import java.util.*;
 
-public class Server extends Settings implements ServerThreadListener, ClientThreadListener, InterfaceServer, ByteStreamThreadListener {
+public class Server extends Settings implements ServerThreadListener, ClientThreadListener, ServerInterface, ByteStreamThreadListener {
     private static final SimpleDateFormat DATE_FORMAT = new SimpleDateFormat("dd.MM.yyyy H:m:s");
 
     private Logger logger;
     private static InterfaceDatabase database;
     private ServerThread serverThread;
-    private static Vector<ClientThread> listThreads;
+    private final List<ClientThread> syncListThreads;
     private Basic fxContext;
     private List<String> list;
 
     {
         logger = LogManager.getLogger(Server.class);
-        listThreads = new Vector<>();
+        syncListThreads = Collections.synchronizedList(new ArrayList<ClientThread>());
         database = new Database();
         list = new ArrayList<>();
     }
@@ -107,9 +104,12 @@ public class Server extends Settings implements ServerThreadListener, ClientThre
     }
 
     @Override
-    public synchronized void dropAll() {
-        for (ClientThread listThread : listThreads)
-            listThread.close();
+    public void dropAll() {
+        synchronized (syncListThreads) {
+            Iterator<ClientThread> iterator = syncListThreads.iterator();
+            while (iterator.hasNext())
+                iterator.next().close();
+        }
     }
 
 
@@ -162,7 +162,7 @@ public class Server extends Settings implements ServerThreadListener, ClientThre
     @Override
     public synchronized void onReady_ClientThread(ClientThread clientThread, Socket socketClient) {
         log("info", "onReady : User " + clientThread.getName() + " on " + clientThread.getSocketClient());
-        listThreads.add(clientThread);
+        syncListThreads.add(clientThread);
     }
 
     @Override
@@ -184,7 +184,7 @@ public class Server extends Settings implements ServerThreadListener, ClientThre
     @Override
     public synchronized void onStop_ClientThread(ClientThread clientThread) {
         log("info", "onStop : User " + clientThread.getName() + " on " + clientThread.getSocketClient());
-        listThreads.remove(clientThread);
+        syncListThreads.remove(clientThread);
     }
 
     // ============================================================================================
@@ -413,10 +413,12 @@ public class Server extends Settings implements ServerThreadListener, ClientThre
      */
     private User getAuthorizedByNickname(String nickname) {
         /* Пройтись по всем клиентским потокам и найти в них авторизованного пользователя */
-        for (ClientThread thread : listThreads) {
-            User user = (User) thread;
-            if (!user.isAuthorized()) continue;
-            if (user.getNickname().equalsIgnoreCase(nickname)) return user;
+        synchronized (syncListThreads) {
+            for (ClientThread thread : syncListThreads) {
+                User user = (User) thread;
+                if (!user.isAuthorized()) continue;
+                if (user.getNickname().equalsIgnoreCase(nickname)) return user;
+            }
         }
         return null;
     }
