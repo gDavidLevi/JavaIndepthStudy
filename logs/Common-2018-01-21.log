@@ -1,0 +1,12 @@
+[INFO ] 2018-01-21 12:26:40.757 [Client] FileTransferThread - Send file 'screen04.png' to 'Client' on 192.168.0.30:56103.
+[INFO ] 2018-01-21 13:27:15.026 [JavaFX Application Thread] FileTransferThread - Receive file 'Enumm.kt' from 'Client'.
+[INFO ] 2018-01-21 13:51:35.385 [Client] FileTransferThread - Send file 'screen02.png' to 'Client' on 192.168.0.30:62501.
+[INFO ] 2018-01-21 13:51:43.479 [JavaFX Application Thread] FileTransferThread - Receive file 'screen02.png' from 'Client'.
+[INFO ] 2018-01-21 13:52:44.459 [Client] FileTransferThread - Send file 'screen01.png' to 'Client' on 192.168.0.30:50679.
+[INFO ] 2018-01-21 14:06:49.740 [Client] FileTransferThread - Send file 'screen03.png' to 'Client' on 192.168.0.30:58691.
+[INFO ] 2018-01-21 14:12:22.579 [Client] FileTransferThread - Send file 'screen03.png' to 'Client' on 192.168.0.30:56133.
+[INFO ] 2018-01-21 14:12:29.085 [Client] FileTransferThread - Send file 'screen02.png' to 'Client' on 192.168.0.30:51711.
+[INFO ] 2018-01-21 14:33:10.569 [Client] FileTransferThread - Send file 'server_settings.json' to 'Client' on 192.168.0.30:64312.
+[INFO ] 2018-01-21 14:51:02.713 [Client] FileTransferThread - Send file 'README.md' to 'Client' on 192.168.0.30:64508.
+[INFO ] 2018-01-21 14:51:08.707 [JavaFX Application Thread] FileTransferThread - Receive file 'README.md' from 'Client'.
+[INFO ] 2018-01-21 14:53:27.809 [Client] FileTransferThread - Send file 'Урок 1. Проектирование архитектуры и модели данных.mp4' to 'Client' on 192.168.0.30:47017.

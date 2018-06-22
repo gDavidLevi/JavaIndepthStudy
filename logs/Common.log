@@ -1,3 +1,1 @@
-[INFO ] 2018-01-19 22:01:09.046 [Client] FileTransferThread - Send file 'screen04.png' to 'Client' on 192.168.0.30:52781.
-[INFO ] 2018-01-19 22:01:29.607 [Client] FileTransferThread - Send file 'screen03.png' to 'Client' on 192.168.0.30:54137.
-[INFO ] 2018-01-19 22:01:42.551 [JavaFX Application Thread] FileTransferThread - Receive file 'LibreOffice Writer' from 'Client'.
+[INFO ] 2018-06-22 20:16:05.220 [Client] FileTransferThread - Send file 'screen00.png' to 'Client' on 192.168.0.30:51965.

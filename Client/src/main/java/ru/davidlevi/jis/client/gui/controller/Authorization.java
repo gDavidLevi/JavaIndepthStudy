@@ -77,7 +77,7 @@ public class Authorization {
     };
 
     /* Событие: Check In */
-    private EventHandler<ActionEvent> eventCheckIn = new EventHandler<>() {
+    private EventHandler<ActionEvent> eventCheckIn = new EventHandler<ActionEvent>() {
         @Override
         public void handle(ActionEvent actionEvent) {
             fxContext.setContentView(Layout.REGISTRATION);

@@ -74,7 +74,7 @@ public class FxContext {
         stage.setTitle("JIS Client");
         stage.setResizable(true);
         stage.setWidth(400);
-        stage.setHeight(10);
+        stage.setHeight(400);
         stage.setOnCloseRequest(eventCloseClientWindows);
         layoutRoot();
         setContentView(Layout.AUTHORIZATION);
@@ -126,8 +126,8 @@ public class FxContext {
         loader.setLocation(mainClass.getResource("view/root.fxml"));
         rootLayout = loader.load();
         Scene scene = new Scene(rootLayout);
-        this.stage.setScene(scene);
-        this.stage.show();
+        stage.setScene(scene);
+        stage.show();
     }
 
     /**

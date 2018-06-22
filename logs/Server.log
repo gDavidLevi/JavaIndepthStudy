@@ -1,4 +1,4 @@
-[INFO ] 2018-01-19 21:59:22.668 [JavaFX Application Thread] Settings - 
+[INFO ] 2018-06-22 20:14:22.918 [JavaFX Application Thread] Settings - 
   i i i i i i i
   I I I I I I I
   I  \ `+' /  I
@@ -6,30 +6,15 @@
     `-__|__-'
         |
   ------+------
-[INFO ] 2018-01-19 21:59:22.794 [JavaFX Application Thread] Settings - Настройки сервера загружены.
-[INFO ] 2018-01-19 21:59:26.853 [JavaFX Application Thread] HibernateFactory - Hibernate is building...
-[INFO ] 2018-01-19 21:59:30.934 [JavaFX Application Thread] HibernateFactory - Hibernate created.
-[INFO ] 2018-01-19 21:59:31.053 [ServerThread] Server - onStart
-[INFO ] 2018-01-19 21:59:31.058 [ServerThread] Server - onReady /127.0.0.1:8189
-[INFO ] 2018-01-19 21:59:35.063 [ServerThread] Server - onStop
-[INFO ] 2018-01-19 21:59:35.535 [JavaFX Application Thread] HibernateFactory - Hibernate stoped.
-[INFO ] 2018-01-19 21:59:42.802 [JavaFX Application Thread] Settings - 
-  i i i i i i i
-  I I I I I I I
-  I  \ `+' /  I
-   \  `-+-'  /
-    `-__|__-'
-        |
-  ------+------
-[INFO ] 2018-01-19 21:59:42.929 [JavaFX Application Thread] Settings - Настройки сервера загружены.
-[INFO ] 2018-01-19 21:59:46.994 [JavaFX Application Thread] HibernateFactory - Hibernate is building...
-[INFO ] 2018-01-19 21:59:51.188 [JavaFX Application Thread] HibernateFactory - Hibernate created.
-[INFO ] 2018-01-19 21:59:51.312 [ServerThread] Server - onStart
-[INFO ] 2018-01-19 21:59:51.326 [ServerThread] Server - onReady /127.0.0.1:8189
-[INFO ] 2018-01-19 22:00:17.688 [ServerThread] Server - onAccepted : Socket[addr=/127.0.0.1,port=50812,localport=8189]
-[INFO ] 2018-01-19 22:00:17.706 [ClientThread] Server - onStart : User ClientThread on Socket[addr=/127.0.0.1,port=50812,localport=8189]
-[INFO ] 2018-01-19 22:00:17.707 [ClientThread] Server - onReady : User ClientThread on Socket[addr=/127.0.0.1,port=50812,localport=8189]
-[INFO ] 2018-01-19 22:00:17.851 [ClientThread] Server - onGet : User ClientThread on Socket[addr=/127.0.0.1,port=50812,localport=8189] : <-- 
+[INFO ] 2018-06-22 20:14:23.013 [JavaFX Application Thread] Settings - Настройки сервера загружены.
+[INFO ] 2018-06-22 20:14:27.581 [JavaFX Application Thread] HibernateFactory - Hibernate is building...
+[INFO ] 2018-06-22 20:14:31.646 [JavaFX Application Thread] HibernateFactory - Hibernate created.
+[INFO ] 2018-06-22 20:14:31.794 [ServerThread] Server - onStart
+[INFO ] 2018-06-22 20:14:31.801 [ServerThread] Server - onReady /127.0.0.1:8189
+[INFO ] 2018-06-22 20:15:33.526 [ServerThread] Server - onAccepted : Socket[addr=/127.0.0.1,port=38690,localport=8189]
+[INFO ] 2018-06-22 20:15:33.530 [ClientThread] Server - onStart : User ClientThread on Socket[addr=/127.0.0.1,port=38690,localport=8189]
+[INFO ] 2018-06-22 20:15:33.530 [ClientThread] Server - onReady : User ClientThread on Socket[addr=/127.0.0.1,port=38690,localport=8189]
+[INFO ] 2018-06-22 20:15:33.637 [ClientThread] Server - onGet : User ClientThread on Socket[addr=/127.0.0.1,port=38690,localport=8189] : <-- 
 {
     "request": "authentication",
     "data": {
@@ -37,627 +22,467 @@
         "login": "admin"
     }
 }
-[INFO ] 2018-01-19 22:00:17.966 [ClientThread] Server - onPost : User ClientThread on Socket[addr=/127.0.0.1,port=50812,localport=8189] : --> 
+[INFO ] 2018-06-22 20:15:33.771 [ClientThread] Server - onPost : User ClientThread on Socket[addr=/127.0.0.1,port=38690,localport=8189] : --> 
 {
     "data": {"nickname": "Admin"},
     "response": "authorization"
 }
-[INFO ] 2018-01-19 22:00:18.158 [Admin] Server - onGet : User Admin on Socket[addr=/127.0.0.1,port=50812,localport=8189] : <-- 
+[INFO ] 2018-06-22 20:15:33.954 [Admin] Server - onGet : User Admin on Socket[addr=/127.0.0.1,port=38690,localport=8189] : <-- 
 {
     "request": "list",
     "data": {"path": "/"}
 }
-[INFO ] 2018-01-19 22:00:18.213 [Admin] Server - onPost : User Admin on Socket[addr=/127.0.0.1,port=50812,localport=8189] : --> 
+[INFO ] 2018-06-22 20:15:34.009 [Admin] Server - onPost : User Admin on Socket[addr=/127.0.0.1,port=38690,localport=8189] : --> 
 {
     "data": {
         "date": [
-            "03.01.2018 9:12:48",
+            "09.05.2018 17:32:12",
             "04.01.2018 13:58:32",
-            "04.01.2018 14:4:10",
             "04.01.2018 13:58:39",
-            "31.12.2017 11:6:23",
+            "09.05.2018 17:32:0",
             "31.12.2017 11:6:59",
             "04.01.2018 12:20:36",
-            "19.01.2018 21:11:5",
             "03.01.2018 11:30:1",
-            "19.01.2018 21:57:2",
             "31.12.2017 11:7:11",
+            "24.12.2017 15:52:3",
             "03.01.2018 9:12:42",
-            "03.01.2018 11:30:6",
-            "04.01.2018 13:24:6",
-            "04.01.2018 12:15:56"
+            "03.01.2018 11:30:6"
         ],
         "size": [
             "",
             "6557",
-            "2",
             "7405",
             "",
             "125",
             "8488",
-            "",
             "163328",
-            "",
             "67",
             "",
-            "23987",
-            "23",
-            ""
+            "",
+            "23987"
         ],
         "name": [
             "Урок 2. JVM. Полное погружение",
             "LibreOffice Calc",
-            "12345",
             "LibreOffice Writer",
             "Урок 1. Проектирование архитектуры и модели данных",
             "server_settings.json",
             "screen01.png",
-            "123",
             "screen00.png",
-            "000",
             "сlient_settings.json",
+            "Kotlin",
             "Урок 3. Сборщики проектов",
-            "screen03.png",
-            "capricorn-passwords.txt",
-            "Кино"
+            "screen03.png"
         ],
         "type": [
             "dir",
             "file",
             "file",
-            "file",
-            "dir",
-            "file",
-            "file",
-            "dir",
-            "file",
-            "dir",
-            "file",
-            "dir",
-            "file",
-            "file",
-            "dir"
-        ]
-    },
-    "response": "list"
-}
-[INFO ] 2018-01-19 22:00:31.460 [Admin] Server - onGet : User Admin on Socket[addr=/127.0.0.1,port=50812,localport=8189] : <-- 
-{
-    "request": "create-folder",
-    "data": {"new-folder": "/123456"}
-}
-[INFO ] 2018-01-19 22:00:31.469 [Admin] Server - Новый каталог '/123456' пользователя 'Admin' создан.
-[INFO ] 2018-01-19 22:00:31.492 [Admin] Server - onPost : User Admin on Socket[addr=/127.0.0.1,port=50812,localport=8189] : --> 
-{
-    "data": {
-        "date": [
-            "03.01.2018 9:12:48",
-            "04.01.2018 13:58:32",
-            "04.01.2018 14:4:10",
-            "04.01.2018 13:58:39",
-            "31.12.2017 11:6:23",
-            "31.12.2017 11:6:59",
-            "04.01.2018 12:20:36",
-            "19.01.2018 21:11:5",
-            "03.01.2018 11:30:1",
-            "19.01.2018 21:57:2",
-            "31.12.2017 11:7:11",
-            "03.01.2018 9:12:42",
-            "03.01.2018 11:30:6",
-            "04.01.2018 13:24:6",
-            "19.01.2018 22:0:31",
-            "04.01.2018 12:15:56"
-        ],
-        "size": [
-            "",
-            "6557",
-            "2",
-            "7405",
-            "",
-            "125",
-            "8488",
-            "",
-            "163328",
-            "",
-            "67",
-            "",
-            "23987",
-            "23",
-            "",
-            ""
-        ],
-        "name": [
-            "Урок 2. JVM. Полное погружение",
-            "LibreOffice Calc",
-            "12345",
-            "LibreOffice Writer",
-            "Урок 1. Проектирование архитектуры и модели данных",
-            "server_settings.json",
-            "screen01.png",
-            "123",
-            "screen00.png",
-            "000",
-            "сlient_settings.json",
-            "Урок 3. Сборщики проектов",
-            "screen03.png",
-            "capricorn-passwords.txt",
-            "123456",
-            "Кино"
-        ],
-        "type": [
             "dir",
             "file",
             "file",
             "file",
-            "dir",
-            "file",
             "file",
             "dir",
-            "file",
             "dir",
-            "file",
-            "dir",
-            "file",
-            "file",
-            "dir",
-            "dir"
-        ]
-    },
-    "response": "list"
-}
-[INFO ] 2018-01-19 22:01:02.609 [Admin] Server - onGet : User Admin on Socket[addr=/127.0.0.1,port=50812,localport=8189] : <-- 
-{
-    "request": "list",
-    "data": {"path": "/123"}
-}
-[INFO ] 2018-01-19 22:01:02.621 [Admin] Server - onPost : User Admin on Socket[addr=/127.0.0.1,port=50812,localport=8189] : --> 
-{
-    "data": {
-        "date": [
-            "19.01.2018 20:18:32",
-            "19.01.2018 21:11:5"
-        ],
-        "size": [
-            "163328",
-            "13585"
-        ],
-        "name": [
-            "screen00.png",
-            "screen02.png"
-        ],
-        "type": [
-            "file",
             "file"
         ]
     },
     "response": "list"
 }
-[INFO ] 2018-01-19 22:01:07.979 [Admin] Server - onGet : User Admin on Socket[addr=/127.0.0.1,port=50812,localport=8189] : <-- 
-{
-    "request": "upload",
-    "data": {"filename": "/123/screen04.png"}
-}
-[INFO ] 2018-01-19 22:01:08.036 [Admin] Server - onPost : User Admin on Socket[addr=/127.0.0.1,port=50812,localport=8189] : --> 
-{
-    "data": {"socket": {
-        "hostname": "192.168.0.30",
-        "port": 52781,
-        "key": "/123/screen04.png"
-    }},
-    "response": "ready-upload"
-}
-[INFO ] 2018-01-19 22:01:08.045 [screen04.png] Server - onStart : Receive file 'screen04.png' from 'Admin'.
-[INFO ] 2018-01-19 22:01:09.113 [screen04.png] Server - onPost : User Admin on Socket[addr=/127.0.0.1,port=50812,localport=8189] : --> 
-{
-    "data": {
-        "date": [
-            "19.01.2018 20:18:32",
-            "19.01.2018 22:1:9",
-            "19.01.2018 21:11:5"
-        ],
-        "size": [
-            "163328",
-            "41361",
-            "13585"
-        ],
-        "name": [
-            "screen00.png",
-            "screen04.png",
-            "screen02.png"
-        ],
-        "type": [
-            "file",
-            "file",
-            "file"
-        ]
-    },
-    "response": "list"
-}
-[INFO ] 2018-01-19 22:01:09.114 [screen04.png] Server - onStop : Receive file 'screen04.png' from 'Admin'.
-[INFO ] 2018-01-19 22:01:13.608 [Admin] Server - onGet : User Admin on Socket[addr=/127.0.0.1,port=50812,localport=8189] : <-- 
+[INFO ] 2018-06-22 20:15:53.616 [Admin] Server - onGet : User Admin on Socket[addr=/127.0.0.1,port=38690,localport=8189] : <-- 
 {
     "request": "list",
-    "data": {"path": "/"}
+    "data": {"path": "/Урок 2. JVM. Полное погружение"}
 }
-[INFO ] 2018-01-19 22:01:13.623 [Admin] Server - onPost : User Admin on Socket[addr=/127.0.0.1,port=50812,localport=8189] : --> 
+[INFO ] 2018-06-22 20:15:53.635 [Admin] Server - onPost : User Admin on Socket[addr=/127.0.0.1,port=38690,localport=8189] : --> 
 {
     "data": {
-        "date": [
-            "03.01.2018 9:12:48",
-            "04.01.2018 13:58:32",
-            "04.01.2018 14:4:10",
-            "04.01.2018 13:58:39",
-            "31.12.2017 11:6:23",
-            "31.12.2017 11:6:59",
-            "04.01.2018 12:20:36",
-            "19.01.2018 22:1:9",
-            "03.01.2018 11:30:1",
-            "19.01.2018 21:57:2",
-            "31.12.2017 11:7:11",
-            "03.01.2018 9:12:42",
-            "03.01.2018 11:30:6",
-            "04.01.2018 13:24:6",
-            "19.01.2018 22:0:31",
-            "04.01.2018 12:15:56"
-        ],
-        "size": [
-            "",
-            "6557",
-            "2",
-            "7405",
-            "",
-            "125",
-            "8488",
-            "",
-            "163328",
-            "",
-            "67",
-            "",
-            "23987",
-            "23",
-            "",
-            ""
-        ],
-        "name": [
-            "Урок 2. JVM. Полное погружение",
-            "LibreOffice Calc",
-            "12345",
-            "LibreOffice Writer",
-            "Урок 1. Проектирование архитектуры и модели данных",
-            "server_settings.json",
-            "screen01.png",
-            "123",
-            "screen00.png",
-            "000",
-            "сlient_settings.json",
-            "Урок 3. Сборщики проектов",
-            "screen03.png",
-            "capricorn-passwords.txt",
-            "123456",
-            "Кино"
-        ],
-        "type": [
-            "dir",
-            "file",
-            "file",
-            "file",
-            "dir",
-            "file",
-            "file",
-            "dir",
-            "file",
-            "dir",
-            "file",
-            "dir",
-            "file",
-            "file",
-            "dir",
-            "dir"
-        ]
-    },
-    "response": "list"
-}
-[INFO ] 2018-01-19 22:01:16.029 [Admin] Server - onGet : User Admin on Socket[addr=/127.0.0.1,port=50812,localport=8189] : <-- 
-{
-    "request": "list",
-    "data": {"path": "/000"}
-}
-[INFO ] 2018-01-19 22:01:16.037 [Admin] Server - onPost : User Admin on Socket[addr=/127.0.0.1,port=50812,localport=8189] : --> 
-{
-    "data": {
-        "date": [],
-        "size": [],
-        "name": [],
-        "type": []
-    },
-    "response": "list"
-}
-[INFO ] 2018-01-19 22:01:19.963 [Admin] Server - onGet : User Admin on Socket[addr=/127.0.0.1,port=50812,localport=8189] : <-- 
-{
-    "request": "create-folder",
-    "data": {"new-folder": "/000/123"}
-}
-[INFO ] 2018-01-19 22:01:19.991 [Admin] Server - Новый каталог '/000/123' пользователя 'Admin' создан.
-[INFO ] 2018-01-19 22:01:20.008 [Admin] Server - onPost : User Admin on Socket[addr=/127.0.0.1,port=50812,localport=8189] : --> 
-{
-    "data": {
-        "date": ["19.01.2018 22:1:19"],
-        "size": [""],
-        "name": ["123"],
-        "type": ["dir"]
-    },
-    "response": "list"
-}
-[INFO ] 2018-01-19 22:01:21.251 [Admin] Server - onGet : User Admin on Socket[addr=/127.0.0.1,port=50812,localport=8189] : <-- 
-{
-    "request": "list",
-    "data": {"path": "/000/123"}
-}
-[INFO ] 2018-01-19 22:01:21.266 [Admin] Server - onPost : User Admin on Socket[addr=/127.0.0.1,port=50812,localport=8189] : --> 
-{
-    "data": {
-        "date": [],
-        "size": [],
-        "name": [],
-        "type": []
-    },
-    "response": "list"
-}
-[INFO ] 2018-01-19 22:01:23.922 [Admin] Server - onGet : User Admin on Socket[addr=/127.0.0.1,port=50812,localport=8189] : <-- 
-{
-    "request": "create-folder",
-    "data": {"new-folder": "/000/123/265"}
-}
-[INFO ] 2018-01-19 22:01:23.935 [Admin] Server - Новый каталог '/000/123/265' пользователя 'Admin' создан.
-[INFO ] 2018-01-19 22:01:23.937 [Admin] Server - onPost : User Admin on Socket[addr=/127.0.0.1,port=50812,localport=8189] : --> 
-{
-    "data": {
-        "date": ["19.01.2018 22:1:23"],
-        "size": [""],
-        "name": ["265"],
-        "type": ["dir"]
-    },
-    "response": "list"
-}
-[INFO ] 2018-01-19 22:01:25.189 [Admin] Server - onGet : User Admin on Socket[addr=/127.0.0.1,port=50812,localport=8189] : <-- 
-{
-    "request": "list",
-    "data": {"path": "/000/123/265"}
-}
-[INFO ] 2018-01-19 22:01:25.199 [Admin] Server - onPost : User Admin on Socket[addr=/127.0.0.1,port=50812,localport=8189] : --> 
-{
-    "data": {
-        "date": [],
-        "size": [],
-        "name": [],
-        "type": []
-    },
-    "response": "list"
-}
-[INFO ] 2018-01-19 22:01:29.581 [Admin] Server - onGet : User Admin on Socket[addr=/127.0.0.1,port=50812,localport=8189] : <-- 
-{
-    "request": "upload",
-    "data": {"filename": "/000/123/265/screen03.png"}
-}
-[INFO ] 2018-01-19 22:01:29.606 [Admin] Server - onPost : User Admin on Socket[addr=/127.0.0.1,port=50812,localport=8189] : --> 
-{
-    "data": {"socket": {
-        "hostname": "192.168.0.30",
-        "port": 54137,
-        "key": "/000/123/265/screen03.png"
-    }},
-    "response": "ready-upload"
-}
-[INFO ] 2018-01-19 22:01:29.606 [screen03.png] Server - onStart : Receive file 'screen03.png' from 'Admin'.
-[INFO ] 2018-01-19 22:01:29.656 [screen03.png] Server - onPost : User Admin on Socket[addr=/127.0.0.1,port=50812,localport=8189] : --> 
-{
-    "data": {
-        "date": ["19.01.2018 22:1:29"],
-        "size": ["52903"],
-        "name": ["screen03.png"],
+        "date": ["09.05.2018 17:32:12"],
+        "size": ["163328"],
+        "name": ["screen00.png"],
         "type": ["file"]
     },
     "response": "list"
 }
-[INFO ] 2018-01-19 22:01:29.656 [screen03.png] Server - onStop : Receive file 'screen03.png' from 'Admin'.
-[INFO ] 2018-01-19 22:01:31.682 [Admin] Server - onGet : User Admin on Socket[addr=/127.0.0.1,port=50812,localport=8189] : <-- 
+[INFO ] 2018-06-22 20:15:56.156 [Admin] Server - onGet : User Admin on Socket[addr=/127.0.0.1,port=38690,localport=8189] : <-- 
 {
     "request": "list",
     "data": {"path": "/"}
 }
-[INFO ] 2018-01-19 22:01:31.696 [Admin] Server - onPost : User Admin on Socket[addr=/127.0.0.1,port=50812,localport=8189] : --> 
+[INFO ] 2018-06-22 20:15:56.172 [Admin] Server - onPost : User Admin on Socket[addr=/127.0.0.1,port=38690,localport=8189] : --> 
 {
     "data": {
         "date": [
-            "03.01.2018 9:12:48",
+            "09.05.2018 17:32:12",
             "04.01.2018 13:58:32",
-            "04.01.2018 14:4:10",
             "04.01.2018 13:58:39",
-            "31.12.2017 11:6:23",
+            "09.05.2018 17:32:0",
             "31.12.2017 11:6:59",
             "04.01.2018 12:20:36",
-            "19.01.2018 22:1:9",
             "03.01.2018 11:30:1",
-            "19.01.2018 22:1:19",
             "31.12.2017 11:7:11",
+            "24.12.2017 15:52:3",
             "03.01.2018 9:12:42",
-            "03.01.2018 11:30:6",
-            "04.01.2018 13:24:6",
-            "19.01.2018 22:0:31",
-            "04.01.2018 12:15:56"
+            "03.01.2018 11:30:6"
         ],
         "size": [
             "",
             "6557",
-            "2",
             "7405",
             "",
             "125",
             "8488",
-            "",
             "163328",
-            "",
             "67",
             "",
-            "23987",
-            "23",
             "",
-            ""
+            "23987"
         ],
         "name": [
             "Урок 2. JVM. Полное погружение",
             "LibreOffice Calc",
-            "12345",
             "LibreOffice Writer",
             "Урок 1. Проектирование архитектуры и модели данных",
             "server_settings.json",
             "screen01.png",
-            "123",
             "screen00.png",
-            "000",
             "сlient_settings.json",
+            "Kotlin",
             "Урок 3. Сборщики проектов",
-            "screen03.png",
-            "capricorn-passwords.txt",
-            "123456",
-            "Кино"
+            "screen03.png"
         ],
         "type": [
             "dir",
             "file",
             "file",
-            "file",
             "dir",
             "file",
             "file",
-            "dir",
-            "file",
-            "dir",
-            "file",
-            "dir",
             "file",
             "file",
             "dir",
-            "dir"
+            "dir",
+            "file"
         ]
     },
     "response": "list"
 }
-[INFO ] 2018-01-19 22:01:42.560 [Admin] Server - onGet : User Admin on Socket[addr=/127.0.0.1,port=50812,localport=8189] : <-- 
+[INFO ] 2018-06-22 20:15:57.780 [Admin] Server - onGet : User Admin on Socket[addr=/127.0.0.1,port=38690,localport=8189] : <-- 
 {
-    "request": "download",
+    "request": "list",
+    "data": {"path": "/Kotlin"}
+}
+[INFO ] 2018-06-22 20:15:57.796 [Admin] Server - onPost : User Admin on Socket[addr=/127.0.0.1,port=38690,localport=8189] : --> 
+{
     "data": {
-        "filename": "/LibreOffice Writer",
-        "socket": {
-            "hostname": "192.168.0.30",
-            "port": 62681
-        }
-    }
+        "date": [
+            "24.12.2017 15:52:21",
+            "24.12.2017 15:52:6",
+            "24.12.2017 15:52:3",
+            "24.12.2017 15:52:3"
+        ],
+        "size": [
+            "",
+            "",
+            "",
+            "498"
+        ],
+        "name": [
+            ".idea",
+            ".git",
+            "src",
+            "Kotlin.iml"
+        ],
+        "type": [
+            "dir",
+            "dir",
+            "dir",
+            "file"
+        ]
+    },
+    "response": "list"
 }
-[INFO ] 2018-01-19 22:01:42.614 [LibreOffice Writer] Server - onStart : Send file 'LibreOffice Writer' to 'Admin' on 192.168.0.30:62681.
-[INFO ] 2018-01-19 22:01:42.654 [LibreOffice Writer] Server - onStop : Send file 'LibreOffice Writer' to 'Admin' on 192.168.0.30:62681.
-[INFO ] 2018-01-19 22:01:45.867 [Admin] Server - onException : User Admin on Socket[addr=/127.0.0.1,port=50812,localport=8189] : java.io.EOFException
-[INFO ] 2018-01-19 22:01:45.869 [Admin] Server - onStop : User Admin on Socket[addr=/127.0.0.1,port=50812,localport=8189]
-[INFO ] 2018-01-19 22:01:58.746 [ServerThread] Server - onAccepted : Socket[addr=/127.0.0.1,port=50834,localport=8189]
-[INFO ] 2018-01-19 22:01:58.748 [ClientThread] Server - onStart : User ClientThread on Socket[addr=/127.0.0.1,port=50834,localport=8189]
-[INFO ] 2018-01-19 22:01:58.749 [ClientThread] Server - onReady : User ClientThread on Socket[addr=/127.0.0.1,port=50834,localport=8189]
-[INFO ] 2018-01-19 22:01:58.853 [ClientThread] Server - onGet : User ClientThread on Socket[addr=/127.0.0.1,port=50834,localport=8189] : <-- 
+[INFO ] 2018-06-22 20:16:04.498 [Admin] Server - onGet : User Admin on Socket[addr=/127.0.0.1,port=38690,localport=8189] : <-- 
 {
-    "request": "authentication",
+    "request": "upload",
+    "data": {"filename": "/Kotlin/screen00.png"}
+}
+[INFO ] 2018-06-22 20:16:04.550 [Admin] Server - onPost : User Admin on Socket[addr=/127.0.0.1,port=38690,localport=8189] : --> 
+{
+    "data": {"socket": {
+        "hostname": "192.168.0.30",
+        "port": 51965,
+        "key": "/Kotlin/screen00.png"
+    }},
+    "response": "ready-upload"
+}
+[INFO ] 2018-06-22 20:16:04.552 [screen00.png] Server - onStart : Receive file 'screen00.png' from 'Admin'.
+[INFO ] 2018-06-22 20:16:05.361 [screen00.png] Server - onPost : User Admin on Socket[addr=/127.0.0.1,port=38690,localport=8189] : --> 
+{
     "data": {
-        "password": "admin",
-        "login": "admin"
-    }
+        "date": [
+            "24.12.2017 15:52:21",
+            "24.12.2017 15:52:6",
+            "24.12.2017 15:52:3",
+            "22.06.2018 20:16:5",
+            "24.12.2017 15:52:3"
+        ],
+        "size": [
+            "",
+            "",
+            "",
+            "163328",
+            "498"
+        ],
+        "name": [
+            ".idea",
+            ".git",
+            "src",
+            "screen00.png",
+            "Kotlin.iml"
+        ],
+        "type": [
+            "dir",
+            "dir",
+            "dir",
+            "file",
+            "file"
+        ]
+    },
+    "response": "list"
 }
-[INFO ] 2018-01-19 22:01:58.880 [ClientThread] Server - onPost : User ClientThread on Socket[addr=/127.0.0.1,port=50834,localport=8189] : --> 
-{
-    "data": {"nickname": "Admin"},
-    "response": "authorization"
-}
-[INFO ] 2018-01-19 22:01:59.078 [Admin] Server - onGet : User Admin on Socket[addr=/127.0.0.1,port=50834,localport=8189] : <-- 
+[INFO ] 2018-06-22 20:16:05.362 [screen00.png] Server - onStop : Receive file 'screen00.png' from 'Admin'.
+[INFO ] 2018-06-22 20:16:08.326 [Admin] Server - onGet : User Admin on Socket[addr=/127.0.0.1,port=38690,localport=8189] : <-- 
 {
     "request": "list",
     "data": {"path": "/"}
 }
-[INFO ] 2018-01-19 22:01:59.116 [Admin] Server - onPost : User Admin on Socket[addr=/127.0.0.1,port=50834,localport=8189] : --> 
+[INFO ] 2018-06-22 20:16:08.340 [Admin] Server - onPost : User Admin on Socket[addr=/127.0.0.1,port=38690,localport=8189] : --> 
 {
     "data": {
         "date": [
-            "03.01.2018 9:12:48",
+            "09.05.2018 17:32:12",
             "04.01.2018 13:58:32",
-            "04.01.2018 14:4:10",
             "04.01.2018 13:58:39",
-            "31.12.2017 11:6:23",
+            "09.05.2018 17:32:0",
             "31.12.2017 11:6:59",
             "04.01.2018 12:20:36",
-            "19.01.2018 22:1:9",
             "03.01.2018 11:30:1",
-            "19.01.2018 22:1:19",
             "31.12.2017 11:7:11",
+            "22.06.2018 20:16:5",
             "03.01.2018 9:12:42",
-            "03.01.2018 11:30:6",
-            "04.01.2018 13:24:6",
-            "19.01.2018 22:0:31",
-            "04.01.2018 12:15:56"
+            "03.01.2018 11:30:6"
         ],
         "size": [
             "",
             "6557",
-            "2",
             "7405",
             "",
             "125",
             "8488",
-            "",
             "163328",
-            "",
             "67",
             "",
-            "23987",
-            "23",
             "",
-            ""
+            "23987"
         ],
         "name": [
             "Урок 2. JVM. Полное погружение",
             "LibreOffice Calc",
-            "12345",
             "LibreOffice Writer",
             "Урок 1. Проектирование архитектуры и модели данных",
             "server_settings.json",
             "screen01.png",
-            "123",
             "screen00.png",
-            "000",
             "сlient_settings.json",
+            "Kotlin",
             "Урок 3. Сборщики проектов",
-            "screen03.png",
-            "capricorn-passwords.txt",
-            "123456",
-            "Кино"
+            "screen03.png"
         ],
         "type": [
             "dir",
             "file",
             "file",
-            "file",
             "dir",
             "file",
             "file",
-            "dir",
-            "file",
-            "dir",
-            "file",
-            "dir",
             "file",
             "file",
             "dir",
-            "dir"
+            "dir",
+            "file"
         ]
     },
     "response": "list"
 }
-[INFO ] 2018-01-19 22:02:01.290 [Admin] Server - onException : User Admin on Socket[addr=/127.0.0.1,port=50834,localport=8189] : java.net.SocketException: Socket closed
-[INFO ] 2018-01-19 22:02:01.293 [Admin] Server - onStop : User Admin on Socket[addr=/127.0.0.1,port=50834,localport=8189]
-[INFO ] 2018-01-19 22:02:10.758 [ServerThread] Server - onStop
-[INFO ] 2018-01-19 22:02:12.235 [JavaFX Application Thread] HibernateFactory - Hibernate stoped.
+[INFO ] 2018-06-22 20:16:17.858 [Admin] Server - onGet : User Admin on Socket[addr=/127.0.0.1,port=38690,localport=8189] : <-- 
+{
+    "request": "create-folder",
+    "data": {"new-folder": "/45t"}
+}
+[INFO ] 2018-06-22 20:16:17.872 [Admin] Server - Новый каталог '/45t' пользователя 'Admin' создан.
+[INFO ] 2018-06-22 20:16:17.887 [Admin] Server - onPost : User Admin on Socket[addr=/127.0.0.1,port=38690,localport=8189] : --> 
+{
+    "data": {
+        "date": [
+            "09.05.2018 17:32:12",
+            "04.01.2018 13:58:32",
+            "04.01.2018 13:58:39",
+            "09.05.2018 17:32:0",
+            "31.12.2017 11:6:59",
+            "04.01.2018 12:20:36",
+            "03.01.2018 11:30:1",
+            "22.06.2018 20:16:17",
+            "31.12.2017 11:7:11",
+            "22.06.2018 20:16:5",
+            "03.01.2018 9:12:42",
+            "03.01.2018 11:30:6"
+        ],
+        "size": [
+            "",
+            "6557",
+            "7405",
+            "",
+            "125",
+            "8488",
+            "163328",
+            "",
+            "67",
+            "",
+            "",
+            "23987"
+        ],
+        "name": [
+            "Урок 2. JVM. Полное погружение",
+            "LibreOffice Calc",
+            "LibreOffice Writer",
+            "Урок 1. Проектирование архитектуры и модели данных",
+            "server_settings.json",
+            "screen01.png",
+            "screen00.png",
+            "45t",
+            "сlient_settings.json",
+            "Kotlin",
+            "Урок 3. Сборщики проектов",
+            "screen03.png"
+        ],
+        "type": [
+            "dir",
+            "file",
+            "file",
+            "dir",
+            "file",
+            "file",
+            "file",
+            "dir",
+            "file",
+            "dir",
+            "dir",
+            "file"
+        ]
+    },
+    "response": "list"
+}
+[INFO ] 2018-06-22 20:16:19.674 [Admin] Server - onGet : User Admin on Socket[addr=/127.0.0.1,port=38690,localport=8189] : <-- 
+{
+    "request": "list",
+    "data": {"path": "/45t"}
+}
+[INFO ] 2018-06-22 20:16:19.684 [Admin] Server - onPost : User Admin on Socket[addr=/127.0.0.1,port=38690,localport=8189] : --> 
+{
+    "data": {
+        "date": [],
+        "size": [],
+        "name": [],
+        "type": []
+    },
+    "response": "list"
+}
+[INFO ] 2018-06-22 20:16:25.258 [Admin] Server - onGet : User Admin on Socket[addr=/127.0.0.1,port=38690,localport=8189] : <-- 
+{
+    "request": "create-folder",
+    "data": {"new-folder": "/45t/tbrb"}
+}
+[INFO ] 2018-06-22 20:16:25.269 [Admin] Server - Новый каталог '/45t/tbrb' пользователя 'Admin' создан.
+[INFO ] 2018-06-22 20:16:25.271 [Admin] Server - onPost : User Admin on Socket[addr=/127.0.0.1,port=38690,localport=8189] : --> 
+{
+    "data": {
+        "date": ["22.06.2018 20:16:25"],
+        "size": [""],
+        "name": ["tbrb"],
+        "type": ["dir"]
+    },
+    "response": "list"
+}
+[INFO ] 2018-06-22 20:16:27.230 [Admin] Server - onGet : User Admin on Socket[addr=/127.0.0.1,port=38690,localport=8189] : <-- 
+{
+    "request": "list",
+    "data": {"path": "/"}
+}
+[INFO ] 2018-06-22 20:16:27.245 [Admin] Server - onPost : User Admin on Socket[addr=/127.0.0.1,port=38690,localport=8189] : --> 
+{
+    "data": {
+        "date": [
+            "09.05.2018 17:32:12",
+            "04.01.2018 13:58:32",
+            "04.01.2018 13:58:39",
+            "09.05.2018 17:32:0",
+            "31.12.2017 11:6:59",
+            "04.01.2018 12:20:36",
+            "03.01.2018 11:30:1",
+            "22.06.2018 20:16:25",
+            "31.12.2017 11:7:11",
+            "22.06.2018 20:16:5",
+            "03.01.2018 9:12:42",
+            "03.01.2018 11:30:6"
+        ],
+        "size": [
+            "",
+            "6557",
+            "7405",
+            "",
+            "125",
+            "8488",
+            "163328",
+            "",
+            "67",
+            "",
+            "",
+            "23987"
+        ],
+        "name": [
+            "Урок 2. JVM. Полное погружение",
+            "LibreOffice Calc",
+            "LibreOffice Writer",
+            "Урок 1. Проектирование архитектуры и модели данных",
+            "server_settings.json",
+            "screen01.png",
+            "screen00.png",
+            "45t",
+            "сlient_settings.json",
+            "Kotlin",
+            "Урок 3. Сборщики проектов",
+            "screen03.png"
+        ],
+        "type": [
+            "dir",
+            "file",
+            "file",
+            "dir",
+            "file",
+            "file",
+            "file",
+            "dir",
+            "file",
+            "dir",
+            "dir",
+            "file"
+        ]
+    },
+    "response": "list"
+}
+[INFO ] 2018-06-22 20:16:29.153 [Admin] Server - onException : User Admin on Socket[addr=/127.0.0.1,port=38690,localport=8189] : java.io.EOFException
+[INFO ] 2018-06-22 20:16:29.154 [Admin] Server - onStop : User Admin on Socket[addr=/127.0.0.1,port=38690,localport=8189]
+[INFO ] 2018-06-22 20:16:33.583 [ServerThread] Server - onStop
+[INFO ] 2018-06-22 20:16:35.892 [JavaFX Application Thread] HibernateFactory - Hibernate stoped.

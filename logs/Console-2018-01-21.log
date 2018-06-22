@@ -1,0 +1,2446 @@
+[INFO ] 2018-01-21 12:25:02.414 [JavaFX Application Thread] Settings - 
+  i i i i i i i
+  I I I I I I I
+  I  \ `+' /  I
+   \  `-+-'  /
+    `-__|__-'
+        |
+  ------+------
+[INFO ] 2018-01-21 12:25:02.602 [JavaFX Application Thread] Settings - Настройки сервера загружены.
+[INFO ] 2018-01-21 12:25:11.593 [JavaFX Application Thread] HibernateFactory - Hibernate is building...
+[INFO ] 2018-01-21 12:25:12.268 [JavaFX Application Thread] Version - HHH000412: Hibernate Core {5.2.12.Final}
+[INFO ] 2018-01-21 12:25:12.271 [JavaFX Application Thread] Environment - HHH000206: hibernate.properties not found
+[INFO ] 2018-01-21 12:25:13.173 [JavaFX Application Thread] Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+[WARN ] 2018-01-21 12:25:15.586 [JavaFX Application Thread] pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+[INFO ] 2018-01-21 12:25:15.612 [JavaFX Application Thread] pooling - HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/jis?useSSL=false]
+[INFO ] 2018-01-21 12:25:15.613 [JavaFX Application Thread] pooling - HHH10001001: Connection properties: {password=****, user=jis}
+[INFO ] 2018-01-21 12:25:15.613 [JavaFX Application Thread] pooling - HHH10001003: Autocommit mode: false
+[INFO ] 2018-01-21 12:25:15.618 [JavaFX Application Thread] DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 20 (min=1)
+[INFO ] 2018-01-21 12:25:16.502 [JavaFX Application Thread] Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+[INFO ] 2018-01-21 12:25:16.672 [JavaFX Application Thread] EnversServiceImpl - Envers integration enabled? : true
+[INFO ] 2018-01-21 12:25:17.772 [JavaFX Application Thread] QueryTranslatorFactoryInitiator - HHH000397: Using ASTQueryTranslatorFactory
+[INFO ] 2018-01-21 12:25:17.993 [JavaFX Application Thread] HibernateFactory - Hibernate created.
+[INFO ] 2018-01-21 12:25:18.123 [ServerThread] Server - onStart
+[INFO ] 2018-01-21 12:25:18.140 [ServerThread] Server - onReady /127.0.0.1:8189
+[INFO ] 2018-01-21 12:26:08.593 [ServerThread] Server - onAccepted : Socket[addr=/127.0.0.1,port=52648,localport=8189]
+[INFO ] 2018-01-21 12:26:08.640 [ClientThread] Server - onStart : User ClientThread on Socket[addr=/127.0.0.1,port=52648,localport=8189]
+[INFO ] 2018-01-21 12:26:08.641 [ClientThread] Server - onReady : User ClientThread on Socket[addr=/127.0.0.1,port=52648,localport=8189]
+[INFO ] 2018-01-21 12:26:08.866 [ClientThread] Server - onGet : User ClientThread on Socket[addr=/127.0.0.1,port=52648,localport=8189] : <-- 
+{
+    "request": "authentication",
+    "data": {
+        "password": "admin",
+        "login": "admin"
+    }
+}
+[INFO ] 2018-01-21 12:26:09.094 [ClientThread] Server - onPost : User ClientThread on Socket[addr=/127.0.0.1,port=52648,localport=8189] : --> 
+{
+    "data": {"nickname": "Admin"},
+    "response": "authorization"
+}
+[INFO ] 2018-01-21 12:26:09.495 [Admin] Server - onGet : User Admin on Socket[addr=/127.0.0.1,port=52648,localport=8189] : <-- 
+{
+    "request": "list",
+    "data": {"path": "/"}
+}
+[INFO ] 2018-01-21 12:26:09.566 [Admin] Server - onPost : User Admin on Socket[addr=/127.0.0.1,port=52648,localport=8189] : --> 
+{
+    "data": {
+        "date": [
+            "03.01.2018 9:12:48",
+            "04.01.2018 13:58:32",
+            "04.01.2018 14:4:10",
+            "04.01.2018 13:58:39",
+            "31.12.2017 11:6:23",
+            "31.12.2017 11:6:59",
+            "04.01.2018 12:20:36",
+            "19.01.2018 22:1:9",
+            "03.01.2018 11:30:1",
+            "19.01.2018 22:1:19",
+            "31.12.2017 11:7:11",
+            "03.01.2018 9:12:42",
+            "03.01.2018 11:30:6",
+            "04.01.2018 13:24:6",
+            "19.01.2018 22:0:31",
+            "04.01.2018 12:15:56"
+        ],
+        "size": [
+            "",
+            "6557",
+            "2",
+            "7405",
+            "",
+            "125",
+            "8488",
+            "",
+            "163328",
+            "",
+            "67",
+            "",
+            "23987",
+            "23",
+            "",
+            ""
+        ],
+        "name": [
+            "Урок 2. JVM. Полное погружение",
+            "LibreOffice Calc",
+            "12345",
+            "LibreOffice Writer",
+            "Урок 1. Проектирование архитектуры и модели данных",
+            "server_settings.json",
+            "screen01.png",
+            "123",
+            "screen00.png",
+            "000",
+            "сlient_settings.json",
+            "Урок 3. Сборщики проектов",
+            "screen03.png",
+            "capricorn-passwords.txt",
+            "123456",
+            "Кино"
+        ],
+        "type": [
+            "dir",
+            "file",
+            "file",
+            "file",
+            "dir",
+            "file",
+            "file",
+            "dir",
+            "file",
+            "dir",
+            "file",
+            "dir",
+            "file",
+            "file",
+            "dir",
+            "dir"
+        ]
+    },
+    "response": "list"
+}
+[INFO ] 2018-01-21 12:26:14.210 [Admin] Server - onGet : User Admin on Socket[addr=/127.0.0.1,port=52648,localport=8189] : <-- 
+{
+    "request": "list",
+    "data": {"path": "/123"}
+}
+[INFO ] 2018-01-21 12:26:14.258 [Admin] Server - onPost : User Admin on Socket[addr=/127.0.0.1,port=52648,localport=8189] : --> 
+{
+    "data": {
+        "date": [
+            "19.01.2018 20:18:32",
+            "19.01.2018 22:1:9",
+            "19.01.2018 21:11:5"
+        ],
+        "size": [
+            "163328",
+            "41361",
+            "13585"
+        ],
+        "name": [
+            "screen00.png",
+            "screen04.png",
+            "screen02.png"
+        ],
+        "type": [
+            "file",
+            "file",
+            "file"
+        ]
+    },
+    "response": "list"
+}
+[INFO ] 2018-01-21 12:26:18.167 [Admin] Server - onGet : User Admin on Socket[addr=/127.0.0.1,port=52648,localport=8189] : <-- 
+{
+    "request": "create-folder",
+    "data": {"new-folder": "/123/0515"}
+}
+[INFO ] 2018-01-21 12:26:18.211 [Admin] Server - Новый каталог '/123/0515' пользователя 'Admin' создан.
+[INFO ] 2018-01-21 12:26:18.215 [Admin] Server - onPost : User Admin on Socket[addr=/127.0.0.1,port=52648,localport=8189] : --> 
+{
+    "data": {
+        "date": [
+            "21.01.2018 12:26:18",
+            "19.01.2018 20:18:32",
+            "19.01.2018 22:1:9",
+            "19.01.2018 21:11:5"
+        ],
+        "size": [
+            "",
+            "163328",
+            "41361",
+            "13585"
+        ],
+        "name": [
+            "0515",
+            "screen00.png",
+            "screen04.png",
+            "screen02.png"
+        ],
+        "type": [
+            "dir",
+            "file",
+            "file",
+            "file"
+        ]
+    },
+    "response": "list"
+}
+[INFO ] 2018-01-21 12:26:19.852 [Admin] Server - onGet : User Admin on Socket[addr=/127.0.0.1,port=52648,localport=8189] : <-- 
+{
+    "request": "list",
+    "data": {"path": "/123/0515"}
+}
+[INFO ] 2018-01-21 12:26:19.890 [Admin] Server - onPost : User Admin on Socket[addr=/127.0.0.1,port=52648,localport=8189] : --> 
+{
+    "data": {
+        "date": [],
+        "size": [],
+        "name": [],
+        "type": []
+    },
+    "response": "list"
+}
+[INFO ] 2018-01-21 12:26:23.024 [Admin] Server - onGet : User Admin on Socket[addr=/127.0.0.1,port=52648,localport=8189] : <-- 
+{
+    "request": "create-folder",
+    "data": {"new-folder": "/123/0515/1494"}
+}
+[INFO ] 2018-01-21 12:26:23.039 [Admin] Server - Новый каталог '/123/0515/1494' пользователя 'Admin' создан.
+[INFO ] 2018-01-21 12:26:23.042 [Admin] Server - onPost : User Admin on Socket[addr=/127.0.0.1,port=52648,localport=8189] : --> 
+{
+    "data": {
+        "date": ["21.01.2018 12:26:23"],
+        "size": [""],
+        "name": ["1494"],
+        "type": ["dir"]
+    },
+    "response": "list"
+}
+[INFO ] 2018-01-21 12:26:24.462 [Admin] Server - onGet : User Admin on Socket[addr=/127.0.0.1,port=52648,localport=8189] : <-- 
+{
+    "request": "list",
+    "data": {"path": "/123/0515/1494"}
+}
+[INFO ] 2018-01-21 12:26:24.470 [Admin] Server - onPost : User Admin on Socket[addr=/127.0.0.1,port=52648,localport=8189] : --> 
+{
+    "data": {
+        "date": [],
+        "size": [],
+        "name": [],
+        "type": []
+    },
+    "response": "list"
+}
+[INFO ] 2018-01-21 12:26:38.869 [Admin] Server - onGet : User Admin on Socket[addr=/127.0.0.1,port=52648,localport=8189] : <-- 
+{
+    "request": "upload",
+    "data": {"filename": "/123/0515/1494/screen04.png"}
+}
+[INFO ] 2018-01-21 12:26:38.907 [Admin] FileTransferThread - Receive file 'screen04.png' from 'Admin'.
+[INFO ] 2018-01-21 12:26:38.947 [Admin] Server - onPost : User Admin on Socket[addr=/127.0.0.1,port=52648,localport=8189] : --> 
+{
+    "data": {"socket": {
+        "hostname": "192.168.0.30",
+        "port": 56103,
+        "key": "/123/0515/1494/screen04.png"
+    }},
+    "response": "ready-upload"
+}
+[INFO ] 2018-01-21 12:26:38.951 [screen04.png] Server - onStart : Receive file 'screen04.png' from 'Admin'.
+[INFO ] 2018-01-21 12:26:40.757 [Client] FileTransferThread - Send file 'screen04.png' to 'Client' on 192.168.0.30:56103.
+[INFO ] 2018-01-21 12:26:40.925 [screen04.png] Server - onPost : User Admin on Socket[addr=/127.0.0.1,port=52648,localport=8189] : --> 
+{
+    "data": {
+        "date": ["21.01.2018 12:26:40"],
+        "size": ["41361"],
+        "name": ["screen04.png"],
+        "type": ["file"]
+    },
+    "response": "list"
+}
+[INFO ] 2018-01-21 12:26:40.927 [screen04.png] Server - onStop : Receive file 'screen04.png' from 'Admin'.
+[INFO ] 2018-01-21 12:26:43.444 [Admin] Server - onGet : User Admin on Socket[addr=/127.0.0.1,port=52648,localport=8189] : <-- 
+{
+    "request": "list",
+    "data": {"path": "/123/0515"}
+}
+[INFO ] 2018-01-21 12:26:43.478 [Admin] Server - onPost : User Admin on Socket[addr=/127.0.0.1,port=52648,localport=8189] : --> 
+{
+    "data": {
+        "date": ["21.01.2018 12:26:40"],
+        "size": [""],
+        "name": ["1494"],
+        "type": ["dir"]
+    },
+    "response": "list"
+}
+[INFO ] 2018-01-21 12:26:43.884 [Admin] Server - onGet : User Admin on Socket[addr=/127.0.0.1,port=52648,localport=8189] : <-- 
+{
+    "request": "list",
+    "data": {"path": "/123"}
+}
+[INFO ] 2018-01-21 12:26:43.952 [Admin] Server - onPost : User Admin on Socket[addr=/127.0.0.1,port=52648,localport=8189] : --> 
+{
+    "data": {
+        "date": [
+            "21.01.2018 12:26:23",
+            "19.01.2018 20:18:32",
+            "19.01.2018 22:1:9",
+            "19.01.2018 21:11:5"
+        ],
+        "size": [
+            "",
+            "163328",
+            "41361",
+            "13585"
+        ],
+        "name": [
+            "0515",
+            "screen00.png",
+            "screen04.png",
+            "screen02.png"
+        ],
+        "type": [
+            "dir",
+            "file",
+            "file",
+            "file"
+        ]
+    },
+    "response": "list"
+}
+[INFO ] 2018-01-21 12:26:44.507 [Admin] Server - onGet : User Admin on Socket[addr=/127.0.0.1,port=52648,localport=8189] : <-- 
+{
+    "request": "list",
+    "data": {"path": "/"}
+}
+[INFO ] 2018-01-21 12:26:44.572 [Admin] Server - onPost : User Admin on Socket[addr=/127.0.0.1,port=52648,localport=8189] : --> 
+{
+    "data": {
+        "date": [
+            "03.01.2018 9:12:48",
+            "04.01.2018 13:58:32",
+            "04.01.2018 14:4:10",
+            "04.01.2018 13:58:39",
+            "31.12.2017 11:6:23",
+            "31.12.2017 11:6:59",
+            "04.01.2018 12:20:36",
+            "21.01.2018 12:26:18",
+            "03.01.2018 11:30:1",
+            "19.01.2018 22:1:19",
+            "31.12.2017 11:7:11",
+            "03.01.2018 9:12:42",
+            "03.01.2018 11:30:6",
+            "04.01.2018 13:24:6",
+            "19.01.2018 22:0:31",
+            "04.01.2018 12:15:56"
+        ],
+        "size": [
+            "",
+            "6557",
+            "2",
+            "7405",
+            "",
+            "125",
+            "8488",
+            "",
+            "163328",
+            "",
+            "67",
+            "",
+            "23987",
+            "23",
+            "",
+            ""
+        ],
+        "name": [
+            "Урок 2. JVM. Полное погружение",
+            "LibreOffice Calc",
+            "12345",
+            "LibreOffice Writer",
+            "Урок 1. Проектирование архитектуры и модели данных",
+            "server_settings.json",
+            "screen01.png",
+            "123",
+            "screen00.png",
+            "000",
+            "сlient_settings.json",
+            "Урок 3. Сборщики проектов",
+            "screen03.png",
+            "capricorn-passwords.txt",
+            "123456",
+            "Кино"
+        ],
+        "type": [
+            "dir",
+            "file",
+            "file",
+            "file",
+            "dir",
+            "file",
+            "file",
+            "dir",
+            "file",
+            "dir",
+            "file",
+            "dir",
+            "file",
+            "file",
+            "dir",
+            "dir"
+        ]
+    },
+    "response": "list"
+}
+[INFO ] 2018-01-21 12:26:54.097 [Admin] Server - onException : User Admin on Socket[addr=/127.0.0.1,port=52648,localport=8189] : java.io.EOFException
+[INFO ] 2018-01-21 12:26:54.100 [Admin] Server - onStop : User Admin on Socket[addr=/127.0.0.1,port=52648,localport=8189]
+[INFO ] 2018-01-21 12:27:38.791 [ServerThread] Server - onAccepted : Socket[addr=/127.0.0.1,port=52664,localport=8189]
+[INFO ] 2018-01-21 12:27:38.796 [ClientThread] Server - onStart : User ClientThread on Socket[addr=/127.0.0.1,port=52664,localport=8189]
+[INFO ] 2018-01-21 12:27:38.798 [ClientThread] Server - onReady : User ClientThread on Socket[addr=/127.0.0.1,port=52664,localport=8189]
+[INFO ] 2018-01-21 12:27:38.898 [ClientThread] Server - onGet : User ClientThread on Socket[addr=/127.0.0.1,port=52664,localport=8189] : <-- 
+{
+    "request": "registration",
+    "data": {
+        "password": "david",
+        "nickname": "david",
+        "login": "david",
+        "email": "david@server.com"
+    }
+}
+[INFO ] 2018-01-21 12:27:38.981 [ClientThread] Server - Личный каталог '/store/david/48043ed0-d186-436a-ac87-1a1eebd017f8' для пользователя 'david' зарегистрирован.
+[INFO ] 2018-01-21 12:27:38.982 [ClientThread] Server - onPost : User ClientThread on Socket[addr=/127.0.0.1,port=52664,localport=8189] : --> 
+{
+    "data": {"message": "Пользователь 'david' зарегистрирован."},
+    "response": "registred"
+}
+[INFO ] 2018-01-21 12:27:38.985 [ClientThread] Server - User 'david' registred.
+[INFO ] 2018-01-21 12:27:38.989 [ClientThread] Server - onException : User ClientThread on Socket[addr=/127.0.0.1,port=52664,localport=8189] : java.io.EOFException
+[INFO ] 2018-01-21 12:27:38.991 [ClientThread] Server - onStop : User ClientThread on Socket[addr=/127.0.0.1,port=52664,localport=8189]
+[INFO ] 2018-01-21 12:27:55.358 [ServerThread] Server - onAccepted : Socket[addr=/127.0.0.1,port=52670,localport=8189]
+[INFO ] 2018-01-21 12:27:55.360 [ClientThread] Server - onStart : User ClientThread on Socket[addr=/127.0.0.1,port=52670,localport=8189]
+[INFO ] 2018-01-21 12:27:55.361 [ClientThread] Server - onReady : User ClientThread on Socket[addr=/127.0.0.1,port=52670,localport=8189]
+[INFO ] 2018-01-21 12:27:55.459 [ClientThread] Server - onGet : User ClientThread on Socket[addr=/127.0.0.1,port=52670,localport=8189] : <-- 
+{
+    "request": "authentication",
+    "data": {
+        "password": "david",
+        "login": "david"
+    }
+}
+[INFO ] 2018-01-21 12:27:55.473 [ClientThread] Server - onPost : User ClientThread on Socket[addr=/127.0.0.1,port=52670,localport=8189] : --> 
+{
+    "data": {"nickname": "david"},
+    "response": "authorization"
+}
+[INFO ] 2018-01-21 12:27:55.774 [david] Server - onGet : User david on Socket[addr=/127.0.0.1,port=52670,localport=8189] : <-- 
+{
+    "request": "list",
+    "data": {"path": "/"}
+}
+[INFO ] 2018-01-21 12:27:55.783 [david] Server - onPost : User david on Socket[addr=/127.0.0.1,port=52670,localport=8189] : --> 
+{
+    "data": {
+        "date": [],
+        "size": [],
+        "name": [],
+        "type": []
+    },
+    "response": "list"
+}
+[INFO ] 2018-01-21 12:28:28.954 [david] Server - onException : User david on Socket[addr=/127.0.0.1,port=52670,localport=8189] : java.net.SocketException: Socket closed
+[INFO ] 2018-01-21 12:28:28.955 [david] Server - onStop : User david on Socket[addr=/127.0.0.1,port=52670,localport=8189]
+[INFO ] 2018-01-21 12:28:51.403 [ServerThread] Server - onStop
+[INFO ] 2018-01-21 12:28:53.184 [JavaFX Application Thread] HibernateFactory - Hibernate stoped.
+[INFO ] 2018-01-21 12:28:53.187 [JavaFX Application Thread] pooling - HHH10001008: Cleaning up connection pool [jdbc:mysql://localhost:3306/jis?useSSL=false]
+[INFO ] 2018-01-21 12:30:12.729 [JavaFX Application Thread] Settings - 
+  i i i i i i i
+  I I I I I I I
+  I  \ `+' /  I
+   \  `-+-'  /
+    `-__|__-'
+        |
+  ------+------
+[INFO ] 2018-01-21 12:30:12.962 [JavaFX Application Thread] Settings - Настройки сервера загружены.
+[INFO ] 2018-01-21 12:30:23.454 [JavaFX Application Thread] HibernateFactory - Hibernate is building...
+[INFO ] 2018-01-21 12:30:23.759 [JavaFX Application Thread] Version - HHH000412: Hibernate Core {5.2.12.Final}
+[INFO ] 2018-01-21 12:30:23.763 [JavaFX Application Thread] Environment - HHH000206: hibernate.properties not found
+[INFO ] 2018-01-21 12:30:24.579 [JavaFX Application Thread] Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+[WARN ] 2018-01-21 12:30:26.848 [JavaFX Application Thread] pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+[INFO ] 2018-01-21 12:30:26.866 [JavaFX Application Thread] pooling - HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/jis?useSSL=false]
+[INFO ] 2018-01-21 12:30:26.867 [JavaFX Application Thread] pooling - HHH10001001: Connection properties: {password=****, user=jis}
+[INFO ] 2018-01-21 12:30:26.868 [JavaFX Application Thread] pooling - HHH10001003: Autocommit mode: false
+[INFO ] 2018-01-21 12:30:26.872 [JavaFX Application Thread] DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 20 (min=1)
+[INFO ] 2018-01-21 12:30:27.801 [JavaFX Application Thread] Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+[INFO ] 2018-01-21 12:30:27.985 [JavaFX Application Thread] EnversServiceImpl - Envers integration enabled? : true
+[INFO ] 2018-01-21 12:30:29.016 [JavaFX Application Thread] QueryTranslatorFactoryInitiator - HHH000397: Using ASTQueryTranslatorFactory
+[INFO ] 2018-01-21 12:30:29.254 [JavaFX Application Thread] HibernateFactory - Hibernate created.
+[INFO ] 2018-01-21 12:30:29.398 [ServerThread] Server - onStart
+[INFO ] 2018-01-21 12:30:29.410 [ServerThread] Server - onReady /127.0.0.1:8189
+[INFO ] 2018-01-21 12:30:43.047 [ServerThread] Server - onAccepted : Socket[addr=/127.0.0.1,port=52704,localport=8189]
+[INFO ] 2018-01-21 12:30:43.072 [ClientThread] Server - onStart : User ClientThread on Socket[addr=/127.0.0.1,port=52704,localport=8189]
+[INFO ] 2018-01-21 12:30:43.073 [ClientThread] Server - onReady : User ClientThread on Socket[addr=/127.0.0.1,port=52704,localport=8189]
+[INFO ] 2018-01-21 12:30:43.262 [ClientThread] Server - onGet : User ClientThread on Socket[addr=/127.0.0.1,port=52704,localport=8189] : <-- 
+{
+    "request": "registration",
+    "data": {
+        "password": "levi",
+        "nickname": "levi",
+        "login": "levi",
+        "email": "levi@server.com"
+    }
+}
+[INFO ] 2018-01-21 12:30:43.637 [ClientThread] Server - Личный каталог '/store/david/a8afea30-575d-40b9-a839-f6c96951ec7c' для пользователя 'levi' зарегистрирован.
+[INFO ] 2018-01-21 12:30:43.648 [ClientThread] Server - onPost : User ClientThread on Socket[addr=/127.0.0.1,port=52704,localport=8189] : --> 
+{
+    "data": {"message": "Пользователь 'levi' зарегистрирован."},
+    "response": "registred"
+}
+[INFO ] 2018-01-21 12:30:43.649 [ClientThread] Server - User 'levi' registred.
+[INFO ] 2018-01-21 12:30:43.654 [ClientThread] Server - onException : User ClientThread on Socket[addr=/127.0.0.1,port=52704,localport=8189] : java.io.EOFException
+[INFO ] 2018-01-21 12:30:43.661 [ClientThread] Server - onStop : User ClientThread on Socket[addr=/127.0.0.1,port=52704,localport=8189]
+[INFO ] 2018-01-21 12:30:49.730 [ServerThread] Server - onAccepted : Socket[addr=/127.0.0.1,port=52706,localport=8189]
+[INFO ] 2018-01-21 12:30:49.734 [ClientThread] Server - onStart : User ClientThread on Socket[addr=/127.0.0.1,port=52706,localport=8189]
+[INFO ] 2018-01-21 12:30:49.735 [ClientThread] Server - onReady : User ClientThread on Socket[addr=/127.0.0.1,port=52706,localport=8189]
+[INFO ] 2018-01-21 12:30:49.833 [ClientThread] Server - onGet : User ClientThread on Socket[addr=/127.0.0.1,port=52706,localport=8189] : <-- 
+{
+    "request": "authentication",
+    "data": {
+        "password": "levi",
+        "login": "levi"
+    }
+}
+[INFO ] 2018-01-21 12:30:49.892 [ClientThread] Server - onPost : User ClientThread on Socket[addr=/127.0.0.1,port=52706,localport=8189] : --> 
+{
+    "data": {"nickname": "levi"},
+    "response": "authorization"
+}
+[INFO ] 2018-01-21 12:30:50.247 [levi] Server - onGet : User levi on Socket[addr=/127.0.0.1,port=52706,localport=8189] : <-- 
+{
+    "request": "list",
+    "data": {"path": "/"}
+}
+[INFO ] 2018-01-21 12:30:50.347 [levi] Server - onPost : User levi on Socket[addr=/127.0.0.1,port=52706,localport=8189] : --> 
+{
+    "data": {
+        "date": [],
+        "size": [],
+        "name": [],
+        "type": []
+    },
+    "response": "list"
+}
+[INFO ] 2018-01-21 12:31:02.642 [levi] Server - onGet : User levi on Socket[addr=/127.0.0.1,port=52706,localport=8189] : <-- 
+{
+    "request": "list",
+    "data": {"path": "/"}
+}
+[INFO ] 2018-01-21 12:31:02.652 [levi] Server - onPost : User levi on Socket[addr=/127.0.0.1,port=52706,localport=8189] : --> 
+{
+    "data": {
+        "date": [],
+        "size": [],
+        "name": [],
+        "type": []
+    },
+    "response": "list"
+}
+[INFO ] 2018-01-21 12:31:04.431 [levi] Server - onException : User levi on Socket[addr=/127.0.0.1,port=52706,localport=8189] : java.net.SocketException: Socket closed
+[INFO ] 2018-01-21 12:31:04.432 [levi] Server - onStop : User levi on Socket[addr=/127.0.0.1,port=52706,localport=8189]
+[INFO ] 2018-01-21 12:31:53.792 [ServerThread] Server - onStop
+[INFO ] 2018-01-21 12:31:54.388 [JavaFX Application Thread] HibernateFactory - Hibernate stoped.
+[INFO ] 2018-01-21 12:31:54.391 [JavaFX Application Thread] pooling - HHH10001008: Cleaning up connection pool [jdbc:mysql://localhost:3306/jis?useSSL=false]
+[INFO ] 2018-01-21 12:56:31.075 [JavaFX Application Thread] Settings - 
+  i i i i i i i
+  I I I I I I I
+  I  \ `+' /  I
+   \  `-+-'  /
+    `-__|__-'
+        |
+  ------+------
+[INFO ] 2018-01-21 12:56:31.270 [JavaFX Application Thread] Settings - Настройки сервера загружены.
+[INFO ] 2018-01-21 13:14:20.510 [JavaFX Application Thread] HibernateFactory - Hibernate is building...
+[INFO ] 2018-01-21 13:14:21.044 [JavaFX Application Thread] Version - HHH000412: Hibernate Core {5.2.12.Final}
+[INFO ] 2018-01-21 13:14:21.060 [JavaFX Application Thread] Environment - HHH000206: hibernate.properties not found
+[INFO ] 2018-01-21 13:14:21.957 [JavaFX Application Thread] Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+[WARN ] 2018-01-21 13:14:24.590 [JavaFX Application Thread] pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+[INFO ] 2018-01-21 13:14:24.618 [JavaFX Application Thread] pooling - HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/jis?useSSL=false]
+[INFO ] 2018-01-21 13:14:24.627 [JavaFX Application Thread] pooling - HHH10001001: Connection properties: {password=****, user=jis}
+[INFO ] 2018-01-21 13:14:24.628 [JavaFX Application Thread] pooling - HHH10001003: Autocommit mode: false
+[INFO ] 2018-01-21 13:14:24.636 [JavaFX Application Thread] DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 20 (min=1)
+[INFO ] 2018-01-21 13:14:25.494 [JavaFX Application Thread] Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+[INFO ] 2018-01-21 13:14:25.780 [JavaFX Application Thread] EnversServiceImpl - Envers integration enabled? : true
+[INFO ] 2018-01-21 13:14:41.602 [JavaFX Application Thread] Settings - 
+  i i i i i i i
+  I I I I I I I
+  I  \ `+' /  I
+   \  `-+-'  /
+    `-__|__-'
+        |
+  ------+------
+[INFO ] 2018-01-21 13:14:41.775 [JavaFX Application Thread] Settings - Настройки сервера загружены.
+[INFO ] 2018-01-21 13:14:48.737 [JavaFX Application Thread] HibernateFactory - Hibernate is building...
+[INFO ] 2018-01-21 13:14:49.122 [JavaFX Application Thread] Version - HHH000412: Hibernate Core {5.2.12.Final}
+[INFO ] 2018-01-21 13:14:49.130 [JavaFX Application Thread] Environment - HHH000206: hibernate.properties not found
+[INFO ] 2018-01-21 13:14:50.079 [JavaFX Application Thread] Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+[WARN ] 2018-01-21 13:14:53.028 [JavaFX Application Thread] pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+[INFO ] 2018-01-21 13:14:53.053 [JavaFX Application Thread] pooling - HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/jis?useSSL=false]
+[INFO ] 2018-01-21 13:14:53.054 [JavaFX Application Thread] pooling - HHH10001001: Connection properties: {password=****, user=jis}
+[INFO ] 2018-01-21 13:14:53.054 [JavaFX Application Thread] pooling - HHH10001003: Autocommit mode: false
+[INFO ] 2018-01-21 13:14:53.065 [JavaFX Application Thread] DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 20 (min=1)
+[INFO ] 2018-01-21 13:14:53.902 [JavaFX Application Thread] Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+[INFO ] 2018-01-21 13:14:54.095 [JavaFX Application Thread] EnversServiceImpl - Envers integration enabled? : true
+[INFO ] 2018-01-21 13:14:55.523 [JavaFX Application Thread] QueryTranslatorFactoryInitiator - HHH000397: Using ASTQueryTranslatorFactory
+[INFO ] 2018-01-21 13:14:55.777 [JavaFX Application Thread] HibernateFactory - Hibernate created.
+[INFO ] 2018-01-21 13:14:55.944 [ServerThread] Server - onStart
+[INFO ] 2018-01-21 13:14:55.960 [ServerThread] Server - onReady /127.0.0.1:8189
+[INFO ] 2018-01-21 13:14:59.963 [ServerThread] Server - onStop
+[INFO ] 2018-01-21 13:15:02.298 [JavaFX Application Thread] HibernateFactory - Hibernate stoped.
+[INFO ] 2018-01-21 13:15:02.302 [JavaFX Application Thread] pooling - HHH10001008: Cleaning up connection pool [jdbc:mysql://localhost:3306/jis?useSSL=false]
+[INFO ] 2018-01-21 13:26:14.061 [JavaFX Application Thread] Settings - 
+  i i i i i i i
+  I I I I I I I
+  I  \ `+' /  I
+   \  `-+-'  /
+    `-__|__-'
+        |
+  ------+------
+[INFO ] 2018-01-21 13:26:14.223 [JavaFX Application Thread] Settings - Настройки сервера загружены.
+[INFO ] 2018-01-21 13:26:22.680 [JavaFX Application Thread] HibernateFactory - Hibernate is building...
+[INFO ] 2018-01-21 13:26:23.075 [JavaFX Application Thread] Version - HHH000412: Hibernate Core {5.2.12.Final}
+[INFO ] 2018-01-21 13:26:23.079 [JavaFX Application Thread] Environment - HHH000206: hibernate.properties not found
+[INFO ] 2018-01-21 13:26:23.988 [JavaFX Application Thread] Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+[WARN ] 2018-01-21 13:26:26.323 [JavaFX Application Thread] pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+[INFO ] 2018-01-21 13:26:26.341 [JavaFX Application Thread] pooling - HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/jis?useSSL=false]
+[INFO ] 2018-01-21 13:26:26.344 [JavaFX Application Thread] pooling - HHH10001001: Connection properties: {password=****, user=jis}
+[INFO ] 2018-01-21 13:26:26.345 [JavaFX Application Thread] pooling - HHH10001003: Autocommit mode: false
+[INFO ] 2018-01-21 13:26:26.374 [JavaFX Application Thread] DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 20 (min=1)
+[INFO ] 2018-01-21 13:26:27.251 [JavaFX Application Thread] Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+[INFO ] 2018-01-21 13:26:27.501 [JavaFX Application Thread] EnversServiceImpl - Envers integration enabled? : true
+[INFO ] 2018-01-21 13:26:28.812 [JavaFX Application Thread] QueryTranslatorFactoryInitiator - HHH000397: Using ASTQueryTranslatorFactory
+[INFO ] 2018-01-21 13:26:29.035 [JavaFX Application Thread] HibernateFactory - Hibernate created.
+[INFO ] 2018-01-21 13:26:29.184 [ServerThread] Server - onStart
+[INFO ] 2018-01-21 13:26:29.200 [ServerThread] Server - onReady /127.0.0.1:8189
+[INFO ] 2018-01-21 13:26:55.645 [ServerThread] Server - onAccepted : Socket[addr=/127.0.0.1,port=53850,localport=8189]
+[INFO ] 2018-01-21 13:26:55.674 [ClientThread] Server - onStart : User ClientThread on Socket[addr=/127.0.0.1,port=53850,localport=8189]
+[INFO ] 2018-01-21 13:26:55.675 [ClientThread] Server - onReady : User ClientThread on Socket[addr=/127.0.0.1,port=53850,localport=8189]
+[INFO ] 2018-01-21 13:26:55.810 [ClientThread] Server - onGet : User ClientThread on Socket[addr=/127.0.0.1,port=53850,localport=8189] : <-- 
+{
+    "request": "authentication",
+    "data": {
+        "password": "admin",
+        "login": "admin"
+    }
+}
+[INFO ] 2018-01-21 13:26:56.058 [ClientThread] Server - onPost : User ClientThread on Socket[addr=/127.0.0.1,port=53850,localport=8189] : --> 
+{
+    "data": {"nickname": "Admin"},
+    "response": "authorization"
+}
+[INFO ] 2018-01-21 13:26:56.352 [Admin] Server - onGet : User Admin on Socket[addr=/127.0.0.1,port=53850,localport=8189] : <-- 
+{
+    "request": "list",
+    "data": {"path": "/"}
+}
+[INFO ] 2018-01-21 13:26:56.401 [Admin] Server - onPost : User Admin on Socket[addr=/127.0.0.1,port=53850,localport=8189] : --> 
+{
+    "data": {
+        "date": [
+            "21.01.2018 13:25:6",
+            "04.01.2018 13:58:32",
+            "04.01.2018 13:58:39",
+            "31.12.2017 11:6:23",
+            "31.12.2017 11:6:59",
+            "04.01.2018 12:20:36",
+            "03.01.2018 11:30:1",
+            "31.12.2017 11:7:11",
+            "24.12.2017 15:52:3",
+            "03.01.2018 9:12:42",
+            "03.01.2018 11:30:6"
+        ],
+        "size": [
+            "",
+            "6557",
+            "7405",
+            "",
+            "125",
+            "8488",
+            "163328",
+            "67",
+            "",
+            "",
+            "23987"
+        ],
+        "name": [
+            "Урок 2. JVM. Полное погружение",
+            "LibreOffice Calc",
+            "LibreOffice Writer",
+            "Урок 1. Проектирование архитектуры и модели данных",
+            "server_settings.json",
+            "screen01.png",
+            "screen00.png",
+            "сlient_settings.json",
+            "Kotlin",
+            "Урок 3. Сборщики проектов",
+            "screen03.png"
+        ],
+        "type": [
+            "dir",
+            "file",
+            "file",
+            "dir",
+            "file",
+            "file",
+            "file",
+            "file",
+            "dir",
+            "dir",
+            "file"
+        ]
+    },
+    "response": "list"
+}
+[INFO ] 2018-01-21 13:27:00.421 [Admin] Server - onGet : User Admin on Socket[addr=/127.0.0.1,port=53850,localport=8189] : <-- 
+{
+    "request": "list",
+    "data": {"path": "/Kotlin"}
+}
+[INFO ] 2018-01-21 13:27:00.448 [Admin] Server - onPost : User Admin on Socket[addr=/127.0.0.1,port=53850,localport=8189] : --> 
+{
+    "data": {
+        "date": [
+            "24.12.2017 15:52:21",
+            "24.12.2017 15:52:6",
+            "24.12.2017 15:52:3",
+            "24.12.2017 15:52:3"
+        ],
+        "size": [
+            "",
+            "",
+            "",
+            "498"
+        ],
+        "name": [
+            ".idea",
+            ".git",
+            "src",
+            "Kotlin.iml"
+        ],
+        "type": [
+            "dir",
+            "dir",
+            "dir",
+            "file"
+        ]
+    },
+    "response": "list"
+}
+[INFO ] 2018-01-21 13:27:02.339 [Admin] Server - onGet : User Admin on Socket[addr=/127.0.0.1,port=53850,localport=8189] : <-- 
+{
+    "request": "list",
+    "data": {"path": "/Kotlin/src"}
+}
+[INFO ] 2018-01-21 13:27:02.350 [Admin] Server - onPost : User Admin on Socket[addr=/127.0.0.1,port=53850,localport=8189] : --> 
+{
+    "data": {
+        "date": ["24.12.2017 15:52:3"],
+        "size": [""],
+        "name": ["ru"],
+        "type": ["dir"]
+    },
+    "response": "list"
+}
+[INFO ] 2018-01-21 13:27:03.882 [Admin] Server - onGet : User Admin on Socket[addr=/127.0.0.1,port=53850,localport=8189] : <-- 
+{
+    "request": "list",
+    "data": {"path": "/Kotlin/src/ru"}
+}
+[INFO ] 2018-01-21 13:27:03.928 [Admin] Server - onPost : User Admin on Socket[addr=/127.0.0.1,port=53850,localport=8189] : --> 
+{
+    "data": {
+        "date": ["24.12.2017 15:52:3"],
+        "size": [""],
+        "name": ["davidlevi"],
+        "type": ["dir"]
+    },
+    "response": "list"
+}
+[INFO ] 2018-01-21 13:27:04.726 [Admin] Server - onGet : User Admin on Socket[addr=/127.0.0.1,port=53850,localport=8189] : <-- 
+{
+    "request": "list",
+    "data": {"path": "/Kotlin/src/ru/davidlevi"}
+}
+[INFO ] 2018-01-21 13:27:04.745 [Admin] Server - onPost : User Admin on Socket[addr=/127.0.0.1,port=53850,localport=8189] : --> 
+{
+    "data": {
+        "date": [
+            "24.12.2017 15:52:3",
+            "24.12.2017 15:52:3",
+            "24.12.2017 15:52:3",
+            "24.12.2017 15:52:3",
+            "24.12.2017 15:52:3",
+            "24.12.2017 15:52:3",
+            "24.12.2017 15:52:3",
+            "24.12.2017 15:52:3",
+            "24.12.2017 15:52:3"
+        ],
+        "size": [
+            "2981",
+            "123",
+            "430",
+            "548",
+            "1624",
+            "22",
+            "21990",
+            "1103",
+            "743"
+        ],
+        "name": [
+            "Person.kt",
+            "Adam.kt",
+            "Employer.kt",
+            "Singleton1.kt",
+            "Class01.kt",
+            "Direction.kt",
+            "MainClass.kt",
+            "Singleton2.kt",
+            "Enumm.kt"
+        ],
+        "type": [
+            "file",
+            "file",
+            "file",
+            "file",
+            "file",
+            "file",
+            "file",
+            "file",
+            "file"
+        ]
+    },
+    "response": "list"
+}
+[INFO ] 2018-01-21 13:27:15.026 [JavaFX Application Thread] FileTransferThread - Receive file 'Enumm.kt' from 'Client'.
+[INFO ] 2018-01-21 13:27:15.043 [Admin] Server - onGet : User Admin on Socket[addr=/127.0.0.1,port=53850,localport=8189] : <-- 
+{
+    "request": "download",
+    "data": {
+        "filename": "/Kotlin/src/ru/davidlevi/Enumm.kt",
+        "socket": {
+            "hostname": "192.168.0.30",
+            "port": 46938
+        }
+    }
+}
+[INFO ] 2018-01-21 13:27:15.064 [Admin] FileTransferThread - Send file 'Enumm.kt' to 'Admin' on 192.168.0.30:46938.
+[INFO ] 2018-01-21 13:27:15.070 [Enumm.kt] Server - onStart : Send file 'Enumm.kt' to 'Admin' on 192.168.0.30:46938.
+[INFO ] 2018-01-21 13:27:15.098 [Enumm.kt] Server - onStop : Send file 'Enumm.kt' to 'Admin' on 192.168.0.30:46938.
+[INFO ] 2018-01-21 13:27:16.332 [Admin] Server - onGet : User Admin on Socket[addr=/127.0.0.1,port=53850,localport=8189] : <-- 
+{
+    "request": "list",
+    "data": {"path": "/Kotlin/src/ru"}
+}
+[INFO ] 2018-01-21 13:27:16.345 [Admin] Server - onPost : User Admin on Socket[addr=/127.0.0.1,port=53850,localport=8189] : --> 
+{
+    "data": {
+        "date": ["24.12.2017 15:52:3"],
+        "size": [""],
+        "name": ["davidlevi"],
+        "type": ["dir"]
+    },
+    "response": "list"
+}
+[INFO ] 2018-01-21 13:27:17.428 [Admin] Server - onGet : User Admin on Socket[addr=/127.0.0.1,port=53850,localport=8189] : <-- 
+{
+    "request": "list",
+    "data": {"path": "/Kotlin/src"}
+}
+[INFO ] 2018-01-21 13:27:17.456 [Admin] Server - onPost : User Admin on Socket[addr=/127.0.0.1,port=53850,localport=8189] : --> 
+{
+    "data": {
+        "date": ["24.12.2017 15:52:3"],
+        "size": [""],
+        "name": ["ru"],
+        "type": ["dir"]
+    },
+    "response": "list"
+}
+[INFO ] 2018-01-21 13:27:18.516 [Admin] Server - onGet : User Admin on Socket[addr=/127.0.0.1,port=53850,localport=8189] : <-- 
+{
+    "request": "list",
+    "data": {"path": "/"}
+}
+[INFO ] 2018-01-21 13:27:18.594 [Admin] Server - onPost : User Admin on Socket[addr=/127.0.0.1,port=53850,localport=8189] : --> 
+{
+    "data": {
+        "date": [
+            "21.01.2018 13:25:6",
+            "04.01.2018 13:58:32",
+            "04.01.2018 13:58:39",
+            "31.12.2017 11:6:23",
+            "31.12.2017 11:6:59",
+            "04.01.2018 12:20:36",
+            "03.01.2018 11:30:1",
+            "31.12.2017 11:7:11",
+            "24.12.2017 15:52:3",
+            "03.01.2018 9:12:42",
+            "03.01.2018 11:30:6"
+        ],
+        "size": [
+            "",
+            "6557",
+            "7405",
+            "",
+            "125",
+            "8488",
+            "163328",
+            "67",
+            "",
+            "",
+            "23987"
+        ],
+        "name": [
+            "Урок 2. JVM. Полное погружение",
+            "LibreOffice Calc",
+            "LibreOffice Writer",
+            "Урок 1. Проектирование архитектуры и модели данных",
+            "server_settings.json",
+            "screen01.png",
+            "screen00.png",
+            "сlient_settings.json",
+            "Kotlin",
+            "Урок 3. Сборщики проектов",
+            "screen03.png"
+        ],
+        "type": [
+            "dir",
+            "file",
+            "file",
+            "dir",
+            "file",
+            "file",
+            "file",
+            "file",
+            "dir",
+            "dir",
+            "file"
+        ]
+    },
+    "response": "list"
+}
+[INFO ] 2018-01-21 13:27:45.217 [ServerThread] Server - onAccepted : Socket[addr=/127.0.0.1,port=53868,localport=8189]
+[INFO ] 2018-01-21 13:27:45.221 [ClientThread] Server - onStart : User ClientThread on Socket[addr=/127.0.0.1,port=53868,localport=8189]
+[INFO ] 2018-01-21 13:27:45.224 [ClientThread] Server - onReady : User ClientThread on Socket[addr=/127.0.0.1,port=53868,localport=8189]
+[INFO ] 2018-01-21 13:27:45.332 [ClientThread] Server - onGet : User ClientThread on Socket[addr=/127.0.0.1,port=53868,localport=8189] : <-- 
+{
+    "request": "authentication",
+    "data": {
+        "password": "admin",
+        "login": "admin"
+    }
+}
+[INFO ] 2018-01-21 13:27:45.368 [ClientThread] Server - onPost : User Admin on Socket[addr=/127.0.0.1,port=53850,localport=8189] : --> 
+{"response": "inauthorize"}
+[INFO ] 2018-01-21 13:27:45.381 [ClientThread] Server - onPost : User ClientThread on Socket[addr=/127.0.0.1,port=53868,localport=8189] : --> 
+{
+    "data": {"nickname": "Admin"},
+    "response": "authorization"
+}
+[INFO ] 2018-01-21 13:27:45.389 [Admin] Server - onException : User Admin on Socket[addr=/127.0.0.1,port=53850,localport=8189] : java.net.SocketException: Socket closed
+[INFO ] 2018-01-21 13:27:45.391 [Admin] Server - onStop : User Admin on Socket[addr=/127.0.0.1,port=53850,localport=8189]
+[INFO ] 2018-01-21 13:27:45.877 [Admin] Server - onGet : User Admin on Socket[addr=/127.0.0.1,port=53868,localport=8189] : <-- 
+{
+    "request": "list",
+    "data": {"path": "/"}
+}
+[INFO ] 2018-01-21 13:27:45.965 [Admin] Server - onPost : User Admin on Socket[addr=/127.0.0.1,port=53868,localport=8189] : --> 
+{
+    "data": {
+        "date": [
+            "21.01.2018 13:25:6",
+            "04.01.2018 13:58:32",
+            "04.01.2018 13:58:39",
+            "31.12.2017 11:6:23",
+            "31.12.2017 11:6:59",
+            "04.01.2018 12:20:36",
+            "03.01.2018 11:30:1",
+            "31.12.2017 11:7:11",
+            "24.12.2017 15:52:3",
+            "03.01.2018 9:12:42",
+            "03.01.2018 11:30:6"
+        ],
+        "size": [
+            "",
+            "6557",
+            "7405",
+            "",
+            "125",
+            "8488",
+            "163328",
+            "67",
+            "",
+            "",
+            "23987"
+        ],
+        "name": [
+            "Урок 2. JVM. Полное погружение",
+            "LibreOffice Calc",
+            "LibreOffice Writer",
+            "Урок 1. Проектирование архитектуры и модели данных",
+            "server_settings.json",
+            "screen01.png",
+            "screen00.png",
+            "сlient_settings.json",
+            "Kotlin",
+            "Урок 3. Сборщики проектов",
+            "screen03.png"
+        ],
+        "type": [
+            "dir",
+            "file",
+            "file",
+            "dir",
+            "file",
+            "file",
+            "file",
+            "file",
+            "dir",
+            "dir",
+            "file"
+        ]
+    },
+    "response": "list"
+}
+[INFO ] 2018-01-21 13:27:57.451 [Admin] Server - onException : User Admin on Socket[addr=/127.0.0.1,port=53868,localport=8189] : java.io.EOFException
+[INFO ] 2018-01-21 13:27:57.452 [Admin] Server - onStop : User Admin on Socket[addr=/127.0.0.1,port=53868,localport=8189]
+[INFO ] 2018-01-21 13:33:11.322 [JavaFX Application Thread] Settings - 
+  i i i i i i i
+  I I I I I I I
+  I  \ `+' /  I
+   \  `-+-'  /
+    `-__|__-'
+        |
+  ------+------
+[INFO ] 2018-01-21 13:33:11.512 [JavaFX Application Thread] Settings - Настройки сервера загружены.
+[INFO ] 2018-01-21 13:50:34.334 [JavaFX Application Thread] HibernateFactory - Hibernate is building...
+[INFO ] 2018-01-21 13:50:34.688 [JavaFX Application Thread] Version - HHH000412: Hibernate Core {5.2.12.Final}
+[INFO ] 2018-01-21 13:50:34.693 [JavaFX Application Thread] Environment - HHH000206: hibernate.properties not found
+[INFO ] 2018-01-21 13:50:35.618 [JavaFX Application Thread] Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+[WARN ] 2018-01-21 13:50:37.936 [JavaFX Application Thread] pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+[INFO ] 2018-01-21 13:50:37.953 [JavaFX Application Thread] pooling - HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/jis?useSSL=false]
+[INFO ] 2018-01-21 13:50:37.954 [JavaFX Application Thread] pooling - HHH10001001: Connection properties: {password=****, user=jis}
+[INFO ] 2018-01-21 13:50:37.956 [JavaFX Application Thread] pooling - HHH10001003: Autocommit mode: false
+[INFO ] 2018-01-21 13:50:37.973 [JavaFX Application Thread] DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 20 (min=1)
+[INFO ] 2018-01-21 13:50:38.709 [JavaFX Application Thread] Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+[INFO ] 2018-01-21 13:50:38.889 [JavaFX Application Thread] EnversServiceImpl - Envers integration enabled? : true
+[INFO ] 2018-01-21 13:50:40.036 [JavaFX Application Thread] QueryTranslatorFactoryInitiator - HHH000397: Using ASTQueryTranslatorFactory
+[INFO ] 2018-01-21 13:50:40.277 [JavaFX Application Thread] HibernateFactory - Hibernate created.
+[INFO ] 2018-01-21 13:50:40.426 [ServerThread] Server - onStart
+[INFO ] 2018-01-21 13:50:40.445 [ServerThread] Server - onReady /127.0.0.1:8189
+[INFO ] 2018-01-21 13:50:50.317 [ServerThread] Server - onAccepted : Socket[addr=/127.0.0.1,port=54200,localport=8189]
+[INFO ] 2018-01-21 13:50:50.347 [ClientThread] Server - onStart : User ClientThread on Socket[addr=/127.0.0.1,port=54200,localport=8189]
+[INFO ] 2018-01-21 13:50:50.348 [ClientThread] Server - onReady : User ClientThread on Socket[addr=/127.0.0.1,port=54200,localport=8189]
+[INFO ] 2018-01-21 13:50:50.509 [ClientThread] Server - onGet : User ClientThread on Socket[addr=/127.0.0.1,port=54200,localport=8189] : <-- 
+{
+    "request": "authentication",
+    "data": {
+        "password": "admin",
+        "login": "admin"
+    }
+}
+[INFO ] 2018-01-21 13:50:50.754 [ClientThread] Server - onPost : User ClientThread on Socket[addr=/127.0.0.1,port=54200,localport=8189] : --> 
+{
+    "data": {"nickname": "Admin"},
+    "response": "authorization"
+}
+[INFO ] 2018-01-21 13:50:50.970 [Admin] Server - onGet : User Admin on Socket[addr=/127.0.0.1,port=54200,localport=8189] : <-- 
+{
+    "request": "list",
+    "data": {"path": "/"}
+}
+[INFO ] 2018-01-21 13:50:51.110 [Admin] Server - onPost : User Admin on Socket[addr=/127.0.0.1,port=54200,localport=8189] : --> 
+{
+    "data": {
+        "date": [
+            "21.01.2018 13:25:6",
+            "04.01.2018 13:58:32",
+            "04.01.2018 13:58:39",
+            "31.12.2017 11:6:23",
+            "31.12.2017 11:6:59",
+            "04.01.2018 12:20:36",
+            "03.01.2018 11:30:1",
+            "31.12.2017 11:7:11",
+            "24.12.2017 15:52:3",
+            "03.01.2018 9:12:42",
+            "03.01.2018 11:30:6"
+        ],
+        "size": [
+            "",
+            "6557",
+            "7405",
+            "",
+            "125",
+            "8488",
+            "163328",
+            "67",
+            "",
+            "",
+            "23987"
+        ],
+        "name": [
+            "Урок 2. JVM. Полное погружение",
+            "LibreOffice Calc",
+            "LibreOffice Writer",
+            "Урок 1. Проектирование архитектуры и модели данных",
+            "server_settings.json",
+            "screen01.png",
+            "screen00.png",
+            "сlient_settings.json",
+            "Kotlin",
+            "Урок 3. Сборщики проектов",
+            "screen03.png"
+        ],
+        "type": [
+            "dir",
+            "file",
+            "file",
+            "dir",
+            "file",
+            "file",
+            "file",
+            "file",
+            "dir",
+            "dir",
+            "file"
+        ]
+    },
+    "response": "list"
+}
+[INFO ] 2018-01-21 13:51:10.423 [Admin] Server - onGet : User Admin on Socket[addr=/127.0.0.1,port=54200,localport=8189] : <-- 
+{
+    "request": "list",
+    "data": {"path": "/Урок 2. JVM. Полное погружение"}
+}
+[INFO ] 2018-01-21 13:51:10.432 [Admin] Server - onPost : User Admin on Socket[addr=/127.0.0.1,port=54200,localport=8189] : --> 
+{
+    "data": {
+        "date": [],
+        "size": [],
+        "name": [],
+        "type": []
+    },
+    "response": "list"
+}
+[INFO ] 2018-01-21 13:51:12.355 [Admin] Server - onGet : User Admin on Socket[addr=/127.0.0.1,port=54200,localport=8189] : <-- 
+{
+    "request": "list",
+    "data": {"path": "/"}
+}
+[INFO ] 2018-01-21 13:51:12.410 [Admin] Server - onPost : User Admin on Socket[addr=/127.0.0.1,port=54200,localport=8189] : --> 
+{
+    "data": {
+        "date": [
+            "21.01.2018 13:25:6",
+            "04.01.2018 13:58:32",
+            "04.01.2018 13:58:39",
+            "31.12.2017 11:6:23",
+            "31.12.2017 11:6:59",
+            "04.01.2018 12:20:36",
+            "03.01.2018 11:30:1",
+            "31.12.2017 11:7:11",
+            "24.12.2017 15:52:3",
+            "03.01.2018 9:12:42",
+            "03.01.2018 11:30:6"
+        ],
+        "size": [
+            "",
+            "6557",
+            "7405",
+            "",
+            "125",
+            "8488",
+            "163328",
+            "67",
+            "",
+            "",
+            "23987"
+        ],
+        "name": [
+            "Урок 2. JVM. Полное погружение",
+            "LibreOffice Calc",
+            "LibreOffice Writer",
+            "Урок 1. Проектирование архитектуры и модели данных",
+            "server_settings.json",
+            "screen01.png",
+            "screen00.png",
+            "сlient_settings.json",
+            "Kotlin",
+            "Урок 3. Сборщики проектов",
+            "screen03.png"
+        ],
+        "type": [
+            "dir",
+            "file",
+            "file",
+            "dir",
+            "file",
+            "file",
+            "file",
+            "file",
+            "dir",
+            "dir",
+            "file"
+        ]
+    },
+    "response": "list"
+}
+[INFO ] 2018-01-21 13:51:14.132 [Admin] Server - onGet : User Admin on Socket[addr=/127.0.0.1,port=54200,localport=8189] : <-- 
+{
+    "request": "list",
+    "data": {"path": "/Kotlin"}
+}
+[INFO ] 2018-01-21 13:51:14.157 [Admin] Server - onPost : User Admin on Socket[addr=/127.0.0.1,port=54200,localport=8189] : --> 
+{
+    "data": {
+        "date": [
+            "24.12.2017 15:52:21",
+            "24.12.2017 15:52:6",
+            "24.12.2017 15:52:3",
+            "24.12.2017 15:52:3"
+        ],
+        "size": [
+            "",
+            "",
+            "",
+            "498"
+        ],
+        "name": [
+            ".idea",
+            ".git",
+            "src",
+            "Kotlin.iml"
+        ],
+        "type": [
+            "dir",
+            "dir",
+            "dir",
+            "file"
+        ]
+    },
+    "response": "list"
+}
+[INFO ] 2018-01-21 13:51:15.397 [Admin] Server - onGet : User Admin on Socket[addr=/127.0.0.1,port=54200,localport=8189] : <-- 
+{
+    "request": "list",
+    "data": {"path": "/Kotlin/src"}
+}
+[INFO ] 2018-01-21 13:51:15.419 [Admin] Server - onPost : User Admin on Socket[addr=/127.0.0.1,port=54200,localport=8189] : --> 
+{
+    "data": {
+        "date": ["24.12.2017 15:52:3"],
+        "size": [""],
+        "name": ["ru"],
+        "type": ["dir"]
+    },
+    "response": "list"
+}
+[INFO ] 2018-01-21 13:51:16.425 [Admin] Server - onGet : User Admin on Socket[addr=/127.0.0.1,port=54200,localport=8189] : <-- 
+{
+    "request": "list",
+    "data": {"path": "/Kotlin/src/ru"}
+}
+[INFO ] 2018-01-21 13:51:16.438 [Admin] Server - onPost : User Admin on Socket[addr=/127.0.0.1,port=54200,localport=8189] : --> 
+{
+    "data": {
+        "date": ["24.12.2017 15:52:3"],
+        "size": [""],
+        "name": ["davidlevi"],
+        "type": ["dir"]
+    },
+    "response": "list"
+}
+[INFO ] 2018-01-21 13:51:21.214 [Admin] Server - onGet : User Admin on Socket[addr=/127.0.0.1,port=54200,localport=8189] : <-- 
+{
+    "request": "create-folder",
+    "data": {"new-folder": "/Kotlin/src/ru/152"}
+}
+[INFO ] 2018-01-21 13:51:21.224 [Admin] Server - Новый каталог '/Kotlin/src/ru/152' пользователя 'Admin' создан.
+[INFO ] 2018-01-21 13:51:21.229 [Admin] Server - onPost : User Admin on Socket[addr=/127.0.0.1,port=54200,localport=8189] : --> 
+{
+    "data": {
+        "date": [
+            "24.12.2017 15:52:3",
+            "21.01.2018 13:51:21"
+        ],
+        "size": [
+            "",
+            ""
+        ],
+        "name": [
+            "davidlevi",
+            "152"
+        ],
+        "type": [
+            "dir",
+            "dir"
+        ]
+    },
+    "response": "list"
+}
+[INFO ] 2018-01-21 13:51:25.361 [Admin] Server - onGet : User Admin on Socket[addr=/127.0.0.1,port=54200,localport=8189] : <-- 
+{
+    "request": "delete",
+    "data": {"path": "/Kotlin/src/ru/152"}
+}
+[INFO ] 2018-01-21 13:51:25.457 [Admin] Server - Удален путь '/Kotlin/src/ru/152' у пользователя 'Admin' в хранилище.
+[INFO ] 2018-01-21 13:51:25.461 [Admin] Server - onPost : User Admin on Socket[addr=/127.0.0.1,port=54200,localport=8189] : --> 
+{
+    "data": {
+        "date": ["24.12.2017 15:52:3"],
+        "size": [""],
+        "name": ["davidlevi"],
+        "type": ["dir"]
+    },
+    "response": "list"
+}
+[INFO ] 2018-01-21 13:51:27.520 [Admin] Server - onGet : User Admin on Socket[addr=/127.0.0.1,port=54200,localport=8189] : <-- 
+{
+    "request": "list",
+    "data": {"path": "/Kotlin/src/ru/davidlevi"}
+}
+[INFO ] 2018-01-21 13:51:27.537 [Admin] Server - onPost : User Admin on Socket[addr=/127.0.0.1,port=54200,localport=8189] : --> 
+{
+    "data": {
+        "date": [
+            "24.12.2017 15:52:3",
+            "24.12.2017 15:52:3",
+            "24.12.2017 15:52:3",
+            "24.12.2017 15:52:3",
+            "24.12.2017 15:52:3",
+            "24.12.2017 15:52:3",
+            "24.12.2017 15:52:3",
+            "24.12.2017 15:52:3",
+            "24.12.2017 15:52:3"
+        ],
+        "size": [
+            "2981",
+            "123",
+            "430",
+            "548",
+            "1624",
+            "22",
+            "21990",
+            "1103",
+            "743"
+        ],
+        "name": [
+            "Person.kt",
+            "Adam.kt",
+            "Employer.kt",
+            "Singleton1.kt",
+            "Class01.kt",
+            "Direction.kt",
+            "MainClass.kt",
+            "Singleton2.kt",
+            "Enumm.kt"
+        ],
+        "type": [
+            "file",
+            "file",
+            "file",
+            "file",
+            "file",
+            "file",
+            "file",
+            "file",
+            "file"
+        ]
+    },
+    "response": "list"
+}
+[INFO ] 2018-01-21 13:51:33.816 [Admin] Server - onGet : User Admin on Socket[addr=/127.0.0.1,port=54200,localport=8189] : <-- 
+{
+    "request": "upload",
+    "data": {"filename": "/Kotlin/src/ru/davidlevi/screen02.png"}
+}
+[INFO ] 2018-01-21 13:51:33.845 [Admin] FileTransferThread - Receive file 'screen02.png' from 'Admin'.
+[INFO ] 2018-01-21 13:51:33.893 [Admin] Server - onPost : User Admin on Socket[addr=/127.0.0.1,port=54200,localport=8189] : --> 
+{
+    "data": {"socket": {
+        "hostname": "192.168.0.30",
+        "port": 62501,
+        "key": "/Kotlin/src/ru/davidlevi/screen02.png"
+    }},
+    "response": "ready-upload"
+}
+[INFO ] 2018-01-21 13:51:33.904 [screen02.png] Server - onStart : Receive file 'screen02.png' from 'Admin'.
+[INFO ] 2018-01-21 13:51:35.385 [Client] FileTransferThread - Send file 'screen02.png' to 'Client' on 192.168.0.30:62501.
+[INFO ] 2018-01-21 13:51:35.424 [screen02.png] Server - onPost : User Admin on Socket[addr=/127.0.0.1,port=54200,localport=8189] : --> 
+{
+    "data": {
+        "date": [
+            "24.12.2017 15:52:3",
+            "24.12.2017 15:52:3",
+            "24.12.2017 15:52:3",
+            "24.12.2017 15:52:3",
+            "24.12.2017 15:52:3",
+            "24.12.2017 15:52:3",
+            "24.12.2017 15:52:3",
+            "24.12.2017 15:52:3",
+            "21.01.2018 13:51:35",
+            "24.12.2017 15:52:3"
+        ],
+        "size": [
+            "2981",
+            "123",
+            "430",
+            "548",
+            "1624",
+            "22",
+            "21990",
+            "1103",
+            "13585",
+            "743"
+        ],
+        "name": [
+            "Person.kt",
+            "Adam.kt",
+            "Employer.kt",
+            "Singleton1.kt",
+            "Class01.kt",
+            "Direction.kt",
+            "MainClass.kt",
+            "Singleton2.kt",
+            "screen02.png",
+            "Enumm.kt"
+        ],
+        "type": [
+            "file",
+            "file",
+            "file",
+            "file",
+            "file",
+            "file",
+            "file",
+            "file",
+            "file",
+            "file"
+        ]
+    },
+    "response": "list"
+}
+[INFO ] 2018-01-21 13:51:35.426 [screen02.png] Server - onStop : Receive file 'screen02.png' from 'Admin'.
+[INFO ] 2018-01-21 13:51:43.479 [JavaFX Application Thread] FileTransferThread - Receive file 'screen02.png' from 'Client'.
+[INFO ] 2018-01-21 13:51:43.491 [Admin] Server - onGet : User Admin on Socket[addr=/127.0.0.1,port=54200,localport=8189] : <-- 
+{
+    "request": "download",
+    "data": {
+        "filename": "/Kotlin/src/ru/davidlevi/screen02.png",
+        "socket": {
+            "hostname": "192.168.0.30",
+            "port": 62790
+        }
+    }
+}
+[INFO ] 2018-01-21 13:51:43.517 [Admin] FileTransferThread - Send file 'screen02.png' to 'Admin' on 192.168.0.30:62790.
+[INFO ] 2018-01-21 13:51:43.533 [screen02.png] Server - onStart : Send file 'screen02.png' to 'Admin' on 192.168.0.30:62790.
+[INFO ] 2018-01-21 13:51:43.578 [screen02.png] Server - onStop : Send file 'screen02.png' to 'Admin' on 192.168.0.30:62790.
+[INFO ] 2018-01-21 13:51:45.495 [Admin] Server - onGet : User Admin on Socket[addr=/127.0.0.1,port=54200,localport=8189] : <-- 
+{
+    "request": "list",
+    "data": {"path": "/"}
+}
+[INFO ] 2018-01-21 13:51:45.514 [Admin] Server - onPost : User Admin on Socket[addr=/127.0.0.1,port=54200,localport=8189] : --> 
+{
+    "data": {
+        "date": [
+            "21.01.2018 13:25:6",
+            "04.01.2018 13:58:32",
+            "04.01.2018 13:58:39",
+            "31.12.2017 11:6:23",
+            "31.12.2017 11:6:59",
+            "04.01.2018 12:20:36",
+            "03.01.2018 11:30:1",
+            "31.12.2017 11:7:11",
+            "24.12.2017 15:52:3",
+            "03.01.2018 9:12:42",
+            "03.01.2018 11:30:6"
+        ],
+        "size": [
+            "",
+            "6557",
+            "7405",
+            "",
+            "125",
+            "8488",
+            "163328",
+            "67",
+            "",
+            "",
+            "23987"
+        ],
+        "name": [
+            "Урок 2. JVM. Полное погружение",
+            "LibreOffice Calc",
+            "LibreOffice Writer",
+            "Урок 1. Проектирование архитектуры и модели данных",
+            "server_settings.json",
+            "screen01.png",
+            "screen00.png",
+            "сlient_settings.json",
+            "Kotlin",
+            "Урок 3. Сборщики проектов",
+            "screen03.png"
+        ],
+        "type": [
+            "dir",
+            "file",
+            "file",
+            "dir",
+            "file",
+            "file",
+            "file",
+            "file",
+            "dir",
+            "dir",
+            "file"
+        ]
+    },
+    "response": "list"
+}
+[INFO ] 2018-01-21 13:51:50.776 [Admin] Server - onException : User Admin on Socket[addr=/127.0.0.1,port=54200,localport=8189] : java.io.EOFException
+[INFO ] 2018-01-21 13:51:50.777 [Admin] Server - onStop : User Admin on Socket[addr=/127.0.0.1,port=54200,localport=8189]
+[INFO ] 2018-01-21 13:52:15.210 [ServerThread] Server - onAccepted : Socket[addr=/127.0.0.1,port=54226,localport=8189]
+[INFO ] 2018-01-21 13:52:15.213 [ClientThread] Server - onStart : User ClientThread on Socket[addr=/127.0.0.1,port=54226,localport=8189]
+[INFO ] 2018-01-21 13:52:15.214 [ClientThread] Server - onReady : User ClientThread on Socket[addr=/127.0.0.1,port=54226,localport=8189]
+[INFO ] 2018-01-21 13:52:15.319 [ClientThread] Server - onGet : User ClientThread on Socket[addr=/127.0.0.1,port=54226,localport=8189] : <-- 
+{
+    "request": "registration",
+    "data": {
+        "password": "david",
+        "nickname": "david",
+        "login": "david",
+        "email": "david@server.com"
+    }
+}
+[INFO ] 2018-01-21 13:52:15.428 [ClientThread] Server - Личный каталог '/store/david/249c34fd-eb02-42a4-9463-d55977e46c33' для пользователя 'david' зарегистрирован.
+[INFO ] 2018-01-21 13:52:15.451 [ClientThread] Server - onPost : User ClientThread on Socket[addr=/127.0.0.1,port=54226,localport=8189] : --> 
+{
+    "data": {"message": "Пользователь 'david' зарегистрирован."},
+    "response": "registred"
+}
+[INFO ] 2018-01-21 13:52:15.452 [ClientThread] Server - User 'david' registred.
+[INFO ] 2018-01-21 13:52:15.455 [ClientThread] Server - onException : User ClientThread on Socket[addr=/127.0.0.1,port=54226,localport=8189] : java.io.EOFException
+[INFO ] 2018-01-21 13:52:15.457 [ClientThread] Server - onStop : User ClientThread on Socket[addr=/127.0.0.1,port=54226,localport=8189]
+[INFO ] 2018-01-21 13:52:29.818 [ServerThread] Server - onAccepted : Socket[addr=/127.0.0.1,port=54232,localport=8189]
+[INFO ] 2018-01-21 13:52:29.821 [ClientThread] Server - onStart : User ClientThread on Socket[addr=/127.0.0.1,port=54232,localport=8189]
+[INFO ] 2018-01-21 13:52:29.822 [ClientThread] Server - onReady : User ClientThread on Socket[addr=/127.0.0.1,port=54232,localport=8189]
+[INFO ] 2018-01-21 13:52:29.919 [ClientThread] Server - onGet : User ClientThread on Socket[addr=/127.0.0.1,port=54232,localport=8189] : <-- 
+{
+    "request": "authentication",
+    "data": {
+        "password": "david",
+        "login": "david"
+    }
+}
+[INFO ] 2018-01-21 13:52:29.965 [ClientThread] Server - onPost : User ClientThread on Socket[addr=/127.0.0.1,port=54232,localport=8189] : --> 
+{
+    "data": {"nickname": "david"},
+    "response": "authorization"
+}
+[INFO ] 2018-01-21 13:52:30.191 [david] Server - onGet : User david on Socket[addr=/127.0.0.1,port=54232,localport=8189] : <-- 
+{
+    "request": "list",
+    "data": {"path": "/"}
+}
+[INFO ] 2018-01-21 13:52:30.206 [david] Server - onPost : User david on Socket[addr=/127.0.0.1,port=54232,localport=8189] : --> 
+{
+    "data": {
+        "date": [],
+        "size": [],
+        "name": [],
+        "type": []
+    },
+    "response": "list"
+}
+[INFO ] 2018-01-21 13:52:43.240 [david] Server - onGet : User david on Socket[addr=/127.0.0.1,port=54232,localport=8189] : <-- 
+{
+    "request": "upload",
+    "data": {"filename": "/screen01.png"}
+}
+[INFO ] 2018-01-21 13:52:43.248 [david] FileTransferThread - Receive file 'screen01.png' from 'david'.
+[INFO ] 2018-01-21 13:52:43.255 [david] Server - onPost : User david on Socket[addr=/127.0.0.1,port=54232,localport=8189] : --> 
+{
+    "data": {"socket": {
+        "hostname": "192.168.0.30",
+        "port": 50679,
+        "key": "/screen01.png"
+    }},
+    "response": "ready-upload"
+}
+[INFO ] 2018-01-21 13:52:43.256 [screen01.png] Server - onStart : Receive file 'screen01.png' from 'david'.
+[INFO ] 2018-01-21 13:52:44.459 [Client] FileTransferThread - Send file 'screen01.png' to 'Client' on 192.168.0.30:50679.
+[INFO ] 2018-01-21 13:52:44.493 [screen01.png] Server - onPost : User david on Socket[addr=/127.0.0.1,port=54232,localport=8189] : --> 
+{
+    "data": {
+        "date": ["21.01.2018 13:52:44"],
+        "size": ["8488"],
+        "name": ["screen01.png"],
+        "type": ["file"]
+    },
+    "response": "list"
+}
+[INFO ] 2018-01-21 13:52:44.494 [screen01.png] Server - onStop : Receive file 'screen01.png' from 'david'.
+[INFO ] 2018-01-21 13:52:48.140 [david] Server - onGet : User david on Socket[addr=/127.0.0.1,port=54232,localport=8189] : <-- 
+{
+    "request": "list",
+    "data": {"path": "/"}
+}
+[INFO ] 2018-01-21 13:52:48.151 [david] Server - onPost : User david on Socket[addr=/127.0.0.1,port=54232,localport=8189] : --> 
+{
+    "data": {
+        "date": ["21.01.2018 13:52:44"],
+        "size": ["8488"],
+        "name": ["screen01.png"],
+        "type": ["file"]
+    },
+    "response": "list"
+}
+[INFO ] 2018-01-21 13:53:17.872 [david] Server - onException : User david on Socket[addr=/127.0.0.1,port=54232,localport=8189] : java.net.SocketException: Socket closed
+[INFO ] 2018-01-21 13:53:17.873 [david] Server - onStop : User david on Socket[addr=/127.0.0.1,port=54232,localport=8189]
+[INFO ] 2018-01-21 13:54:25.706 [JavaFX Application Thread] HibernateFactory - Hibernate stoped.
+[INFO ] 2018-01-21 13:54:25.709 [JavaFX Application Thread] pooling - HHH10001008: Cleaning up connection pool [jdbc:mysql://localhost:3306/jis?useSSL=false]
+[INFO ] 2018-01-21 14:00:00.286 [JavaFX Application Thread] Settings - 
+  i i i i i i i
+  I I I I I I I
+  I  \ `+' /  I
+   \  `-+-'  /
+    `-__|__-'
+        |
+  ------+------
+[INFO ] 2018-01-21 14:00:00.441 [JavaFX Application Thread] Settings - Настройки сервера загружены.
+[INFO ] 2018-01-21 14:00:06.056 [JavaFX Application Thread] HibernateFactory - Hibernate is building...
+[INFO ] 2018-01-21 14:00:06.364 [JavaFX Application Thread] Version - HHH000412: Hibernate Core {5.2.12.Final}
+[INFO ] 2018-01-21 14:00:06.370 [JavaFX Application Thread] Environment - HHH000206: hibernate.properties not found
+[INFO ] 2018-01-21 14:00:07.163 [JavaFX Application Thread] Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+[WARN ] 2018-01-21 14:00:09.286 [JavaFX Application Thread] pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+[INFO ] 2018-01-21 14:00:09.306 [JavaFX Application Thread] pooling - HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/jis?useSSL=false]
+[INFO ] 2018-01-21 14:00:09.307 [JavaFX Application Thread] pooling - HHH10001001: Connection properties: {password=****, user=jis}
+[INFO ] 2018-01-21 14:00:09.307 [JavaFX Application Thread] pooling - HHH10001003: Autocommit mode: false
+[INFO ] 2018-01-21 14:00:09.313 [JavaFX Application Thread] DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 20 (min=1)
+[INFO ] 2018-01-21 14:00:10.032 [JavaFX Application Thread] Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+[INFO ] 2018-01-21 14:00:10.220 [JavaFX Application Thread] EnversServiceImpl - Envers integration enabled? : true
+[INFO ] 2018-01-21 14:00:11.187 [JavaFX Application Thread] QueryTranslatorFactoryInitiator - HHH000397: Using ASTQueryTranslatorFactory
+[INFO ] 2018-01-21 14:00:11.408 [JavaFX Application Thread] HibernateFactory - Hibernate created.
+[INFO ] 2018-01-21 14:00:11.571 [ServerThread] Server - onStart
+[INFO ] 2018-01-21 14:00:11.583 [ServerThread] Server - onReady /127.0.0.1:8189
+[INFO ] 2018-01-21 14:00:52.699 [ServerThread] Server - onAccepted : Socket[addr=/127.0.0.1,port=54354,localport=8189]
+[INFO ] 2018-01-21 14:00:52.736 [ClientThread] Server - onStart : User ClientThread on Socket[addr=/127.0.0.1,port=54354,localport=8189]
+[INFO ] 2018-01-21 14:00:52.745 [ClientThread] Server - onReady : User ClientThread on Socket[addr=/127.0.0.1,port=54354,localport=8189]
+[INFO ] 2018-01-21 14:00:52.900 [ClientThread] Server - onGet : User ClientThread on Socket[addr=/127.0.0.1,port=54354,localport=8189] : <-- 
+{
+    "request": "authentication",
+    "data": {
+        "password": "david",
+        "login": "david"
+    }
+}
+[INFO ] 2018-01-21 14:00:53.247 [ClientThread] Server - onPost : User ClientThread on Socket[addr=/127.0.0.1,port=54354,localport=8189] : --> 
+{
+    "data": {"nickname": "david"},
+    "response": "authorization"
+}
+[INFO ] 2018-01-21 14:00:53.554 [david] Server - onGet : User david on Socket[addr=/127.0.0.1,port=54354,localport=8189] : <-- 
+{
+    "request": "list",
+    "data": {"path": "/"}
+}
+[INFO ] 2018-01-21 14:00:53.576 [david] Server - onPost : User david on Socket[addr=/127.0.0.1,port=54354,localport=8189] : --> 
+{
+    "data": {
+        "date": ["21.01.2018 13:52:44"],
+        "size": ["8488"],
+        "name": ["screen01.png"],
+        "type": ["file"]
+    },
+    "response": "list"
+}
+[INFO ] 2018-01-21 14:06:48.000 [david] Server - onGet : User david on Socket[addr=/127.0.0.1,port=54354,localport=8189] : <-- 
+{
+    "request": "upload",
+    "data": {"filename": "/screen03.png"}
+}
+[INFO ] 2018-01-21 14:06:48.029 [david] FileTransferThread - Receive file 'screen03.png' from 'david'.
+[INFO ] 2018-01-21 14:06:48.043 [david] Server - onPost : User david on Socket[addr=/127.0.0.1,port=54354,localport=8189] : --> 
+{
+    "data": {"socket": {
+        "hostname": "192.168.0.30",
+        "port": 58691,
+        "key": "/screen03.png"
+    }},
+    "response": "ready-upload"
+}
+[INFO ] 2018-01-21 14:06:48.045 [screen03.png] Server - onStart : Receive file 'screen03.png' from 'david'.
+[INFO ] 2018-01-21 14:06:49.740 [Client] FileTransferThread - Send file 'screen03.png' to 'Client' on 192.168.0.30:58691.
+[INFO ] 2018-01-21 14:06:49.829 [screen03.png] Server - onPost : User david on Socket[addr=/127.0.0.1,port=54354,localport=8189] : --> 
+{
+    "data": {
+        "date": [
+            "21.01.2018 13:52:44",
+            "21.01.2018 14:6:49"
+        ],
+        "size": [
+            "8488",
+            "52903"
+        ],
+        "name": [
+            "screen01.png",
+            "screen03.png"
+        ],
+        "type": [
+            "file",
+            "file"
+        ]
+    },
+    "response": "list"
+}
+[INFO ] 2018-01-21 14:06:49.830 [screen03.png] Server - onStop : Receive file 'screen03.png' from 'david'.
+[INFO ] 2018-01-21 14:09:38.707 [david] Server - onGet : User david on Socket[addr=/127.0.0.1,port=54354,localport=8189] : <-- 
+{
+    "request": "list",
+    "data": {"path": "/"}
+}
+[INFO ] 2018-01-21 14:09:38.719 [david] Server - onPost : User david on Socket[addr=/127.0.0.1,port=54354,localport=8189] : --> 
+{
+    "data": {
+        "date": [
+            "21.01.2018 13:52:44",
+            "21.01.2018 14:6:49"
+        ],
+        "size": [
+            "8488",
+            "52903"
+        ],
+        "name": [
+            "screen01.png",
+            "screen03.png"
+        ],
+        "type": [
+            "file",
+            "file"
+        ]
+    },
+    "response": "list"
+}
+[INFO ] 2018-01-21 14:09:46.922 [david] Server - onGet : User david on Socket[addr=/127.0.0.1,port=54354,localport=8189] : <-- 
+{
+    "request": "create-folder",
+    "data": {"new-folder": "/new folder"}
+}
+[INFO ] 2018-01-21 14:09:46.946 [david] Server - Новый каталог '/new folder' пользователя 'david' создан.
+[INFO ] 2018-01-21 14:09:46.967 [david] Server - onPost : User david on Socket[addr=/127.0.0.1,port=54354,localport=8189] : --> 
+{
+    "data": {
+        "date": [
+            "21.01.2018 13:52:44",
+            "21.01.2018 14:9:46",
+            "21.01.2018 14:6:49"
+        ],
+        "size": [
+            "8488",
+            "",
+            "52903"
+        ],
+        "name": [
+            "screen01.png",
+            "new folder",
+            "screen03.png"
+        ],
+        "type": [
+            "file",
+            "dir",
+            "file"
+        ]
+    },
+    "response": "list"
+}
+[INFO ] 2018-01-21 14:09:48.964 [david] Server - onGet : User david on Socket[addr=/127.0.0.1,port=54354,localport=8189] : <-- 
+{
+    "request": "list",
+    "data": {"path": "/new folder"}
+}
+[INFO ] 2018-01-21 14:09:48.989 [david] Server - onPost : User david on Socket[addr=/127.0.0.1,port=54354,localport=8189] : --> 
+{
+    "data": {
+        "date": [],
+        "size": [],
+        "name": [],
+        "type": []
+    },
+    "response": "list"
+}
+[INFO ] 2018-01-21 14:10:15.630 [david] Server - onGet : User david on Socket[addr=/127.0.0.1,port=54354,localport=8189] : <-- 
+{
+    "request": "list",
+    "data": {"path": "/"}
+}
+[INFO ] 2018-01-21 14:10:15.643 [david] Server - onPost : User david on Socket[addr=/127.0.0.1,port=54354,localport=8189] : --> 
+{
+    "data": {
+        "date": [
+            "21.01.2018 13:52:44",
+            "21.01.2018 14:9:46",
+            "21.01.2018 14:6:49"
+        ],
+        "size": [
+            "8488",
+            "",
+            "52903"
+        ],
+        "name": [
+            "screen01.png",
+            "new folder",
+            "screen03.png"
+        ],
+        "type": [
+            "file",
+            "dir",
+            "file"
+        ]
+    },
+    "response": "list"
+}
+[INFO ] 2018-01-21 14:10:16.723 [david] Server - onGet : User david on Socket[addr=/127.0.0.1,port=54354,localport=8189] : <-- 
+{
+    "request": "list",
+    "data": {"path": "/new folder"}
+}
+[INFO ] 2018-01-21 14:10:16.746 [david] Server - onPost : User david on Socket[addr=/127.0.0.1,port=54354,localport=8189] : --> 
+{
+    "data": {
+        "date": [],
+        "size": [],
+        "name": [],
+        "type": []
+    },
+    "response": "list"
+}
+[INFO ] 2018-01-21 14:10:27.183 [david] Server - onGet : User david on Socket[addr=/127.0.0.1,port=54354,localport=8189] : <-- 
+{
+    "request": "list",
+    "data": {"path": "/"}
+}
+[INFO ] 2018-01-21 14:10:27.205 [david] Server - onPost : User david on Socket[addr=/127.0.0.1,port=54354,localport=8189] : --> 
+{
+    "data": {
+        "date": [
+            "21.01.2018 13:52:44",
+            "21.01.2018 14:9:46",
+            "21.01.2018 14:6:49"
+        ],
+        "size": [
+            "8488",
+            "",
+            "52903"
+        ],
+        "name": [
+            "screen01.png",
+            "new folder",
+            "screen03.png"
+        ],
+        "type": [
+            "file",
+            "dir",
+            "file"
+        ]
+    },
+    "response": "list"
+}
+[INFO ] 2018-01-21 14:12:22.564 [david] Server - onGet : User david on Socket[addr=/127.0.0.1,port=54354,localport=8189] : <-- 
+{
+    "request": "upload",
+    "data": {"filename": "/screen03.png"}
+}
+[INFO ] 2018-01-21 14:12:22.572 [david] FileTransferThread - Receive file 'screen03.png' from 'david'.
+[INFO ] 2018-01-21 14:12:22.577 [david] Server - onPost : User david on Socket[addr=/127.0.0.1,port=54354,localport=8189] : --> 
+{
+    "data": {"socket": {
+        "hostname": "192.168.0.30",
+        "port": 56133,
+        "key": "/screen03.png"
+    }},
+    "response": "ready-upload"
+}
+[INFO ] 2018-01-21 14:12:22.579 [Client] FileTransferThread - Send file 'screen03.png' to 'Client' on 192.168.0.30:56133.
+[INFO ] 2018-01-21 14:12:22.582 [screen03.png] Server - onStart : Receive file 'screen03.png' from 'david'.
+[INFO ] 2018-01-21 14:12:22.831 [screen03.png] Server - onPost : User david on Socket[addr=/127.0.0.1,port=54354,localport=8189] : --> 
+{
+    "data": {
+        "date": [
+            "21.01.2018 13:52:44",
+            "21.01.2018 14:9:46",
+            "21.01.2018 14:12:22"
+        ],
+        "size": [
+            "8488",
+            "",
+            "52903"
+        ],
+        "name": [
+            "screen01.png",
+            "new folder",
+            "screen03.png"
+        ],
+        "type": [
+            "file",
+            "dir",
+            "file"
+        ]
+    },
+    "response": "list"
+}
+[INFO ] 2018-01-21 14:12:22.831 [screen03.png] Server - onStop : Receive file 'screen03.png' from 'david'.
+[INFO ] 2018-01-21 14:12:29.067 [david] Server - onGet : User david on Socket[addr=/127.0.0.1,port=54354,localport=8189] : <-- 
+{
+    "request": "upload",
+    "data": {"filename": "/screen02.png"}
+}
+[INFO ] 2018-01-21 14:12:29.076 [david] FileTransferThread - Receive file 'screen02.png' from 'david'.
+[INFO ] 2018-01-21 14:12:29.082 [david] Server - onPost : User david on Socket[addr=/127.0.0.1,port=54354,localport=8189] : --> 
+{
+    "data": {"socket": {
+        "hostname": "192.168.0.30",
+        "port": 51711,
+        "key": "/screen02.png"
+    }},
+    "response": "ready-upload"
+}
+[INFO ] 2018-01-21 14:12:29.085 [Client] FileTransferThread - Send file 'screen02.png' to 'Client' on 192.168.0.30:51711.
+[INFO ] 2018-01-21 14:12:29.087 [screen02.png] Server - onStart : Receive file 'screen02.png' from 'david'.
+[INFO ] 2018-01-21 14:12:29.109 [screen02.png] Server - onPost : User david on Socket[addr=/127.0.0.1,port=54354,localport=8189] : --> 
+{
+    "data": {
+        "date": [
+            "21.01.2018 13:52:44",
+            "21.01.2018 14:9:46",
+            "21.01.2018 14:12:22",
+            "21.01.2018 14:12:29"
+        ],
+        "size": [
+            "8488",
+            "",
+            "52903",
+            "13585"
+        ],
+        "name": [
+            "screen01.png",
+            "new folder",
+            "screen03.png",
+            "screen02.png"
+        ],
+        "type": [
+            "file",
+            "dir",
+            "file",
+            "file"
+        ]
+    },
+    "response": "list"
+}
+[INFO ] 2018-01-21 14:12:29.110 [screen02.png] Server - onStop : Receive file 'screen02.png' from 'david'.
+[INFO ] 2018-01-21 14:16:03.041 [david] Server - onGet : User david on Socket[addr=/127.0.0.1,port=54354,localport=8189] : <-- 
+{
+    "request": "rename",
+    "data": {
+        "new-path": "/0000",
+        "old-path": "/new folder"
+    }
+}
+[INFO ] 2018-01-21 14:16:03.093 [david] Server - onPost : User david on Socket[addr=/127.0.0.1,port=54354,localport=8189] : --> 
+{
+    "data": {
+        "date": [
+            "21.01.2018 13:52:44",
+            "21.01.2018 14:12:22",
+            "21.01.2018 14:12:29",
+            "21.01.2018 14:9:46"
+        ],
+        "size": [
+            "8488",
+            "52903",
+            "13585",
+            ""
+        ],
+        "name": [
+            "screen01.png",
+            "screen03.png",
+            "screen02.png",
+            "0000"
+        ],
+        "type": [
+            "file",
+            "file",
+            "file",
+            "dir"
+        ]
+    },
+    "response": "list"
+}
+[INFO ] 2018-01-21 14:24:34.152 [david] Server - onException : User david on Socket[addr=/127.0.0.1,port=54354,localport=8189] : java.io.EOFException
+[INFO ] 2018-01-21 14:24:34.162 [david] Server - onStop : User david on Socket[addr=/127.0.0.1,port=54354,localport=8189]
+[INFO ] 2018-01-21 14:25:33.044 [ServerThread] Server - onAccepted : Socket[addr=/127.0.0.1,port=54676,localport=8189]
+[INFO ] 2018-01-21 14:25:33.046 [ClientThread] Server - onStart : User ClientThread on Socket[addr=/127.0.0.1,port=54676,localport=8189]
+[INFO ] 2018-01-21 14:25:33.048 [ClientThread] Server - onReady : User ClientThread on Socket[addr=/127.0.0.1,port=54676,localport=8189]
+[INFO ] 2018-01-21 14:25:33.153 [ClientThread] Server - onGet : User ClientThread on Socket[addr=/127.0.0.1,port=54676,localport=8189] : <-- 
+{
+    "request": "authentication",
+    "data": {
+        "password": "admin",
+        "login": "admin"
+    }
+}
+[INFO ] 2018-01-21 14:25:33.206 [ClientThread] Server - onPost : User ClientThread on Socket[addr=/127.0.0.1,port=54676,localport=8189] : --> 
+{
+    "data": {"nickname": "Admin"},
+    "response": "authorization"
+}
+[INFO ] 2018-01-21 14:25:33.488 [Admin] Server - onGet : User Admin on Socket[addr=/127.0.0.1,port=54676,localport=8189] : <-- 
+{
+    "request": "list",
+    "data": {"path": "/"}
+}
+[INFO ] 2018-01-21 14:25:33.536 [Admin] Server - onPost : User Admin on Socket[addr=/127.0.0.1,port=54676,localport=8189] : --> 
+{
+    "data": {
+        "date": [
+            "21.01.2018 13:25:6",
+            "04.01.2018 13:58:32",
+            "04.01.2018 13:58:39",
+            "31.12.2017 11:6:23",
+            "31.12.2017 11:6:59",
+            "04.01.2018 12:20:36",
+            "03.01.2018 11:30:1",
+            "31.12.2017 11:7:11",
+            "24.12.2017 15:52:3",
+            "03.01.2018 9:12:42",
+            "03.01.2018 11:30:6"
+        ],
+        "size": [
+            "",
+            "6557",
+            "7405",
+            "",
+            "125",
+            "8488",
+            "163328",
+            "67",
+            "",
+            "",
+            "23987"
+        ],
+        "name": [
+            "Урок 2. JVM. Полное погружение",
+            "LibreOffice Calc",
+            "LibreOffice Writer",
+            "Урок 1. Проектирование архитектуры и модели данных",
+            "server_settings.json",
+            "screen01.png",
+            "screen00.png",
+            "сlient_settings.json",
+            "Kotlin",
+            "Урок 3. Сборщики проектов",
+            "screen03.png"
+        ],
+        "type": [
+            "dir",
+            "file",
+            "file",
+            "dir",
+            "file",
+            "file",
+            "file",
+            "file",
+            "dir",
+            "dir",
+            "file"
+        ]
+    },
+    "response": "list"
+}
+[INFO ] 2018-01-21 14:26:13.131 [Admin] Server - onException : User Admin on Socket[addr=/127.0.0.1,port=54676,localport=8189] : java.io.EOFException
+[INFO ] 2018-01-21 14:26:13.132 [Admin] Server - onStop : User Admin on Socket[addr=/127.0.0.1,port=54676,localport=8189]
+[INFO ] 2018-01-21 14:26:57.186 [ServerThread] Server - onAccepted : Socket[addr=/127.0.0.1,port=54698,localport=8189]
+[INFO ] 2018-01-21 14:26:57.191 [ClientThread] Server - onStart : User ClientThread on Socket[addr=/127.0.0.1,port=54698,localport=8189]
+[INFO ] 2018-01-21 14:26:57.191 [ClientThread] Server - onReady : User ClientThread on Socket[addr=/127.0.0.1,port=54698,localport=8189]
+[INFO ] 2018-01-21 14:26:57.299 [ClientThread] Server - onGet : User ClientThread on Socket[addr=/127.0.0.1,port=54698,localport=8189] : <-- 
+{
+    "request": "authentication",
+    "data": {
+        "password": "admin",
+        "login": "admin"
+    }
+}
+[INFO ] 2018-01-21 14:26:57.363 [ClientThread] Server - onPost : User ClientThread on Socket[addr=/127.0.0.1,port=54698,localport=8189] : --> 
+{
+    "data": {"nickname": "Admin"},
+    "response": "authorization"
+}
+[INFO ] 2018-01-21 14:26:57.675 [Admin] Server - onGet : User Admin on Socket[addr=/127.0.0.1,port=54698,localport=8189] : <-- 
+{
+    "request": "list",
+    "data": {"path": "/"}
+}
+[INFO ] 2018-01-21 14:26:57.705 [Admin] Server - onPost : User Admin on Socket[addr=/127.0.0.1,port=54698,localport=8189] : --> 
+{
+    "data": {
+        "date": [
+            "21.01.2018 13:25:6",
+            "04.01.2018 13:58:32",
+            "04.01.2018 13:58:39",
+            "31.12.2017 11:6:23",
+            "31.12.2017 11:6:59",
+            "04.01.2018 12:20:36",
+            "03.01.2018 11:30:1",
+            "31.12.2017 11:7:11",
+            "24.12.2017 15:52:3",
+            "03.01.2018 9:12:42",
+            "03.01.2018 11:30:6"
+        ],
+        "size": [
+            "",
+            "6557",
+            "7405",
+            "",
+            "125",
+            "8488",
+            "163328",
+            "67",
+            "",
+            "",
+            "23987"
+        ],
+        "name": [
+            "Урок 2. JVM. Полное погружение",
+            "LibreOffice Calc",
+            "LibreOffice Writer",
+            "Урок 1. Проектирование архитектуры и модели данных",
+            "server_settings.json",
+            "screen01.png",
+            "screen00.png",
+            "сlient_settings.json",
+            "Kotlin",
+            "Урок 3. Сборщики проектов",
+            "screen03.png"
+        ],
+        "type": [
+            "dir",
+            "file",
+            "file",
+            "dir",
+            "file",
+            "file",
+            "file",
+            "file",
+            "dir",
+            "dir",
+            "file"
+        ]
+    },
+    "response": "list"
+}
+[INFO ] 2018-01-21 14:27:24.936 [Admin] Server - onException : User Admin on Socket[addr=/127.0.0.1,port=54698,localport=8189] : java.io.EOFException
+[INFO ] 2018-01-21 14:27:24.936 [Admin] Server - onStop : User Admin on Socket[addr=/127.0.0.1,port=54698,localport=8189]
+[INFO ] 2018-01-21 14:32:10.830 [ServerThread] Server - onAccepted : Socket[addr=/127.0.0.1,port=54766,localport=8189]
+[INFO ] 2018-01-21 14:32:10.832 [ClientThread] Server - onStart : User ClientThread on Socket[addr=/127.0.0.1,port=54766,localport=8189]
+[INFO ] 2018-01-21 14:32:10.833 [ClientThread] Server - onReady : User ClientThread on Socket[addr=/127.0.0.1,port=54766,localport=8189]
+[INFO ] 2018-01-21 14:32:10.936 [ClientThread] Server - onGet : User ClientThread on Socket[addr=/127.0.0.1,port=54766,localport=8189] : <-- 
+{
+    "request": "authentication",
+    "data": {
+        "password": "david",
+        "login": "david"
+    }
+}
+[INFO ] 2018-01-21 14:32:10.972 [ClientThread] Server - onPost : User ClientThread on Socket[addr=/127.0.0.1,port=54766,localport=8189] : --> 
+{
+    "data": {"nickname": "david"},
+    "response": "authorization"
+}
+[INFO ] 2018-01-21 14:32:11.246 [david] Server - onGet : User david on Socket[addr=/127.0.0.1,port=54766,localport=8189] : <-- 
+{
+    "request": "list",
+    "data": {"path": "/"}
+}
+[INFO ] 2018-01-21 14:32:11.262 [david] Server - onPost : User david on Socket[addr=/127.0.0.1,port=54766,localport=8189] : --> 
+{
+    "data": {
+        "date": [
+            "21.01.2018 13:52:44",
+            "21.01.2018 14:12:22",
+            "21.01.2018 14:12:29",
+            "21.01.2018 14:9:46"
+        ],
+        "size": [
+            "8488",
+            "52903",
+            "13585",
+            ""
+        ],
+        "name": [
+            "screen01.png",
+            "screen03.png",
+            "screen02.png",
+            "0000"
+        ],
+        "type": [
+            "file",
+            "file",
+            "file",
+            "dir"
+        ]
+    },
+    "response": "list"
+}
+[INFO ] 2018-01-21 14:33:08.875 [david] Server - onGet : User david on Socket[addr=/127.0.0.1,port=54766,localport=8189] : <-- 
+{
+    "request": "upload",
+    "data": {"filename": "/server_settings.json"}
+}
+[INFO ] 2018-01-21 14:33:08.905 [david] FileTransferThread - Receive file 'server_settings.json' from 'david'.
+[INFO ] 2018-01-21 14:33:08.926 [david] Server - onPost : User david on Socket[addr=/127.0.0.1,port=54766,localport=8189] : --> 
+{
+    "data": {"socket": {
+        "hostname": "192.168.0.30",
+        "port": 64312,
+        "key": "/server_settings.json"
+    }},
+    "response": "ready-upload"
+}
+[INFO ] 2018-01-21 14:33:08.955 [server_settings.json] Server - onStart : Receive file 'server_settings.json' from 'david'.
+[INFO ] 2018-01-21 14:33:10.569 [Client] FileTransferThread - Send file 'server_settings.json' to 'Client' on 192.168.0.30:64312.
+[INFO ] 2018-01-21 14:33:10.600 [server_settings.json] Server - onPost : User david on Socket[addr=/127.0.0.1,port=54766,localport=8189] : --> 
+{
+    "data": {
+        "date": [
+            "21.01.2018 14:33:10",
+            "21.01.2018 13:52:44",
+            "21.01.2018 14:12:22",
+            "21.01.2018 14:12:29",
+            "21.01.2018 14:9:46"
+        ],
+        "size": [
+            "125",
+            "8488",
+            "52903",
+            "13585",
+            ""
+        ],
+        "name": [
+            "server_settings.json",
+            "screen01.png",
+            "screen03.png",
+            "screen02.png",
+            "0000"
+        ],
+        "type": [
+            "file",
+            "file",
+            "file",
+            "file",
+            "dir"
+        ]
+    },
+    "response": "list"
+}
+[INFO ] 2018-01-21 14:33:10.600 [server_settings.json] Server - onStop : Receive file 'server_settings.json' from 'david'.
+[INFO ] 2018-01-21 14:50:50.222 [david] Server - onGet : User david on Socket[addr=/127.0.0.1,port=54766,localport=8189] : <-- 
+{
+    "request": "list",
+    "data": {"path": "/0000"}
+}
+[INFO ] 2018-01-21 14:50:50.234 [david] Server - onPost : User david on Socket[addr=/127.0.0.1,port=54766,localport=8189] : --> 
+{
+    "data": {
+        "date": [],
+        "size": [],
+        "name": [],
+        "type": []
+    },
+    "response": "list"
+}
+[INFO ] 2018-01-21 14:50:56.827 [david] Server - onGet : User david on Socket[addr=/127.0.0.1,port=54766,localport=8189] : <-- 
+{
+    "request": "create-folder",
+    "data": {"new-folder": "/0000/156"}
+}
+[INFO ] 2018-01-21 14:50:56.836 [david] Server - Новый каталог '/0000/156' пользователя 'david' создан.
+[INFO ] 2018-01-21 14:50:56.838 [david] Server - onPost : User david on Socket[addr=/127.0.0.1,port=54766,localport=8189] : --> 
+{
+    "data": {
+        "date": ["21.01.2018 14:50:56"],
+        "size": [""],
+        "name": ["156"],
+        "type": ["dir"]
+    },
+    "response": "list"
+}
+[INFO ] 2018-01-21 14:51:02.679 [david] Server - onGet : User david on Socket[addr=/127.0.0.1,port=54766,localport=8189] : <-- 
+{
+    "request": "upload",
+    "data": {"filename": "/0000/README.md"}
+}
+[INFO ] 2018-01-21 14:51:02.694 [david] FileTransferThread - Receive file 'README.md' from 'david'.
+[INFO ] 2018-01-21 14:51:02.710 [david] Server - onPost : User david on Socket[addr=/127.0.0.1,port=54766,localport=8189] : --> 
+{
+    "data": {"socket": {
+        "hostname": "192.168.0.30",
+        "port": 64508,
+        "key": "/0000/README.md"
+    }},
+    "response": "ready-upload"
+}
+[INFO ] 2018-01-21 14:51:02.713 [Client] FileTransferThread - Send file 'README.md' to 'Client' on 192.168.0.30:64508.
+[INFO ] 2018-01-21 14:51:02.717 [README.md] Server - onStart : Receive file 'README.md' from 'david'.
+[INFO ] 2018-01-21 14:51:02.739 [README.md] Server - onPost : User david on Socket[addr=/127.0.0.1,port=54766,localport=8189] : --> 
+{
+    "data": {
+        "date": [
+            "21.01.2018 14:50:56",
+            "21.01.2018 14:51:2"
+        ],
+        "size": [
+            "",
+            "3405"
+        ],
+        "name": [
+            "156",
+            "README.md"
+        ],
+        "type": [
+            "dir",
+            "file"
+        ]
+    },
+    "response": "list"
+}
+[INFO ] 2018-01-21 14:51:02.740 [README.md] Server - onStop : Receive file 'README.md' from 'david'.
+[INFO ] 2018-01-21 14:51:08.707 [JavaFX Application Thread] FileTransferThread - Receive file 'README.md' from 'Client'.
+[INFO ] 2018-01-21 14:51:08.733 [david] Server - onGet : User david on Socket[addr=/127.0.0.1,port=54766,localport=8189] : <-- 
+{
+    "request": "download",
+    "data": {
+        "filename": "/0000/README.md",
+        "socket": {
+            "hostname": "192.168.0.30",
+            "port": 65149
+        }
+    }
+}
+[INFO ] 2018-01-21 14:51:08.753 [david] FileTransferThread - Send file 'README.md' to 'david' on 192.168.0.30:65149.
+[INFO ] 2018-01-21 14:51:08.769 [README.md] Server - onStart : Send file 'README.md' to 'david' on 192.168.0.30:65149.
+[INFO ] 2018-01-21 14:51:08.781 [README.md] Server - onStop : Send file 'README.md' to 'david' on 192.168.0.30:65149.
+[INFO ] 2018-01-21 14:53:27.765 [david] Server - onGet : User david on Socket[addr=/127.0.0.1,port=54766,localport=8189] : <-- 
+{
+    "request": "upload",
+    "data": {"filename": "/0000/Урок 1. Проектирование архитектуры и модели данных.mp4"}
+}
+[INFO ] 2018-01-21 14:53:27.786 [david] FileTransferThread - Receive file 'Урок 1. Проектирование архитектуры и модели данных.mp4' from 'david'.
+[INFO ] 2018-01-21 14:53:27.807 [david] Server - onPost : User david on Socket[addr=/127.0.0.1,port=54766,localport=8189] : --> 
+{
+    "data": {"socket": {
+        "hostname": "192.168.0.30",
+        "port": 47017,
+        "key": "/0000/Урок 1. Проектирование архитектуры и модели данных.mp4"
+    }},
+    "response": "ready-upload"
+}
+[INFO ] 2018-01-21 14:53:27.809 [Client] FileTransferThread - Send file 'Урок 1. Проектирование архитектуры и модели данных.mp4' to 'Client' on 192.168.0.30:47017.
+[INFO ] 2018-01-21 14:53:27.815 [Урок 1. Проектирование архитектуры и модели данных.mp4] Server - onStart : Receive file 'Урок 1. Проектирование архитектуры и модели данных.mp4' from 'david'.
+[INFO ] 2018-01-21 14:53:32.800 [david] Server - onGet : User david on Socket[addr=/127.0.0.1,port=54766,localport=8189] : <-- 
+{
+    "request": "list",
+    "data": {"path": "/0000/156"}
+}
+[INFO ] 2018-01-21 14:53:32.806 [david] Server - onPost : User david on Socket[addr=/127.0.0.1,port=54766,localport=8189] : --> 
+{
+    "data": {
+        "date": [],
+        "size": [],
+        "name": [],
+        "type": []
+    },
+    "response": "list"
+}
+[INFO ] 2018-01-21 14:53:34.512 [david] Server - onGet : User david on Socket[addr=/127.0.0.1,port=54766,localport=8189] : <-- 
+{
+    "request": "list",
+    "data": {"path": "/0000"}
+}
+[INFO ] 2018-01-21 14:53:34.523 [david] Server - onPost : User david on Socket[addr=/127.0.0.1,port=54766,localport=8189] : --> 
+{
+    "data": {
+        "date": [
+            "21.01.2018 14:50:56",
+            "21.01.2018 14:51:2"
+        ],
+        "size": [
+            "",
+            "3405"
+        ],
+        "name": [
+            "156",
+            "README.md"
+        ],
+        "type": [
+            "dir",
+            "file"
+        ]
+    },
+    "response": "list"
+}
+[INFO ] 2018-01-21 14:53:40.175 [david] Server - onGet : User david on Socket[addr=/127.0.0.1,port=54766,localport=8189] : <-- 
+{
+    "request": "list",
+    "data": {"path": "/"}
+}
+[INFO ] 2018-01-21 14:53:40.189 [david] Server - onPost : User david on Socket[addr=/127.0.0.1,port=54766,localport=8189] : --> 
+{
+    "data": {
+        "date": [
+            "21.01.2018 14:33:10",
+            "21.01.2018 13:52:44",
+            "21.01.2018 14:12:22",
+            "21.01.2018 14:12:29",
+            "21.01.2018 14:51:2"
+        ],
+        "size": [
+            "125",
+            "8488",
+            "52903",
+            "13585",
+            ""
+        ],
+        "name": [
+            "server_settings.json",
+            "screen01.png",
+            "screen03.png",
+            "screen02.png",
+            "0000"
+        ],
+        "type": [
+            "file",
+            "file",
+            "file",
+            "file",
+            "dir"
+        ]
+    },
+    "response": "list"
+}
+[INFO ] 2018-01-21 14:55:39.169 [david] Server - onException : User david on Socket[addr=/127.0.0.1,port=54766,localport=8189] : java.io.EOFException
+[INFO ] 2018-01-21 14:55:39.170 [david] Server - onStop : User david on Socket[addr=/127.0.0.1,port=54766,localport=8189]
+[INFO ] 2018-01-21 14:55:41.997 [ServerThread] Server - onStop
+[INFO ] 2018-01-21 14:56:09.023 [JavaFX Application Thread] HibernateFactory - Hibernate stoped.
+[INFO ] 2018-01-21 14:56:09.025 [JavaFX Application Thread] pooling - HHH10001008: Cleaning up connection pool [jdbc:mysql://localhost:3306/jis?useSSL=false]

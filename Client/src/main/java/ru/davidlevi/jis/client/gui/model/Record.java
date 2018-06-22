@@ -41,7 +41,7 @@ public class Record {
     }
 
     public void setType(String folder) {
-        this.type.set(folder);
+        type.set(folder);
     }
 
     public String getSize() {

@@ -12,6 +12,6 @@ public class ClientMainClass extends Application {
 
     @Override
     public void start(Stage primaryStage) throws IOException {
-        new FxContext(this.getClass(), primaryStage);
+        new FxContext(getClass(), primaryStage);
     }
 }

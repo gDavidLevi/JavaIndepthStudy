@@ -144,12 +144,13 @@ public class Explorer {
      * в колонке равно "dir", то "images/places/folder-blue.png", если
      * в колонке значение "file", то "images/mimetypes/text-plain.png".
      */
-    private Callback<TableColumn<Record, String>, TableCell<Record, String>> cellFactoryColumnType = new Callback<>() {
+    private Callback<TableColumn<Record, String>, TableCell<Record, String>> cellFactoryColumnType = new Callback<TableColumn<Record, String>, TableCell<Record, String>>() {
         @Override
         public TableCell<Record, String> call(TableColumn<Record, String> param) {
             final Image imageFolder = new Image("images/mimetypes/dir.png");
             final Image imageFile = new Image("images/mimetypes/file.png");
-            return new TableCell<>() {
+
+            TableCell<Record, String> tableCell = new TableCell<Record, String>() {
                 private final ImageView imageView = new ImageView();
 
                 {
@@ -166,6 +167,8 @@ public class Explorer {
                     setGraphic(imageView);
                 }
             };
+
+            return tableCell;
         }
     };
 

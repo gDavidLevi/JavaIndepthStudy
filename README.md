@@ -3,12 +3,12 @@
 ## Java. Углубленное изучение
 14 ноября 2017 MSK (UTC+3)
 
-Курсовой проект:
+Курсовой проект JIS (Java In-depth Study):
 - Модуль "Server" - серверная часть 
 - Модуль "Client" - клиентская часть 
 - Модуль "Common" - общие классы между клинтом и сервером
 
-Проект работает на WebSocket (stateful). 
+Проект работает на WebSocket (stateful), JavaSE 8.
 
 ### Настрока серверной части:
 
@@ -55,10 +55,6 @@ INSERT INTO jis.Users (id, login, password, nickname, email, uuid) VALUES (1, 'a
 
 Если файл "server_settings.json" отсутствует, то он создается автоматически с настройками по умолчанию.
 
-##### Запуска серверного приложения в Java 9.
-
-Установить "VM options": --add-modules=java.xml.bind --illegal-access=warn
-
 ##### После запуска серверного приложения, нажать на кнопку "Start socket". 
 Поле этого клиенту смогут подключаться и регистрироваться.
 
@@ -82,7 +78,10 @@ INSERT INTO jis.Users (id, login, password, nickname, email, uuid) VALUES (1, 'a
 ### Логин и пароль:
 По умолчанию логин: **admin**, пароль: **admin**.
 
-### Скриншоты:
+
+
+
+### Схемы, изображения:
 
 Структура:
 
